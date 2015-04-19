@@ -188,7 +188,7 @@ Tokens tokenize(const string& s) {
             if (!buf.empty()) {
                 result.push_back(buf);
             }
-            if (!isspace(c)) {
+            if (!isspace(c) && c != ';') {
                 buf = c;
                 result.push_back(buf);
             }
@@ -354,9 +354,6 @@ struct Solution {
                             }
                         }
                         if (depth == 0) {
-                            if (i < n && tokens[i] == ";") {
-                                ++i;
-                            }
                             auto body = f->second;
                             functions.erase(f);
                             // DEBUG(cerr << "<*(" << body.size() << ")* ");
