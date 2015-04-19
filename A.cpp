@@ -11,7 +11,9 @@
 #include <algorithm>
 using namespace std;
 
-const double MAX_DIST_RATIO = 0.23;
+const double MAX_DIST_RATIO = 0.3;
+const double MAX_DIST_RATIO_SMALL = MAX_DIST_RATIO / 2;
+const double SMALL_THRESHOLD = 150;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -469,13 +471,14 @@ int main() {
             auto dist = levenshtein_distance(i->mess, j->mess);
             auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
             auto dist_ratio = (double) dist / mess_size;
+            auto max_ratio = mess_size <= SMALL_THRESHOLD ? MAX_DIST_RATIO_SMALL : MAX_DIST_RATIO;
             // if ((i->filename == DEBUG_A && j->filename == DEBUG_B)) {
             //     cerr << "dist  = " << dist << endl;
             //     cerr << "mess  = " << mess_size << " | " << i->mess.size() << " " <<  j->mess.size() << endl;
             //     cerr << "ratio = " << dist_ratio << endl;
             //     cerr << endl;
             // }
-            if (dist_ratio <= MAX_DIST_RATIO) {
+            if (dist_ratio <= max_ratio) {
                 // cerr << dist << " " << mess_size << " " <<  << endl;
                 group.insert(j->filename);
                 j->is_grouped = true;
