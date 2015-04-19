@@ -11,8 +11,8 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 400;
-const double MAX_DIST_RATIO = 0.3;
+const int MAX_DIST = 200;
+const double MAX_DIST_RATIO = 0.2;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -164,8 +164,10 @@ string normalize_line_endings(string s) {
     return s;
 }
 
-vector< string > tokenize(const string& s) {
-    vector< string > result;
+typedef vector< string > Tokens;
+
+Tokens tokenize(const string& s) {
+    Tokens result;
     string buf;
     for (auto& c : s) {
         if (isalnum(c)) {
@@ -190,28 +192,117 @@ vector< string > tokenize(const string& s) {
 
 map< string, int > base_id;
 
+map< string, Tokens > extract_functions(const Tokens& tokens) {
+    map< string, Tokens > result;
+    int n = tokens.size();
+    for (int i = 0; i < n; ++i) {
+        auto& token = tokens[i];
+        bool is_name = isalnum(token[0]) && base_id.count(token) == 0;
+        if (is_name && i + 1 < n && tokens[i + 1][0] == '(') {
+            // Horrible
+            int j = i + 2;
+            int depth = 1;
+            for (; depth > 0 && j < n; ++j) {
+                if (tokens[j][0] == '(') {
+                    ++depth;
+                }
+                else if (tokens[j][0] == ')') {
+                    --depth;
+                }
+            }
+            if (depth == 0 && j < n && tokens[j][0] == '{' && result.count(token) == 0) {
+                Tokens body;
+                int depth = 1;
+                for (i = j + 1; depth > 0 && i < n; ++i) {
+                    body.push_back(tokens[i]);
+                    if (tokens[i][0] == '{') {
+                        ++depth;
+                    }
+                    else if (tokens[i][0] == '}') {
+                        --depth;
+                    }
+                }
+                if (j < n && !body.empty()) {
+                    body.pop_back();
+                    result[token] = body;
+                }
+            }
+        }
+    }
+    return result;
+}
+
+void print_tokens(ostream& out, const Tokens& tokens) {
+    for (auto& token : tokens) {
+        out << token << " ";
+    }
+}
+
 struct Solution {
     string filename;
     string code;
+    map< string, int > id;
     vector< int > mess;
     bool is_grouped;
 
     Solution(): is_grouped(false) {}
 
     void create_mess() {
+        static const string main = "main";
         transform(code.begin(), code.end(), code.begin(), ::tolower);
         code = normalize_line_endings(code);
         code = remove_comments(code, filename);
 
         auto tokens = tokenize(code);
-        auto id = base_id;
-        for (auto& token : tokens) {
+        auto functions = extract_functions(tokens);
+        // TODO: Java, Python
+        if (functions.count(main) != 0) {
+            tokens = functions[main];
+        }
+        id = base_id;
+        // cerr << filename << ": ";
+        // for (auto f : functions) { cerr << filename << " " << f.first << ": "; print_tokens(cerr, f.second); cerr << endl; }
+        // for (auto f : functions) { cerr << f.first << "(" << f.second.size() << ") "; } cerr << endl;
+        expand(tokens, functions);
+        // cerr << endl << endl;
+    }
+
+    void expand(const Tokens& tokens, map< string, Tokens >& functions) {
+        // cerr << "*EXPANDING<" << tokens.size() << ">*";
+        int n = tokens.size();
+        for (int i = 0; i < n; ++i) {
+            auto token = tokens[i];
+            // cerr << token << " ";
             if (isdigit(token[0])) {
                 token = "0";
             }
             if (id.count(token) == 0) {
                 if (isalnum(token[0])) {
-                    token = "a";
+                    auto f = functions.find(token);
+                    if (f != functions.end() && i + 1 < n && tokens[i + 1][0] == '(') {
+                        // Spaghetti
+                        int depth = 1;
+                        for (i = i + 2; depth > 0 && i < n; ++i) {
+                            if (tokens[i][0] == '(') {
+                                ++depth;
+                            }
+                            else if (tokens[i][0] == ')') {
+                                --depth;
+                            }
+                        }
+                        if (depth == 0 && i < n && tokens[i][0] == ';') {
+                            ++i;
+                            auto body = f->second;
+                            functions.erase(f);
+                            // cerr << "*" << f->first << "(" << body.size() << ")* ";
+                            expand(body, functions);
+                            // cerr << "FIN ";
+                            continue; // Tough!
+                        }
+                    }
+                    else {
+                        token = "1";
+                    }
                 }
                 else {
                     id[token] = id.size();
@@ -248,8 +339,8 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
 }
 
 int main() {
-    vector< string > special_tokens = {
-        "0", "a",
+    Tokens special_tokens = {
+        "0", "1",
         "\"", "'", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".",
         "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`",
         "{", "|", "}", "~", "break", "case", "class", "continue", "def",
