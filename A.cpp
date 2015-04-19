@@ -11,8 +11,7 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 1000; // Doesn't matter
-const double MAX_DIST_RATIO = 0.25;
+const double MAX_DIST_RATIO = 0.23;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -164,12 +163,6 @@ string normalize_line_endings(string s) {
 
 typedef vector< string > Tokens;
 
-void print_tokens(ostream& out, const Tokens& tokens) {
-    for (auto& token : tokens) {
-        out << token << " ";
-    }
-}
-
 Tokens remove_java_throws(const Tokens& tokens) {
     Tokens result;
     int n = tokens.size();
@@ -261,11 +254,11 @@ struct Solution {
 
 // #define DEBUG_A "12200.java"
 // #define DEBUG_B "7370.java"
-// #define DEBUG_A "31987.cpp"
-// #define DEBUG_B "962.cpp"
-#define DEBUG_A "\n"
-#define DEBUG_B "\n"
-#define DEBUG(block) if (filename == DEBUG_A || filename == DEBUG_B) { block; }
+// #define DEBUG_A "31987.cpp" // #define DEBUG_B "962.cpp"
+// #define DEBUG_A "17413.cpp" // #define DEBUG_B "29422.cpp"
+// #define DEBUG_A "\n"
+// #define DEBUG_B "\n"
+// #define DEBUG(block) if (filename == DEBUG_A || filename == DEBUG_B) { block; }
 
     void create_mess() {
         static const string main = "main";
@@ -288,12 +281,9 @@ struct Solution {
             tokens = functions[main];
         }
         id = base_id;
-        // DEBUG(cerr << filename << ": ");
-        // for (auto f : functions) {
-        //     DEBUG(cerr << f.first << " ");
-        // }
-        // DEBUG(cerr << endl);
+        // DEBUG(cerr << filename << ": "); for (auto f : functions) { DEBUG(cerr << f.first << " "); } DEBUG(cerr << endl);
         expand(tokens, functions);
+        // DEBUG(for (auto i : mess) { cerr << i << " "; });
         // DEBUG(cerr << endl << endl);
     }
 
@@ -309,7 +299,6 @@ struct Solution {
                 if (isalnum(token[0])) {
                     auto f = functions.find(token);
                     if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
-                        // DEBUG(cerr << "EXPANDING?");
                         // Spaghetti
                         int depth = 1;
                         for (i = i + 2; depth > 0 && i < n; ++i) {
@@ -320,7 +309,6 @@ struct Solution {
                                 --depth;
                             }
                         }
-                        // DEBUG(cerr << "depth=" << depth);
                         if (depth == 0) {
                             if (i < n && tokens[i] == ";") {
                                 ++i;
@@ -418,8 +406,8 @@ int main() {
             //     cerr << "ratio = " << dist_ratio << endl;
             //     cerr << endl;
             // }
-            if (dist <= MAX_DIST && dist_ratio <= MAX_DIST_RATIO) {
-                // cerr << (dist <= MAX_DIST) + 0 << " " << dist << " " << mess_size << " " <<  << endl;
+            if (dist_ratio <= MAX_DIST_RATIO) {
+                // cerr << dist << " " << mess_size << " " <<  << endl;
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
