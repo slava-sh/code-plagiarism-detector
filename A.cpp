@@ -11,7 +11,8 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 75;
+const int MAX_DIST = 100;
+const double MAX_DIST_RATIO = 0.2;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -286,7 +287,10 @@ int main() {
                 continue;
             }
             auto dist = levenshtein_distance(i->mess, j->mess);
-            if (dist <= MAX_DIST) {
+            auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
+            auto dist_ratio = (double) dist / mess_size;
+            if (dist <= MAX_DIST && dist_ratio <= MAX_DIST_RATIO) {
+                // cerr << (dist <= MAX_DIST) + 0 << " " << dist << " " << mess_size << " " <<  << endl;
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
