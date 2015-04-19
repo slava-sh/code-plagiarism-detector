@@ -18,7 +18,10 @@ def read_answer(f):
                 return None
     return pairs
 
+misses = {}
+
 def score_sample(sample):
+    global misses
     with open('samples/{}.a'.format(sample)) as f:
         correct = read_answer(f)
     with open('{}/output.txt'.format(sample)) as f:
@@ -29,6 +32,8 @@ def score_sample(sample):
     elif given.issubset(correct):
         score = int(round(len(given) * 100. / len(correct)))
         print('{:3}'.format(score), end=' ')
+        for i in correct - given:
+            misses.setdefault(sample, []).append(i)
     else:
         score = 0
         print(' WA', end=' ')
@@ -42,6 +47,10 @@ def main():
     for sample in samples:
         score += score_sample(sample)
     print('| {}'.format(score))
+    for sample in sorted(misses.keys()):
+        print('{}:'.format(sample))
+        for a, b in misses[sample]:
+            print(' {:10} {:10}'.format(a, b))
 
 if __name__ == '__main__':
     main()
