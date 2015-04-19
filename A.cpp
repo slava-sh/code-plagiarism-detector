@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>
 #include <vector>
+#include <set>
 #include <functional>
 #include <algorithm>
 using namespace std;
@@ -171,18 +172,47 @@ string normalize_code(string code) {
 int main() {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
+
     int n;
     cin >> n;
     vector< Solution > solutions(n);
-    cout << n << "\n";
     for (auto& solution : solutions) {
         do {
             safeGetline(cin, solution.filename);
         } while (solution.filename.empty());
         solution.code = read_file(solution.filename.c_str());
         solution.code = normalize_code(solution.code);
-        cout << solution.filename << ":\n";
-        cout << solution.code << "\n";
+        // cout << solution.filename << ":\n";
+        // cout << solution.code << "\n";
+        // cout << "\n";
+    }
+
+    vector< set< string > > ans;
+    for (auto i = solutions.begin(); i != solutions.end(); ++i) {
+        set< string > group;
+        for (auto j = i + 1; j != solutions.end(); ++j) {
+            if (j->code == i->code) {
+                group.insert(j->filename);
+            }
+        }
+        if (!group.empty()) {
+            group.insert(i->filename);
+            ans.push_back(group);
+        }
+    }
+
+    cout << ans.size() << "\n";
+    for (auto& group : ans) {
+        bool first = true;
+        for (auto& filename : group) {
+            if (first) {
+                first = false;
+            }
+            else {
+                cout << " ";
+            }
+            cout << filename;
+        }
         cout << "\n";
     }
     return 0;
