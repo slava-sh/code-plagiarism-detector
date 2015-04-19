@@ -195,11 +195,18 @@ Tokens fix_pascal_tokens(const Tokens& tokens) {
     return result;
 }
 
+bool is_identifier(char c) {
+    return ('a' <= c && c <= 'z') ||
+           ('A' <= c && c <= 'Z') ||
+           ('0' <= c && c <= '9') ||
+           c == '_';
+}
+
 Tokens tokenize(const string& s) {
     Tokens result;
     string buf;
     for (auto& c : s) {
-        if (isalnum(c)) {
+        if (is_identifier(c)) {
             buf += c;
         }
         else {
@@ -267,7 +274,7 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
     int n = tokens.size();
     for (int i = 0; i < n; ++i) {
         auto& token = tokens[i];
-        bool is_name = isalnum(token[0]) && base_id.count(token) == 0;
+        bool is_name = is_identifier(token[0]) && base_id.count(token) == 0;
         if (is_name && i + 1 < n && tokens[i + 1] == "(") {
             // Horrible
             int j = i + 2;
@@ -361,7 +368,7 @@ struct Solution {
                 token = "0";
             }
             if (id.count(token) == 0) {
-                if (isalnum(token[0])) {
+                if (is_identifier(token[0])) {
                     auto f = functions.find(token);
                     if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
                         // Spaghetti
