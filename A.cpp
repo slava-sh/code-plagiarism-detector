@@ -201,6 +201,47 @@ Tokens tokenize(const string& s) {
     return result;
 }
 
+Tokens tokenize_python(const string& code) {
+    Tokens result;
+    stringstream ss(code);
+    string line;
+    int prev_spaces = 0;
+    int step = 0;
+    while (getline(ss, line)) {
+        int spaces = 0;
+        while (spaces < line.size() && isspace(line[spaces])) {
+            ++spaces;
+        }
+        if (spaces == line.size()) {
+            continue;
+        }
+        if (spaces > prev_spaces) {
+            if (step == 0) {
+                step = spaces - prev_spaces;
+            }
+            result.pop_back();
+            result.push_back("{");
+        }
+        else if (spaces < prev_spaces) {
+            for (int i = (prev_spaces - spaces) / step; i > 0; --i) {
+                result.push_back("}");
+            }
+            if (spaces == 0) {
+                step = 0;
+            }
+        }
+        auto tokens = tokenize(line);
+        result.insert(result.end(), tokens.begin(), tokens.end());
+        prev_spaces = spaces;
+    }
+    if (prev_spaces > 0 && step > 0) {
+        for (int i = prev_spaces / step; i > 0; --i) {
+            result.push_back("}");
+        }
+    }
+    return result;
+}
+
 map< string, int > base_id;
 
 map< string, Tokens > extract_functions(const Tokens& tokens) {
@@ -271,12 +312,15 @@ struct Solution {
         code = remove_comments(code, extension);
 
         auto tokens = tokenize(code);
-        if (extension == "java") {
+        if (extension == "py" || extension == "py2" || extension == "py3") {
+            tokens = tokenize_python(code);
+            // cerr << filename << ": "; for (auto token : tokens) { cerr << token << " "; } cerr << endl; cerr << endl;
+        }
+        else if (extension == "java") {
             tokens = remove_java_throws(tokens);
         }
 
         auto functions = extract_functions(tokens);
-        // TODO: Python
         if (functions.count(main) != 0) {
             tokens = functions[main];
         }
