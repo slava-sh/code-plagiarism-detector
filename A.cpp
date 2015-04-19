@@ -45,13 +45,13 @@ istream& safeGetline(istream& in, string& s) {
     return in;
 }
 
-struct Solution {
-    string filename;
-    string code;
-    bool is_grouped;
-
-    Solution(): is_grouped(false) {}
-};
+string file_extension(const string& filename) {
+    auto i = filename.rfind('.');
+    if (i == string::npos) {
+        return filename;
+    }
+    return filename.substr(i + 1);
+}
 
 string remove_c_comments(const string& s) {
     string result;
@@ -165,17 +165,35 @@ string normalize_line_endings(string s) {
     return s;
 }
 
-string normalize_code(string code) {
-    code = normalize_line_endings(code);
-    code = remove_c_comments(code);
-    code = remove_nested(code, "#ifdef", "#endif");
-    code = remove_nonnested(code, "#", "\n");
-    code = filter([](char c) { return !isspace(c); }, code);
-    code = normalize_numbers(code);
-    code = filter([](char c) { return c != ';'; }, code);
-    code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
-    return code;
-}
+
+struct Solution {
+    string filename;
+    string code;
+    bool is_grouped;
+
+    Solution(): is_grouped(false) {}
+
+    void normalize() {
+        transform(code.begin(), code.end(), code.begin(), ::tolower);
+        code = normalize_line_endings(code);
+        code = remove_c_comments(code);
+        code = remove_nested(code, "#ifdef", "#endif");
+        code = remove_nonnested(code, "#", "\n");
+        auto extension = file_extension(filename);
+        transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+        if (extension == "d") {
+            code = remove_nonnested(code, "/++", "+/");
+        }
+        else if (extension == "pas" || extension == "dpr") {
+            code = remove_nested(code, "{$ifdef", "{$endif}");
+            code = remove_nonnested(code, "{", "}");
+        }
+        code = filter([](char c) { return !isspace(c); }, code);
+        code = normalize_numbers(code);
+        code = filter([](char c) { return c != ';'; }, code);
+        code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
+    }
+};
 
 int main() {
     freopen("input.txt", "r", stdin);
@@ -189,7 +207,7 @@ int main() {
             safeGetline(cin, solution.filename);
         } while (solution.filename.empty());
         solution.code = read_file(solution.filename.c_str());
-        solution.code = normalize_code(solution.code);
+        solution.normalize();
         // cout << solution.filename << ":\n";
         // cout << solution.code << "\n";
         // cout << "\n";
