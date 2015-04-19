@@ -247,16 +247,19 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
 }
 
 int main() {
-    base_id["0"] = 0;
-    base_id["a"] = 1;
-    string key;
-    for (char c = 0; c < CHAR_MAX; ++c) {
-        if (c == '0' || c == 'a') {
-            continue;
-        }
-        key = c;
-        base_id[key] = base_id.size();
+    vector< string > special_tokens = {
+        "0", "a",
+        "\"", "'", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".",
+        "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`",
+        "{", "|", "}", "~", "break", "case", "class", "continue", "def",
+        "default", "elif", "else", "enum", "except", "extern", "finally",
+        "for", "goto", "if", "lambda", "new", "print", "return", "sizeof",
+        "struct", "switch", "try", "typedef", "union", "while", "with", "yield",
+    };
+    for (auto& token : special_tokens) {
+        base_id[token] = base_id.size();
     }
+    base_id["'"] = base_id["\""];
 
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
@@ -270,10 +273,6 @@ int main() {
         } while (solution.filename.empty());
         solution.code = read_file(solution.filename.c_str());
         solution.create_mess();
-        // cout << solution.filename << ":\n";
-        // cout << solution.code << "\n";
-        // for (auto i : solution.mess) { cout << i << " "; }
-        // cout << "\n";
     }
 
     vector< set< string > > ans;
