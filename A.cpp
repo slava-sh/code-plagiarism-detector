@@ -48,6 +48,9 @@ istream& safeGetline(istream& in, string& s) {
 struct Solution {
     string filename;
     string code;
+    bool is_grouped;
+
+    Solution(): is_grouped(false) {}
 };
 
 string remove_c_comments(const string& s) {
@@ -194,10 +197,14 @@ int main() {
 
     vector< set< string > > ans;
     for (auto i = solutions.begin(); i != solutions.end(); ++i) {
+        if (i->is_grouped) {
+            continue;
+        }
         set< string > group;
         for (auto j = i + 1; j != solutions.end(); ++j) {
             if (j->code == i->code) {
                 group.insert(j->filename);
+                j->is_grouped = true;
             }
         }
         if (!group.empty()) {
