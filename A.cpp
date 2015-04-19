@@ -60,7 +60,7 @@ string remove_line_comments(const string& s) {
             in_comment = true;
             result.resize(result.size() - 2);
         }
-        else if (c == '\n' || c == '\r') {
+        else if (c == '\n') {
             in_comment = false;
         }
         prev = c;
@@ -80,7 +80,7 @@ string remove_hash_comments(const string& s) {
             in_comment = true;
             result.resize(result.size() - 1);
         }
-        else if (c == '\n' || c == '\r') {
+        else if (c == '\n') {
             in_comment = false;
         }
         prev = c;
@@ -151,7 +151,17 @@ string remove_whitespaces(const string& s) {
     return result;
 }
 
+string normalize_line_endings(string s) {
+    for (auto& c : s) {
+        if (c == '\r') {
+            c = '\n';
+        }
+    }
+    return s;
+}
+
 string normalize_code(string code) {
+    code = normalize_line_endings(code);
     code = remove_line_comments(code); // TODO: merge the two
     code = remove_multiline_comments(code);
     code = remove_nested(code, "#ifdef", "#endif");
