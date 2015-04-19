@@ -210,9 +210,13 @@ struct Solution {
         auto tokens = tokenize(code);
         map< string, int > id;
         id["0"] = 0;
+        id["a"] = 1;
         for (auto& token : tokens) {
             if (isdigit(token[0])) {
                 token = "0";
+            }
+            else if (isalnum(token[0])) {
+                token = "a";
             }
             else if (token == ";" ||
                      token == "{" ||
@@ -240,9 +244,9 @@ int main() {
         do {
             safeGetline(cin, solution.filename);
         } while (solution.filename.empty());
-        // cout << solution.filename << ":\n";
         solution.code = read_file(solution.filename.c_str());
         solution.create_mess();
+        // cout << solution.filename << ":\n";
         // cout << solution.code << "\n";
         // for (auto i : solution.mess) { cout << i << " "; }
         // cout << "\n";
