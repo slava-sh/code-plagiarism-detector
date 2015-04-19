@@ -1,6 +1,6 @@
 CXX=clang++ -Wall -std=c++11
 SOLUTION=A
-CHECKER=python checker.py
+CHECKER=python3 checker.py
 
 .DEFAULT_GOAL=sample
 

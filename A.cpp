@@ -11,7 +11,7 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 200;
+const int MAX_DIST = 400;
 const double MAX_DIST_RATIO = 0.2;
 
 string read_file(const char *filename) {
