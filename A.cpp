@@ -214,13 +214,18 @@ struct Solution {
             if (isdigit(token[0])) {
                 token = "0";
             }
+            else if (token == ";" ||
+                     token == "{" ||
+                     token == "}" ||
+                     token == "(" ||
+                     token == ")") {
+                continue;
+            }
             if (id.count(token) == 0) {
                 id[token] = id.size();
             }
             mess.push_back(id[token]);
         }
-        // code = filter([](char c) { return c != ';'; }, code);
-        // code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
     }
 };
 
