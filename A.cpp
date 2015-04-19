@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>
 #include <vector>
+#include <functional>
 #include <algorithm>
 using namespace std;
 
@@ -48,40 +49,28 @@ struct Solution {
     string code;
 };
 
-string remove_line_comments(const string& s) {
+string remove_c_comments(const string& s) {
     string result;
     char prev = '\n';
-    bool in_comment = false;
+    bool in_line_comment = false;
+    bool in_multiline_comment = false;
     for (auto& c : s) {
-        if (!in_comment) {
+        if (!in_multiline_comment && !in_line_comment) {
             result += c;
         }
-        if (prev == '/' && c == '/') {
-            in_comment = true;
+        if (in_multiline_comment && prev == '*' && c == '/') {
+            in_multiline_comment = false;
+        }
+        if (in_line_comment && c == '\n') {
+            in_line_comment = false;
+        }
+        if (prev == '/' && c == '*' && !in_line_comment) {
+            in_multiline_comment = true;
             result.resize(result.size() - 2);
         }
-        else if (c == '\n') {
-            in_comment = false;
-        }
-        prev = c;
-    }
-    return result;
-}
-
-string remove_multiline_comments(const string& s) {
-    string result;
-    char prev = '\n';
-    bool in_comment = false;
-    for (auto& c : s) {
-        if (!in_comment) {
-            result += c;
-        }
-        if (prev == '/' && c == '*') {
-            in_comment = true;
+        if (prev == '/' && c == '/' && !in_multiline_comment) {
+            in_line_comment = true;
             result.resize(result.size() - 2);
-        }
-        else if (prev == '*' && c == '/') {
-            in_comment = false;
         }
         prev = c;
     }
@@ -132,10 +121,10 @@ string remove_nonnested(const string& s, const string& begin, const string& end)
     return remove_general(s, begin, end, false);
 }
 
-string remove_whitespaces(const string& s) {
+string filter(function< bool(char) > p, const string& s) {
     string result;
     for (auto& c : s) {
-        if (!isspace(c)) {
+        if (p(c)) {
             result += c;
         }
     }
@@ -153,11 +142,11 @@ string normalize_line_endings(string s) {
 
 string normalize_code(string code) {
     code = normalize_line_endings(code);
-    code = remove_line_comments(code); // TODO: merge the two
-    code = remove_multiline_comments(code);
+    code = remove_c_comments(code);
     code = remove_nested(code, "#ifdef", "#endif");
     code = remove_nonnested(code, "#", "\n");
-    code = remove_whitespaces(code);
+    code = filter([](char c) { return !isspace(c); }, code);
+    code = filter([](char c) { return c != ';'; }, code);
     return code;
 }
 
