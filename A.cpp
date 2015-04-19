@@ -259,6 +259,14 @@ struct Solution {
 
     Solution(): is_grouped(false) {}
 
+// #define DEBUG_A "12200.java"
+// #define DEBUG_B "7370.java"
+// #define DEBUG_A "31987.cpp"
+// #define DEBUG_B "962.cpp"
+#define DEBUG_A "\n"
+#define DEBUG_B "\n"
+#define DEBUG(block) if (filename == DEBUG_A || filename == DEBUG_B) { block; }
+
     void create_mess() {
         static const string main = "main";
 
@@ -280,19 +288,20 @@ struct Solution {
             tokens = functions[main];
         }
         id = base_id;
-        // cerr << filename << ": ";
-        // for (auto f : functions) { cerr << filename << " " << f.first << ": "; print_tokens(cerr, f.second); cerr << endl; }
-        // for (auto f : functions) { cerr << f.first << "(" << f.second.size() << ") "; } cerr << endl;
+        DEBUG(cerr << filename << ": ");
+        for (auto f : functions) {
+            DEBUG(cerr << f.first << " ");
+        }
+        DEBUG(cerr << endl);
         expand(tokens, functions);
-        // cerr << endl << endl;
+        DEBUG(cerr << endl << endl);
     }
 
     void expand(const Tokens& tokens, map< string, Tokens >& functions) {
-        // cerr << "*EXPANDING<" << tokens.size() << ">*";
         int n = tokens.size();
         for (int i = 0; i < n; ++i) {
             auto token = tokens[i];
-            // cerr << token << " ";
+            DEBUG(cerr << token << " ");
             if (isdigit(token[0])) {
                 token = "0";
             }
@@ -314,9 +323,8 @@ struct Solution {
                             ++i;
                             auto body = f->second;
                             functions.erase(f);
-                            // cerr << "*" << f->first << "(" << body.size() << ")* ";
+                            DEBUG(cerr << "<*(" << body.size() << ")* ");
                             expand(body, functions);
-                            // cerr << "FIN ";
                             continue; // Tough!
                         }
                     }
@@ -400,6 +408,12 @@ int main() {
             auto dist = levenshtein_distance(i->mess, j->mess);
             auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
             auto dist_ratio = (double) dist / mess_size;
+            if ((i->filename == DEBUG_A && j->filename == DEBUG_B)) {
+                cerr << "dist  = " << dist << endl;
+                cerr << "mess  = " << mess_size << " | " << i->mess.size() << " " <<  j->mess.size() << endl;
+                cerr << "ratio = " << dist_ratio << endl;
+                cerr << endl;
+            }
             if (dist <= MAX_DIST && dist_ratio <= MAX_DIST_RATIO) {
                 // cerr << (dist <= MAX_DIST) + 0 << " " << dist << " " << mess_size << " " <<  << endl;
                 group.insert(j->filename);
