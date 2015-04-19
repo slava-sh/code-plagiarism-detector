@@ -11,7 +11,7 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 50;
+const int MAX_DIST = 75;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -59,7 +59,7 @@ string file_extension(const string& filename) {
 
 string remove_c_comments(const string& s) {
     string result;
-    char prev = '\n';
+    char prev = ' ';
     bool in_line_comment = false;
     bool in_multiline_comment = false;
     for (auto& c : s) {
@@ -154,16 +154,6 @@ string remove_comments(string code, const string& filename) {
     return code;
 }
 
-string filter(function< bool(char) > p, const string& s) {
-    string result;
-    for (auto& c : s) {
-        if (p(c)) {
-            result += c;
-        }
-    }
-    return result;
-}
-
 string normalize_line_endings(string s) {
     for (auto& c : s) {
         if (c == '\r') {
@@ -218,18 +208,13 @@ struct Solution {
             if (isdigit(token[0])) {
                 token = "0";
             }
-            else if (isalnum(token[0])) {
-                token = "a";
-            }
-            else if (token == ";" ||
-                     token == "{" ||
-                     token == "}" ||
-                     token == "(" ||
-                     token == ")") {
-                continue;
-            }
             if (id.count(token) == 0) {
-                id[token] = id.size();
+                if (isalnum(token[0])) {
+                    token = "a";
+                }
+                else {
+                    id[token] = id.size();
+                }
             }
             mess.push_back(id[token]);
         }
