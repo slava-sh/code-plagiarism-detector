@@ -11,7 +11,7 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_DIST = 100;
+const int MAX_DIST = 50;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
