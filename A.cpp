@@ -120,9 +120,7 @@ bool ends_with(const string& t, const string& s, int n) {
     return true;
 }
 
-string remove_ifdefs(const string& s) {
-    static const string ifdef = "#ifdef";
-    static const string endif = "#endif";
+string remove_nested(const string& s, const string& begin, const string& end) {
     string result;
     int depth = 0;
     for (int i = 0; i < s.size(); ++i) {
@@ -130,13 +128,13 @@ string remove_ifdefs(const string& s) {
         if (depth == 0) {
             result += c;
         }
-        if (ends_with(ifdef, s, i)) {
+        if (ends_with(begin, s, i)) {
             if (depth == 0) {
-                result.resize(result.size() - ifdef.size());
+                result.resize(result.size() - begin.size());
             }
             ++depth;
         }
-        else if (ends_with(endif, s, i)) {
+        else if (ends_with(end, s, i)) {
             --depth;
         }
     }
@@ -156,7 +154,7 @@ string remove_whitespaces(const string& s) {
 string normalize_code(string code) {
     code = remove_line_comments(code); // TODO: merge the two
     code = remove_multiline_comments(code);
-    code = remove_ifdefs(code);
+    code = remove_nested(code, "#ifdef", "#endif");
     code = remove_hash_comments(code);
     code = remove_whitespaces(code);
     return code;
