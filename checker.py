@@ -10,6 +10,12 @@ def read_answer(f):
                 if j == i:
                     break
                 pairs.add((j, i))
+    for group in groups:
+        for other in groups:
+            if other == group:
+                break
+            if set(group) & set(other):
+                return None
     return pairs
 
 def score_sample(sample):
@@ -17,7 +23,10 @@ def score_sample(sample):
         correct = read_answer(f)
     with open('{}/output.txt'.format(sample)) as f:
         given = read_answer(f)
-    if given.issubset(correct):
+    if given is None:
+        score = 0
+        print('{} PE'.format(sample))
+    elif given.issubset(correct):
         score = int(round(len(given) * 100. / len(correct)))
         print('{} AC {}'.format(sample, score))
     else:
