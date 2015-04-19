@@ -25,13 +25,13 @@ def score_sample(sample):
         given = read_answer(f)
     if given is None:
         score = 0
-        print('{} PE'.format(sample))
+        print(' PE', end=' ')
     elif given.issubset(correct):
         score = int(round(len(given) * 100. / len(correct)))
-        print('{} AC {}'.format(sample, score))
+        print('{:3}'.format(score), end=' ')
     else:
         score = 0
-        print('{} WA'.format(sample))
+        print(' WA', end=' ')
     return score
 
 def main():
@@ -41,7 +41,7 @@ def main():
     score = 0
     for sample in samples:
         score += score_sample(sample)
-    print('Total: {}'.format(score))
+    print('| {}'.format(score))
 
 if __name__ == '__main__':
     main()
