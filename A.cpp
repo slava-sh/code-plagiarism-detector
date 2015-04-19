@@ -59,19 +59,25 @@ string remove_c_comments(const string& s) {
         if (!in_multiline_comment && !in_line_comment) {
             result += c;
         }
-        if (in_multiline_comment && prev == '*' && c == '/') {
-            in_multiline_comment = false;
+        if (in_multiline_comment) {
+            if (prev == '*' && c == '/') {
+                in_multiline_comment = false;
+            }
         }
-        if (in_line_comment && c == '\n') {
-            in_line_comment = false;
+        else if (in_line_comment) {
+            if (c == '\n') {
+                in_line_comment = false;
+            }
         }
-        if (prev == '/' && c == '*' && !in_line_comment) {
-            in_multiline_comment = true;
-            result.resize(result.size() - 2);
-        }
-        if (prev == '/' && c == '/' && !in_multiline_comment) {
-            in_line_comment = true;
-            result.resize(result.size() - 2);
+        else {
+            if (prev == '/' && c == '*') {
+                in_multiline_comment = true;
+                result.resize(result.size() - 2);
+            }
+            else if (prev == '/' && c == '/') {
+                in_line_comment = true;
+                result.resize(result.size() - 2);
+            }
         }
         prev = c;
     }
@@ -95,9 +101,8 @@ string remove_general(const string& s, const string& begin, const string& end,
     string result;
     int depth = 0;
     for (int i = 0; i < s.size(); ++i) {
-        auto c = s[i];
         if (depth == 0) {
-            result += c;
+            result += s[i];
         }
         if (ends_with(begin, s, i)) {
             if (depth == 0) {
@@ -164,8 +169,8 @@ string normalize_code(string code) {
     code = remove_nonnested(code, "#", "\n");
     code = filter([](char c) { return !isspace(c); }, code);
     code = normalize_numbers(code);
-    code = filter([](char c) { return c != ';'; }, code);
-    code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
+    // code = filter([](char c) { return c != ';'; }, code);
+    // code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
     return code;
 }
 
