@@ -190,7 +190,7 @@ Tokens fix_pascal_tokens(const Tokens& tokens) {
         else if (token == "=" && i > 0 && tokens[i - 1] == ":") {
             result.pop_back();
         }
-        result.push_back(tokens[i]);
+        result.push_back(token);
     }
     return result;
 }
@@ -332,13 +332,13 @@ struct Solution {
         auto tokens = tokenize(code);
         if (extension == "py" || extension == "py2" || extension == "py3") {
             tokens = tokenize_python(code);
-            // cerr << filename << ": "; for (auto token : tokens) { cerr << token << " "; } cerr << endl; cerr << endl;
         }
         else if (extension == "java") {
             tokens = remove_java_throws(tokens);
         }
         else if (extension == "pas" || extension == "dpr") {
             tokens = fix_pascal_tokens(tokens);
+            // cerr << filename << ": "; for (auto token : tokens) { cerr << token << " "; } cerr << endl; cerr << endl;
         }
 
         auto functions = extract_functions(tokens);
