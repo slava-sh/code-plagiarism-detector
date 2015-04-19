@@ -165,7 +165,6 @@ string normalize_line_endings(string s) {
     return s;
 }
 
-
 struct Solution {
     string filename;
     string code;
@@ -187,6 +186,10 @@ struct Solution {
         else if (extension == "pas" || extension == "dpr") {
             code = remove_nested(code, "{$ifdef", "{$endif}");
             code = remove_nonnested(code, "{", "}");
+        }
+        else if (extension == "hs") {
+            code = remove_nested(code, "{-", "-}");
+            code = remove_nonnested(code, "--", "\n");
         }
         code = filter([](char c) { return !isspace(c); }, code);
         code = normalize_numbers(code);
