@@ -288,20 +288,20 @@ struct Solution {
             tokens = functions[main];
         }
         id = base_id;
-        DEBUG(cerr << filename << ": ");
-        for (auto f : functions) {
-            DEBUG(cerr << f.first << " ");
-        }
-        DEBUG(cerr << endl);
+        // DEBUG(cerr << filename << ": ");
+        // for (auto f : functions) {
+        //     DEBUG(cerr << f.first << " ");
+        // }
+        // DEBUG(cerr << endl);
         expand(tokens, functions);
-        DEBUG(cerr << endl << endl);
+        // DEBUG(cerr << endl << endl);
     }
 
     void expand(const Tokens& tokens, map< string, Tokens >& functions) {
         int n = tokens.size();
         for (int i = 0; i < n; ++i) {
             auto token = tokens[i];
-            DEBUG(cerr << token << " ");
+            // DEBUG(cerr << token << " ");
             if (isdigit(token[0])) {
                 token = "0";
             }
@@ -309,6 +309,7 @@ struct Solution {
                 if (isalnum(token[0])) {
                     auto f = functions.find(token);
                     if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
+                        // DEBUG(cerr << "EXPANDING?");
                         // Spaghetti
                         int depth = 1;
                         for (i = i + 2; depth > 0 && i < n; ++i) {
@@ -319,13 +320,14 @@ struct Solution {
                                 --depth;
                             }
                         }
+                        // DEBUG(cerr << "depth=" << depth);
                         if (depth == 0) {
                             if (i < n && tokens[i] == ";") {
                                 ++i;
                             }
                             auto body = f->second;
                             functions.erase(f);
-                            DEBUG(cerr << "<*(" << body.size() << ")* ");
+                            // DEBUG(cerr << "<*(" << body.size() << ")* ");
                             expand(body, functions);
                             continue; // Tough!
                         }
@@ -410,12 +412,12 @@ int main() {
             auto dist = levenshtein_distance(i->mess, j->mess);
             auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
             auto dist_ratio = (double) dist / mess_size;
-            if ((i->filename == DEBUG_A && j->filename == DEBUG_B)) {
-                cerr << "dist  = " << dist << endl;
-                cerr << "mess  = " << mess_size << " | " << i->mess.size() << " " <<  j->mess.size() << endl;
-                cerr << "ratio = " << dist_ratio << endl;
-                cerr << endl;
-            }
+            // if ((i->filename == DEBUG_A && j->filename == DEBUG_B)) {
+            //     cerr << "dist  = " << dist << endl;
+            //     cerr << "mess  = " << mess_size << " | " << i->mess.size() << " " <<  j->mess.size() << endl;
+            //     cerr << "ratio = " << dist_ratio << endl;
+            //     cerr << endl;
+            // }
             if (dist <= MAX_DIST && dist_ratio <= MAX_DIST_RATIO) {
                 // cerr << (dist <= MAX_DIST) + 0 << " " << dist << " " << mess_size << " " <<  << endl;
                 group.insert(j->filename);
