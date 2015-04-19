@@ -11,7 +11,7 @@
 #include <algorithm>
 using namespace std;
 
-const double MAX_DIST_RATIO = 0.3;
+const double MAX_DIST_RATIO = 0.35;
 const double MAX_DIST_RATIO_SMALL = MAX_DIST_RATIO / 2;
 const double SMALL_THRESHOLD = 400;
 
