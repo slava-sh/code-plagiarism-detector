@@ -177,6 +177,24 @@ Tokens remove_java_throws(const Tokens& tokens) {
     return result;
 }
 
+Tokens fix_pascal_tokens(const Tokens& tokens) {
+    Tokens result;
+    for (int i = 0; i < tokens.size(); ++i) {
+        auto token = tokens[i];
+        if (token == "begin") {
+            token = "{";
+        }
+        else if (token == "end") {
+            token = "}";
+        }
+        else if (token == "=" && i > 0 && tokens[i - 1] == ":") {
+            result.pop_back();
+        }
+        result.push_back(tokens[i]);
+    }
+    return result;
+}
+
 Tokens tokenize(const string& s) {
     Tokens result;
     string buf;
@@ -318,6 +336,9 @@ struct Solution {
         }
         else if (extension == "java") {
             tokens = remove_java_throws(tokens);
+        }
+        else if (extension == "pas" || extension == "dpr") {
+            tokens = fix_pascal_tokens(tokens);
         }
 
         auto functions = extract_functions(tokens);
