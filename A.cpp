@@ -321,7 +321,7 @@ struct Solution {
                         }
                     }
                     else {
-                        token = "1";
+                        token = "0";
                     }
                 }
                 else {
@@ -360,7 +360,7 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
 
 int main() {
     Tokens special_tokens = {
-        "0", "1",
+        "0",
         "\"", "'", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".",
         "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`",
         "{", "|", "}", "~", "break", "case", "class", "continue", "def",
