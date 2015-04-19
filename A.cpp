@@ -4,6 +4,7 @@
 #include <string>
 #include <cctype>
 #include <vector>
+#include <map>
 #include <set>
 #include <functional>
 #include <algorithm>
@@ -130,28 +131,32 @@ string remove_nonnested(const string& s, const string& begin, const string& end)
     return remove_general(s, begin, end, false);
 }
 
+string remove_comments(string code, const string& filename) {
+    auto extension = file_extension(filename);
+    transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+    code = remove_c_comments(code);
+    code = remove_nested(code, "#ifdef", "#endif");
+    code = remove_nonnested(code, "#", "\n");
+    if (extension == "d") {
+        code = remove_nonnested(code, "/++", "+/");
+    }
+    else if (extension == "pas" || extension == "dpr") {
+        code = remove_nested(code, "{$ifdef", "{$endif}");
+        code = remove_nonnested(code, "{", "}");
+    }
+    else if (extension == "hs") {
+        code = remove_nested(code, "{-", "-}");
+        code = remove_nonnested(code, "--", "\n");
+    }
+    return code;
+}
+
 string filter(function< bool(char) > p, const string& s) {
     string result;
     for (auto& c : s) {
         if (p(c)) {
             result += c;
         }
-    }
-    return result;
-}
-
-string normalize_numbers(const string& s) {
-    string result;
-    bool prev_digit = false;
-    for (auto& c : s) {
-        bool cur_digit = isdigit(c);
-        if (!cur_digit) {
-            result += c;
-        }
-        else if (!prev_digit) {
-            result += '0';
-        }
-        prev_digit = cur_digit;
     }
     return result;
 }
@@ -165,36 +170,57 @@ string normalize_line_endings(string s) {
     return s;
 }
 
+vector< string > tokenize(const string& s) {
+    vector< string > result;
+    string buf;
+    for (auto& c : s) {
+        if (isalnum(c)) {
+            buf += c;
+        }
+        else {
+            if (!buf.empty()) {
+                result.push_back(buf);
+            }
+            if (!isspace(c)) {
+                buf = c;
+                result.push_back(buf);
+            }
+            buf.clear();
+        }
+    }
+    if (!buf.empty()) {
+        result.push_back(buf);
+    }
+    return result;
+}
+
 struct Solution {
     string filename;
     string code;
+    vector< int > mess;
     bool is_grouped;
 
     Solution(): is_grouped(false) {}
 
-    void normalize() {
+    void create_mess() {
         transform(code.begin(), code.end(), code.begin(), ::tolower);
         code = normalize_line_endings(code);
-        code = remove_c_comments(code);
-        code = remove_nested(code, "#ifdef", "#endif");
-        code = remove_nonnested(code, "#", "\n");
-        auto extension = file_extension(filename);
-        transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
-        if (extension == "d") {
-            code = remove_nonnested(code, "/++", "+/");
+        code = remove_comments(code, filename);
+
+        auto tokens = tokenize(code);
+        map< string, int > id;
+        id["0"] = 0;
+        for (auto& token : tokens) {
+            if (isdigit(token[0])) {
+                token = "0";
+            }
+            if (id.count(token) == 0) {
+                id[token] = id.size();
+            }
+            mess.push_back(id[token]);
         }
-        else if (extension == "pas" || extension == "dpr") {
-            code = remove_nested(code, "{$ifdef", "{$endif}");
-            code = remove_nonnested(code, "{", "}");
-        }
-        else if (extension == "hs") {
-            code = remove_nested(code, "{-", "-}");
-            code = remove_nonnested(code, "--", "\n");
-        }
-        code = filter([](char c) { return !isspace(c); }, code);
-        code = normalize_numbers(code);
-        code = filter([](char c) { return c != ';'; }, code);
-        code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
+        // code = filter([](char c) { return c != ';'; }, code);
+        // code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
     }
 };
 
@@ -209,10 +235,11 @@ int main() {
         do {
             safeGetline(cin, solution.filename);
         } while (solution.filename.empty());
-        solution.code = read_file(solution.filename.c_str());
-        solution.normalize();
         // cout << solution.filename << ":\n";
+        solution.code = read_file(solution.filename.c_str());
+        solution.create_mess();
         // cout << solution.code << "\n";
+        // for (auto i : solution.mess) { cout << i << " "; }
         // cout << "\n";
     }
 
@@ -223,7 +250,7 @@ int main() {
         }
         set< string > group;
         for (auto j = i + 1; j != solutions.end(); ++j) {
-            if (j->code == i->code) {
+            if (j->mess == i->mess) {
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
