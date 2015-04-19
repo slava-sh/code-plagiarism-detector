@@ -138,13 +138,13 @@ string remove_nonnested(const string& s, const string& begin, const string& end)
 
 string remove_comments(string code, const string& extension) {
     code = remove_c_comments(code);
-    code = remove_nested(code, "#ifdef", "#endif");
+    code = remove_nested(code, "#if", "#endif");
     code = remove_nonnested(code, "#", "\n");
     if (extension == "d") {
         code = remove_nonnested(code, "/++", "+/");
     }
     else if (extension == "pas" || extension == "dpr") {
-        code = remove_nested(code, "{$ifdef", "{$endif}");
+        code = remove_nested(code, "{$if", "{$endif}");
         code = remove_nonnested(code, "{", "}");
     }
     else if (extension == "hs") {
