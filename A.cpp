@@ -6,9 +6,12 @@
 #include <vector>
 #include <map>
 #include <set>
+#include <numeric>
 #include <functional>
 #include <algorithm>
 using namespace std;
+
+const int MAX_DIST = 100;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -194,6 +197,8 @@ vector< string > tokenize(const string& s) {
     return result;
 }
 
+map< string, int > base_id;
+
 struct Solution {
     string filename;
     string code;
@@ -208,9 +213,7 @@ struct Solution {
         code = remove_comments(code, filename);
 
         auto tokens = tokenize(code);
-        map< string, int > id;
-        id["0"] = 0;
-        id["a"] = 1;
+        auto id = base_id;
         for (auto& token : tokens) {
             if (isdigit(token[0])) {
                 token = "0";
@@ -233,7 +236,43 @@ struct Solution {
     }
 };
 
+int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
+    int n1 = s1.size();
+    int n2 = s2.size();
+    int column_start = 1;
+    auto column = new int[n1 + 1];
+    iota(column + column_start, column + n1 + 1, column_start);
+    for (auto x = column_start; x <= n2; x++) {
+        column[0] = x;
+        auto last_diagonal = x - column_start;
+        for (auto y = column_start; y <= n1; y++) {
+            auto old_diagonal = column[y];
+            auto possibilities = {
+                column[y] + 1,
+                column[y - 1] + 1,
+                last_diagonal + (s1[y - 1] == s2[x - 1]? 0 : 1)
+            };
+            column[y] = min(possibilities);
+            last_diagonal = old_diagonal;
+        }
+    }
+    auto result = column[n1];
+    delete[] column;
+    return result;
+}
+
 int main() {
+    base_id["0"] = 0;
+    base_id["a"] = 1;
+    string key;
+    for (char c = 0; c < CHAR_MAX; ++c) {
+        if (c == '0' || c == 'a') {
+            continue;
+        }
+        key = c;
+        base_id[key] = base_id.size();
+    }
+
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
@@ -259,7 +298,11 @@ int main() {
         }
         set< string > group;
         for (auto j = i + 1; j != solutions.end(); ++j) {
-            if (j->mess == i->mess) {
+            if (j->is_grouped) {
+                continue;
+            }
+            auto dist = levenshtein_distance(i->mess, j->mess);
+            if (dist <= MAX_DIST) {
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
