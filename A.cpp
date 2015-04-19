@@ -131,6 +131,22 @@ string filter(function< bool(char) > p, const string& s) {
     return result;
 }
 
+string normalize_numbers(const string& s) {
+    string result;
+    bool prev_digit = false;
+    for (auto& c : s) {
+        bool cur_digit = isdigit(c);
+        if (!cur_digit) {
+            result += c;
+        }
+        else if (!prev_digit) {
+            result += '0';
+        }
+        prev_digit = cur_digit;
+    }
+    return result;
+}
+
 string normalize_line_endings(string s) {
     for (auto& c : s) {
         if (c == '\r') {
@@ -146,6 +162,7 @@ string normalize_code(string code) {
     code = remove_nested(code, "#ifdef", "#endif");
     code = remove_nonnested(code, "#", "\n");
     code = filter([](char c) { return !isspace(c); }, code);
+    code = normalize_numbers(code);
     code = filter([](char c) { return c != ';'; }, code);
     return code;
 }
