@@ -68,26 +68,6 @@ string remove_line_comments(const string& s) {
     return result;
 }
 
-string remove_hash_comments(const string& s) {
-    string result;
-    char prev = '\n';
-    bool in_comment = false;
-    for (auto& c : s) {
-        if (!in_comment) {
-            result += c;
-        }
-        if (c == '#') {
-            in_comment = true;
-            result.resize(result.size() - 1);
-        }
-        else if (c == '\n') {
-            in_comment = false;
-        }
-        prev = c;
-    }
-    return result;
-}
-
 string remove_multiline_comments(const string& s) {
     string result;
     char prev = '\n';
@@ -120,7 +100,8 @@ bool ends_with(const string& t, const string& s, int n) {
     return true;
 }
 
-string remove_nested(const string& s, const string& begin, const string& end) {
+string remove_general(const string& s, const string& begin, const string& end,
+        bool nested) {
     string result;
     int depth = 0;
     for (int i = 0; i < s.size(); ++i) {
@@ -132,13 +113,23 @@ string remove_nested(const string& s, const string& begin, const string& end) {
             if (depth == 0) {
                 result.resize(result.size() - begin.size());
             }
-            ++depth;
+            if (depth == 0 || nested) {
+                ++depth;
+            }
         }
-        else if (ends_with(end, s, i)) {
+        else if (depth > 0 && ends_with(end, s, i)) {
             --depth;
         }
     }
     return result;
+}
+
+string remove_nested(const string& s, const string& begin, const string& end) {
+    return remove_general(s, begin, end, true);
+}
+
+string remove_nonnested(const string& s, const string& begin, const string& end) {
+    return remove_general(s, begin, end, false);
 }
 
 string remove_whitespaces(const string& s) {
@@ -165,7 +156,7 @@ string normalize_code(string code) {
     code = remove_line_comments(code); // TODO: merge the two
     code = remove_multiline_comments(code);
     code = remove_nested(code, "#ifdef", "#endif");
-    code = remove_hash_comments(code);
+    code = remove_nonnested(code, "#", "\n");
     code = remove_whitespaces(code);
     return code;
 }
