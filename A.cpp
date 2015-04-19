@@ -169,8 +169,8 @@ string normalize_code(string code) {
     code = remove_nonnested(code, "#", "\n");
     code = filter([](char c) { return !isspace(c); }, code);
     code = normalize_numbers(code);
-    // code = filter([](char c) { return c != ';'; }, code);
-    // code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
+    code = filter([](char c) { return c != ';'; }, code);
+    code = filter([](char c) { return c != '{' && c != '}' && c != '(' && c != ')'; }, code);
     return code;
 }
 
