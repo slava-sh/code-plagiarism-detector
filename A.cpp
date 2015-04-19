@@ -319,8 +319,10 @@ struct Solution {
                                 --depth;
                             }
                         }
-                        if (depth == 0 && i < n && tokens[i] == ";") {
-                            ++i;
+                        if (depth == 0) {
+                            if (i < n && tokens[i] == ";") {
+                                ++i;
+                            }
                             auto body = f->second;
                             functions.erase(f);
                             DEBUG(cerr << "<*(" << body.size() << ")* ");
