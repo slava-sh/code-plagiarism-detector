@@ -135,9 +135,7 @@ string remove_nonnested(const string& s, const string& begin, const string& end)
     return remove_general(s, begin, end, false);
 }
 
-string remove_comments(string code, const string& filename) {
-    auto extension = file_extension(filename);
-    transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+string remove_comments(string code, const string& extension) {
     code = remove_c_comments(code);
     code = remove_nested(code, "#ifdef", "#endif");
     code = remove_nonnested(code, "#", "\n");
@@ -165,6 +163,26 @@ string normalize_line_endings(string s) {
 }
 
 typedef vector< string > Tokens;
+
+void print_tokens(ostream& out, const Tokens& tokens) {
+    for (auto& token : tokens) {
+        out << token << " ";
+    }
+}
+
+Tokens remove_java_throws(const Tokens& tokens) {
+    Tokens result;
+    int n = tokens.size();
+    for (int i = 0; i < n; ++i) {
+        result.push_back(tokens[i]);
+        if (tokens[i] == ")" && i + 1 < n && tokens[i + 1] == "throws") {
+            while (i + 1 < n && tokens[i + 1] != "{") {
+                ++i;
+            }
+        }
+    }
+    return result;
+}
 
 Tokens tokenize(const string& s) {
     Tokens result;
@@ -198,27 +216,27 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
     for (int i = 0; i < n; ++i) {
         auto& token = tokens[i];
         bool is_name = isalnum(token[0]) && base_id.count(token) == 0;
-        if (is_name && i + 1 < n && tokens[i + 1][0] == '(') {
+        if (is_name && i + 1 < n && tokens[i + 1] == "(") {
             // Horrible
             int j = i + 2;
             int depth = 1;
             for (; depth > 0 && j < n; ++j) {
-                if (tokens[j][0] == '(') {
+                if (tokens[j] == "(") {
                     ++depth;
                 }
-                else if (tokens[j][0] == ')') {
+                else if (tokens[j] == ")") {
                     --depth;
                 }
             }
-            if (depth == 0 && j < n && tokens[j][0] == '{' && result.count(token) == 0) {
+            if (depth == 0 && j < n && tokens[j] == "{" && result.count(token) == 0) {
                 Tokens body;
                 int depth = 1;
                 for (i = j + 1; depth > 0 && i < n; ++i) {
                     body.push_back(tokens[i]);
-                    if (tokens[i][0] == '{') {
+                    if (tokens[i] == "{") {
                         ++depth;
                     }
-                    else if (tokens[i][0] == '}') {
+                    else if (tokens[i] == "}") {
                         --depth;
                     }
                 }
@@ -232,12 +250,6 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
     return result;
 }
 
-void print_tokens(ostream& out, const Tokens& tokens) {
-    for (auto& token : tokens) {
-        out << token << " ";
-    }
-}
-
 struct Solution {
     string filename;
     string code;
@@ -249,13 +261,21 @@ struct Solution {
 
     void create_mess() {
         static const string main = "main";
+
+        auto extension = file_extension(filename);
+        transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
+
         transform(code.begin(), code.end(), code.begin(), ::tolower);
         code = normalize_line_endings(code);
-        code = remove_comments(code, filename);
+        code = remove_comments(code, extension);
 
         auto tokens = tokenize(code);
+        if (extension == "java") {
+            tokens = remove_java_throws(tokens);
+        }
+
         auto functions = extract_functions(tokens);
-        // TODO: Java, Python
+        // TODO: Python
         if (functions.count(main) != 0) {
             tokens = functions[main];
         }
@@ -279,18 +299,18 @@ struct Solution {
             if (id.count(token) == 0) {
                 if (isalnum(token[0])) {
                     auto f = functions.find(token);
-                    if (f != functions.end() && i + 1 < n && tokens[i + 1][0] == '(') {
+                    if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
                         // Spaghetti
                         int depth = 1;
                         for (i = i + 2; depth > 0 && i < n; ++i) {
-                            if (tokens[i][0] == '(') {
+                            if (tokens[i] == "(") {
                                 ++depth;
                             }
-                            else if (tokens[i][0] == ')') {
+                            else if (tokens[i] == ")") {
                                 --depth;
                             }
                         }
-                        if (depth == 0 && i < n && tokens[i][0] == ';') {
+                        if (depth == 0 && i < n && tokens[i] == ";") {
                             ++i;
                             auto body = f->second;
                             functions.erase(f);
