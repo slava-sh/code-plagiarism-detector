@@ -12,7 +12,7 @@
 using namespace std;
 
 const int MAX_DIST = 400;
-const double MAX_DIST_RATIO = 0.2;
+const double MAX_DIST_RATIO = 0.3;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
