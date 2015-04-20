@@ -52,6 +52,15 @@ istream& safe_getline(istream& in, string& s) {
     return in;
 }
 
+string replace_all(string s, const string& a, const string& b) {
+    int i = 0;
+    while ((i = s.find(a, i)) != string::npos) {
+         s.replace(i, a.length(), b);
+         i += b.length();
+    }
+    return s;
+}
+
 string file_extension(const string& filename) {
     auto i = filename.rfind('.');
     if (i == string::npos) {
@@ -137,15 +146,68 @@ string remove_nonnested(const string& s, const string& begin, const string& end)
     return remove_general(s, begin, end, false);
 }
 
+bool is_identifier(char c) {
+    return ('a' <= c && c <= 'z') ||
+           ('A' <= c && c <= 'Z') ||
+           ('0' <= c && c <= '9') ||
+           c == '_';
+}
+
+string expand_ifdefs(const string& s, const string& begin, const string& end) {
+    string result;
+    vector< bool > defined;
+    defined.push_back(true);
+    for (int i = 0, n = s.size(); i < n; ++i) {
+        if (defined.back()) {
+            result += s[i];
+        }
+        if (ends_with(begin, s, i)) {
+            if (defined.back()) {
+                result.resize(result.size() - begin.size());
+            }
+            for (++i; i < n && !is_identifier(s[i]); ++i) {
+            }
+            string buf;
+            for (; i < n && is_identifier(s[i]); ++i) {
+                buf += s[i];
+            }
+            --i;
+            if (buf == "ONLINE_JUDGE" && defined.back()) {
+                defined.push_back(true);
+            }
+            else {
+                defined.push_back(false);
+            }
+        }
+        else if (defined.size() > 1 && ends_with(end, s, i)) {
+            defined.pop_back();
+        }
+    }
+    return result;
+}
+
 string remove_comments(string code, const string& extension) {
     code = remove_c_comments(code);
-    code = remove_nested(code, "#if", "#endif");
+
+    if (extension == "cs") {
+        code = replace_all(code, "#if", "#ifdef");
+    }
+    else if (extension == "pas" || extension == "dpr") {
+        code = replace_all(code, "{$", "#");
+    }
+    code = replace_all(code, "#ifndef LOCAL", "#ifdef ONLINE_JUDGE");
+    code = replace_all(code, "#ifndef DEBUG", "#ifdef ONLINE_JUDGE");
+    code = replace_all(code, "#ifndef", "#ifdef NOT_");
+    code = replace_all(code, "#else",   "#endif\n#ifdef UNDEFINED"); // TODO
+    code = replace_all(code, "#elseif", "#endif\n#ifdef");
+    code = replace_all(code, "#elif",   "#endif\n#ifdef");
+    code = expand_ifdefs(code, "#ifdef", "#endif");
+
     code = remove_nonnested(code, "#", "\n");
     if (extension == "d") {
         code = remove_nonnested(code, "/++", "+/");
     }
     else if (extension == "pas" || extension == "dpr") {
-        code = remove_nested(code, "{$if", "{$endif}");
         code = remove_nonnested(code, "{", "}");
         code = remove_nonnested(code, "(*", "*)");
     }
@@ -197,13 +259,6 @@ Tokens fix_pascal_tokens(const Tokens& tokens) {
         result.push_back(token);
     }
     return result;
-}
-
-bool is_identifier(char c) {
-    return ('a' <= c && c <= 'z') ||
-           ('A' <= c && c <= 'Z') ||
-           ('0' <= c && c <= '9') ||
-           c == '_';
 }
 
 Tokens tokenize(const string& s) {
