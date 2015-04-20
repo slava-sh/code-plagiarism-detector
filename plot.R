@@ -1,3 +1,5 @@
+svg('plot.svg', width=4, height=3)
+
 allData <- read.csv("output.tsv", sep="\t", header=TRUE)
 data    <- data.frame(ratio = allData$dist_ratio,
                       dist  = allData$dist,
@@ -39,3 +41,5 @@ MAX_DIST_RATIO       <- 0.35
 MAX_DIST_RATIO_SMALL <- 0.228
 SMALL_THRESHOLD      <- 450
 draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col="red")
+
+dev.off()

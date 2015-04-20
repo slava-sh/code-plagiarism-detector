@@ -22,7 +22,7 @@ misses = {}
 
 def score_sample(sample):
     global misses
-    with open('samples/{}.a'.format(sample)) as f:
+    with open('{}/ans.txt'.format(sample)) as f:
         correct = read_answer(f)
     with open('{}/output.txt'.format(sample)) as f:
         given = read_answer(f)
@@ -35,6 +35,7 @@ def score_sample(sample):
         for i in correct - given:
             misses.setdefault(sample, []).append(i)
     else:
+        print(given - correct)
         score = 0
         print(' WA', end=' ')
     return score
