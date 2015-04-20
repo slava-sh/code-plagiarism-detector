@@ -24,7 +24,7 @@ string read_file(const char *filename) {
     return contents.str();
 }
 
-istream& safeGetline(istream& in, string& s) {
+istream& safe_getline(istream& in, string& s) {
     s.clear();
     auto buf = in.rdbuf();
     for (bool eol = false; !eol;) {
@@ -397,10 +397,10 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
     int column_start = 1;
     auto column = new int[n1 + 1];
     iota(column + column_start, column + n1 + 1, column_start);
-    for (auto x = column_start; x <= n2; x++) {
+    for (auto x = column_start; x <= n2; ++x) {
         column[0] = x;
         auto last_diagonal = x - column_start;
-        for (auto y = column_start; y <= n1; y++) {
+        for (auto y = column_start; y <= n1; ++y) {
             auto old_diagonal = column[y];
             auto possibilities = {
                 column[y] + 1,
@@ -439,7 +439,7 @@ int main() {
     vector< Solution > solutions(n);
     for (auto& solution : solutions) {
         do {
-            safeGetline(cin, solution.filename);
+            safe_getline(cin, solution.filename);
         } while (solution.filename.empty());
         solution.code = read_file(solution.filename.c_str());
         solution.create_mess();
