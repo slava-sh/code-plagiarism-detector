@@ -314,10 +314,10 @@ Tokens tokenize(const string& s) {
 
 Tokens tokenize_python(const string& code) {
     Tokens result;
-    stringstream ss(code);
-    string line;
     int prev_spaces = 0;
     int step = 0;
+    stringstream ss(code);
+    string line;
     while (getline(ss, line)) {
         int spaces = 0;
         while (spaces < line.size() && isspace(line[spaces])) {
@@ -528,6 +528,35 @@ int main() {
         solution.create_mess();
     }
 
+#ifdef DEBUG
+    set< pair< string, string > > right_pairs;
+    {
+        ifstream ans("../ans.txt");
+        int n;
+        ans >> n;
+        for (int k = 0; k < n; ++k) {
+            string line;
+            do {
+                safe_getline(ans, line);
+            } while (line.empty());
+            istringstream iss(line);
+            vector< string > files {
+                istream_iterator< string >{ iss },
+                istream_iterator< string >{}
+            };
+            sort(files.begin(), files.end());
+            for (auto i = files.begin(); i != files.end(); ++i) {
+                for (auto j = i + 1; j != files.end(); ++j) {
+                    right_pairs.insert(make_pair(*i, *j));
+                }
+            }
+        }
+        ans.close();
+    }
+
+    ofstream data_tsv("../data.tsv");
+    data_tsv << "Ans\tGuess\tSize\tDistRatio\tDist\tI\tJ" << endl;
+#endif
     vector< set< string > > ans;
     for (auto i = solutions.begin(); i != solutions.end(); ++i) {
         if (i->is_grouped) {
@@ -540,16 +569,38 @@ int main() {
             }
             auto dist = levenshtein_distance(i->mess, j->mess);
             auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
+            bool ans = false;
             if (check(mess_size, dist)) {
+                ans = true;
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
+#ifdef DEBUG
+            bool right_ans;
+            {
+                auto key = make_pair(i->filename, j->filename);
+                if (key.first > key.second) {
+                    swap(key.first, key.second);
+                }
+                right_ans = right_pairs.count(key) != 0;
+            }
+            data_tsv << right_ans + 0 << "\t"
+                     << ans + 0 << "\t"
+                     << mess_size << "\t"
+                     << (double) dist / mess_size << "\t"
+                     << dist << "\t"
+                     << i->filename << "\t"
+                     << j->filename << endl;
+#endif
         }
         if (!group.empty()) {
             group.insert(i->filename);
             ans.push_back(group);
         }
     }
+#ifdef DEBUG
+    data_tsv.close();
+#endif
 
     cout << ans.size() << "\n";
     for (auto& group : ans) {

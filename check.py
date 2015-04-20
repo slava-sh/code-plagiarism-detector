@@ -49,15 +49,13 @@ def main():
         score += score_sample(sample)
     print('| {}'.format(score))
     if was:
-        print('WAs:')
         for sample in sorted(was.keys()):
-            print('{}:'.format(sample))
+            print('{} WAs:'.format(sample))
             for a, b in was[sample]:
                 print(' {:10} {:10}'.format(a, b))
     if misses:
-        print('Misses:')
         for sample in sorted(misses.keys()):
-            print('{}:'.format(sample))
+            print('{} misses:'.format(sample))
             for a, b in misses[sample]:
                 print(' {:10} {:10}'.format(a, b))
 

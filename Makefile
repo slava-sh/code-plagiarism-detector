@@ -1,21 +1,19 @@
-CXX=clang++ -Wall -std=c++11
-SOLUTION=A
-CHECKER=python3 check.py
+CXX       = clang++ -Wall -std=c++11
+CXX_FLAGS =
+PROG      = A
+CHECKER   = python3 check.py
 
-.DEFAULT_GOAL=sample
+ifdef DEBUG
+	CXX_FLAGS += -DDEBUG
+endif
 
-.PHONY: solution
+.DEFAULT_GOAL = sample
+
+.PHONY: run
 solution:
-	$(CXX) $(SOLUTION).cpp -o data/$(SOLUTION)
+	$(CXX) $(CXX_FLAGS) $(PROG).cpp -o data/$(PROG)
 
 .PHONY: sample
-sample: solution
-	cd data/$(sample)/sources && ../../$(SOLUTION)
+run: solution
+	cd data/$(sample)/sources && ../../$(PROG)
 	$(CHECKER) $(sample)
-
-SAMPLES:=01 02 03 04 05 06 07 08 09 10
-
-.PHONY: samples
-samples: solution
-	$(foreach sample,$(SAMPLES),(cd $(sample) && /bin/echo -n "$(sample) " && ../$(SOLUTION));)
-	$(CHECKER) $(SAMPLES)
