@@ -13,7 +13,7 @@ using namespace std;
 
 bool check(double size, double dist) {
     auto ratio = dist / size;
-    return ratio < max(0.228, 0.3229123065 + size * -0.0004121336);
+    return ratio < max(0.228, 0.1029922568 + size * 0.0003120542);
 }
 
 string read_file(const char *filename) {
