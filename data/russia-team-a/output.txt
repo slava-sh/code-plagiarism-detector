@@ -1,0 +1,29 @@
+28
+101-a-1.cpp 101-a-2.cpp
+103-a-1.cpp 103-a-2.cpp
+105-a-1.cpp 105-a-2.cpp
+107-a-1.cpp 107-a-2.cpp 107-a-3.cpp
+109-a-1.cpp 109-a-2.cpp 109-a-3.cpp 109-a-4.cpp
+110-a-1.cpp 110-a-2.cpp
+112-a-1.pas 112-a-2.pas
+114-a-1.cpp 114-a-2.cpp
+202-a-1.py 202-a-2.py
+203-a-1.cpp 203-a-2.cpp 203-a-3.cpp
+212-a-1.cpp 212-a-2.cpp 212-a-3.cpp
+409-a-1.cpp 409-a-2.cpp 409-a-3.cpp 409-a-4.cpp 409-a-5.cpp 409-a-6.cpp 409-a-7.cpp
+412-a-1.cpp 412-a-2.cpp
+413-a-1.cpp 413-a-2.cpp 413-a-3.cpp
+418-a-1.cpp 418-a-2.cpp 418-a-3.cpp 418-a-4.cpp 418-a-5.cpp 418-a-6.cpp 418-a-7.cpp
+422-a-1.pas 422-a-2.pas
+422-a-3.pas 422-a-4.pas 422-a-5.pas
+504-a-1.cpp 504-a-2.cpp
+507-a-1.cpp 507-a-2.cpp
+518-a-1.cpp 518-a-2.cpp 518-a-3.cpp
+601-a-1.cpp 601-a-2.cpp 601-a-3.cpp 601-a-4.cpp 601-a-5.cpp
+602-a-1.cpp 602-a-2.cpp
+604-a-1.cpp 604-a-2.cpp 604-a-3.cpp
+k24-a-1.cpp k24-a-2.cpp
+k26-a-1.cpp k26-a-2.cpp
+k32-a-1.cpp k32-a-2.cpp k32-a-3.cpp
+k32-a-4.cpp k32-a-5.cpp k32-a-6.cpp
+k32-a-7.cpp k32-a-8.cpp
