@@ -11,9 +11,8 @@
 #include <algorithm>
 using namespace std;
 
-const double MAX_DIST_RATIO = 0.35;
-const double MAX_DIST_RATIO_SMALL = MAX_DIST_RATIO / 2;
-const double SMALL_THRESHOLD = 400;
+const double SLOPE     = 0.0001874698;
+const double INTERCEPT = 0.1602854   ;
 
 string read_file(const char *filename) {
     ifstream in(filename, ios::binary);
@@ -320,14 +319,6 @@ struct Solution {
 
     Solution(): is_grouped(false) {}
 
-// #define DEBUG_A "12200.java"
-// #define DEBUG_B "7370.java"
-// #define DEBUG_A "31987.cpp" // #define DEBUG_B "962.cpp"
-// #define DEBUG_A "17413.cpp" // #define DEBUG_B "29422.cpp"
-// #define DEBUG_A "\n"
-// #define DEBUG_B "\n"
-// #define DEBUG(block) if (filename == DEBUG_A || filename == DEBUG_B) { block; }
-
     void create_mess() {
         static const string main = "main";
 
@@ -347,7 +338,6 @@ struct Solution {
         }
         else if (extension == "pas" || extension == "dpr") {
             tokens = fix_pascal_tokens(tokens);
-            // cerr << filename << ": "; for (auto token : tokens) { cerr << token << " "; } cerr << endl; cerr << endl;
         }
 
         auto functions = extract_functions(tokens);
@@ -355,17 +345,13 @@ struct Solution {
             tokens = functions[main];
         }
         id = base_id;
-        // DEBUG(cerr << filename << ": "); for (auto f : functions) { DEBUG(cerr << f.first << " "); } DEBUG(cerr << endl);
         expand(tokens, functions);
-        // DEBUG(for (auto i : mess) { cerr << i << " "; });
-        // DEBUG(cerr << endl << endl);
     }
 
     void expand(const Tokens& tokens, map< string, Tokens >& functions) {
         int n = tokens.size();
         for (int i = 0; i < n; ++i) {
             auto token = tokens[i];
-            // DEBUG(cerr << token << " ");
             if (isdigit(token[0])) {
                 token = "0";
             }
@@ -386,7 +372,6 @@ struct Solution {
                         if (depth == 0) {
                             auto body = f->second;
                             functions.erase(f);
-                            // DEBUG(cerr << "<*(" << body.size() << ")* ");
                             expand(body, functions);
                             continue; // Tough!
                         }
@@ -471,15 +456,8 @@ int main() {
             auto dist = levenshtein_distance(i->mess, j->mess);
             auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
             auto dist_ratio = (double) dist / mess_size;
-            auto max_ratio = mess_size <= SMALL_THRESHOLD ? MAX_DIST_RATIO_SMALL : MAX_DIST_RATIO;
-            // if ((i->filename == DEBUG_A && j->filename == DEBUG_B)) {
-            //     cerr << "dist  = " << dist << endl;
-            //     cerr << "mess  = " << mess_size << " | " << i->mess.size() << " " <<  j->mess.size() << endl;
-            //     cerr << "ratio = " << dist_ratio << endl;
-            //     cerr << endl;
-            // }
-            if (dist_ratio <= max_ratio) {
-                // cerr << dist << " " << mess_size << " " <<  << endl;
+            // cerr << (dist_ratio <= max_ratio) + 0 << "\t" << dist_ratio << "\t" << mess_size << "\t" << i->mess.size() << "\t" << j->mess.size() << "\t" << dist << "\t" << i->filename << "\t" << j->filename << endl;
+            if (dist_ratio < INTERCEPT + SLOPE * mess_size) {
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
