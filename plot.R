@@ -13,12 +13,12 @@ data$Ans   <- as.factor(data$Ans)
 data$Guess <- as.factor(data$Guess)
 data$Right <- data$Ans == data$Guess
 
-size <- 10
+size <- 20
 svg(output.svg, width=size, height=size)
 
 with(data, plot(DistRatio ~ Size,
                 col=ifelse(Right, ifelse(Guess == 0, 8, "lightpink"), ifelse(Guess == 0, "blue", "red")),
-                cex=ifelse(Right, 0.3, 1),
+                cex=ifelse(Right, 0.3, 0.6),
                 pch=16))
 
 if (size >= 20) {
