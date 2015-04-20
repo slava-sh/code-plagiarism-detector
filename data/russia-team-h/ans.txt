@@ -17,7 +17,7 @@ k03-h-1.cpp k03-h-10.cpp k03-h-11.cpp k03-h-12.cpp k03-h-13.cpp k03-h-14.cpp k03
 g09-h-1.cpp g09-h-10.cpp g09-h-11.cpp g09-h-12.cpp g09-h-13.cpp g09-h-14.cpp g09-h-15.cpp g09-h-16.cpp g09-h-17.cpp g09-h-18.cpp g09-h-19.cpp g09-h-2.cpp g09-h-20.cpp g09-h-21.cpp g09-h-22.cpp g09-h-23.cpp g09-h-24.cpp g09-h-25.cpp g09-h-3.cpp g09-h-4.cpp g09-h-5.cpp g09-h-6.cpp g09-h-7.cpp g09-h-8.cpp g09-h-9.cpp
 107-h-1.cpp 107-h-2.cpp
 201-h-1.cpp 201-h-10.cpp 201-h-11.cpp 201-h-12.cpp 201-h-13.cpp 201-h-14.cpp 201-h-15.cpp 201-h-16.cpp 201-h-17.cpp 201-h-2.cpp 201-h-3.cpp 201-h-4.cpp 201-h-5.cpp 201-h-6.cpp 201-h-7.cpp 201-h-8.cpp 201-h-9.cpp
-u10-h-1.cpp u10-h-2.cpp
+u03-h-1.cpp u10-h-1.cpp u10-h-2.cpp
 512-h-1.cpp 512-h-2.cpp
 406-h-1.pas 406-h-2.pas
 k40-h-1.cpp k40-h-2.cpp
