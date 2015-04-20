@@ -19,12 +19,13 @@ def read_answer(f):
     return pairs
 
 misses = {}
+was    = {}
 
 def score_sample(sample):
     global misses
-    with open('{}/ans.txt'.format(sample)) as f:
+    with open('data/{}/ans.txt'.format(sample)) as f:
         correct = read_answer(f)
-    with open('{}/output.txt'.format(sample)) as f:
+    with open('data/{}/output.txt'.format(sample)) as f:
         given = read_answer(f)
     if given is None:
         score = 0
@@ -35,23 +36,30 @@ def score_sample(sample):
         for i in correct - given:
             misses.setdefault(sample, []).append(i)
     else:
-        print(given - correct)
         score = 0
         print(' WA', end=' ')
+        for i in given - correct:
+            was.setdefault(sample, []).append(i)
     return score
 
 def main():
     samples = sys.argv[1:]
-    if not samples:
-        samples = '01 02 03 04 05 06 07 08 09 10'.split()
     score = 0
     for sample in samples:
         score += score_sample(sample)
     print('| {}'.format(score))
-    for sample in sorted(misses.keys()):
-        print('{}:'.format(sample))
-        for a, b in misses[sample]:
-            print(' {:10} {:10}'.format(a, b))
+    if was:
+        print('WAs:')
+        for sample in sorted(was.keys()):
+            print('{}:'.format(sample))
+            for a, b in was[sample]:
+                print(' {:10} {:10}'.format(a, b))
+    if misses:
+        print('Misses:')
+        for sample in sorted(misses.keys()):
+            print('{}:'.format(sample))
+            for a, b in misses[sample]:
+                print(' {:10} {:10}'.format(a, b))
 
 if __name__ == '__main__':
     main()

@@ -3,7 +3,7 @@ import os
 
 def main():
     sample = sys.argv[1]
-    with open('{}/input.txt'.format(sample)) as f:
+    with open('data/{}/input.txt'.format(sample)) as f:
         n = int(f.readline())
         files = [f.readline().strip() for i in range(n)]
 
@@ -21,7 +21,7 @@ def main():
     ans = '\n'.join(ans)
     print(ans, end='')
 
-    ans_filename = '{}/ans.txt'.format(sample)
+    ans_filename = 'data/{}/ans.txt'.format(sample)
     if not os.path.isfile(filename):
         with open(ans_filename, 'w') as f:
             f.write(ans)
