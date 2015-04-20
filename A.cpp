@@ -103,6 +103,18 @@ string remove_c_comments(const string& s) {
     return result;
 }
 
+bool starts_with(const string& t, const string& s) {
+    if (t.size() > s.size()) {
+        return false;
+    }
+    for (int i = 0; i < t.size(); ++i) {
+        if (t[i] != s[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
 bool ends_with(const string& t, const string& s, int n) {
     if (n < t.size() - 1) {
         return false;
@@ -153,7 +165,11 @@ bool is_identifier(char c) {
            c == '_';
 }
 
-string expand_ifdefs(const string& s, const string& begin, const string& end) {
+string expand_ifdefs(const string& s) {
+    static const string online_judge = "online_judge";
+    static const string ifdef        = "#ifdef";
+    static const string ifelse       = "#else";
+    static const string endif        = "#endif";
     string result;
     vector< bool > defined;
     defined.push_back(true);
@@ -161,9 +177,9 @@ string expand_ifdefs(const string& s, const string& begin, const string& end) {
         if (defined.back()) {
             result += s[i];
         }
-        if (ends_with(begin, s, i)) {
+        if (ends_with(ifdef, s, i)) {
             if (defined.back()) {
-                result.resize(result.size() - begin.size());
+                result.resize(result.size() - ifdef.size());
             }
             for (++i; i < n && !is_identifier(s[i]); ++i) {
             }
@@ -171,15 +187,24 @@ string expand_ifdefs(const string& s, const string& begin, const string& end) {
             for (; i < n && is_identifier(s[i]); ++i) {
                 buf += s[i];
             }
-            --i;
-            if (buf == "ONLINE_JUDGE" && defined.back()) {
+            // --i; s[i] is a whitespace or )
+            if (starts_with(online_judge, buf) && defined.back()) {
                 defined.push_back(true);
             }
             else {
                 defined.push_back(false);
             }
         }
-        else if (defined.size() > 1 && ends_with(end, s, i)) {
+        else if (defined.size() > 1 && ends_with(ifelse, s, i)) {
+            if (defined.back()) {
+                result.resize(result.size() - ifelse.size());
+            }
+            defined.back() = !defined.back();
+        }
+        else if (defined.size() > 1 && ends_with(endif, s, i)) {
+            if (defined.back()) {
+                result.resize(result.size() - endif.size());
+            }
             defined.pop_back();
         }
     }
@@ -195,13 +220,15 @@ string remove_comments(string code, const string& extension) {
     else if (extension == "pas" || extension == "dpr") {
         code = replace_all(code, "{$", "#");
     }
-    code = replace_all(code, "#ifndef LOCAL", "#ifdef ONLINE_JUDGE");
-    code = replace_all(code, "#ifndef DEBUG", "#ifdef ONLINE_JUDGE");
-    code = replace_all(code, "#ifndef", "#ifdef NOT_");
-    code = replace_all(code, "#else",   "#endif\n#ifdef UNDEFINED"); // TODO
-    code = replace_all(code, "#elseif", "#endif\n#ifdef");
-    code = replace_all(code, "#elif",   "#endif\n#ifdef");
-    code = expand_ifdefs(code, "#ifdef", "#endif");
+    code = replace_all(code, "#ifndef local",  "#ifdef online_judge");
+    code = replace_all(code, "#ifndef debug",  "#ifdef online_judge");
+    code = replace_all(code, "#ifndef xdebug", "#ifdef online_judge");
+    code = replace_all(code, "#ifndef",        "#ifdef not_");
+    code = replace_all(code, "#elseif",        "#endif\n#ifdef");
+    code = replace_all(code, "#elif",          "#endif\n#ifdef");
+    code = replace_all(code, "#if defined",    "#ifdef");
+    code = replace_all(code, "#ifdef defined", "#ifdef");
+    code = expand_ifdefs(code);
 
     code = remove_nonnested(code, "#", "\n");
     if (extension == "d") {
