@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int mn = 2000000000,mx,a[111111],n,k,ans;
+
+bool f(long long x)
+{
+	if ( x > mn) return false;
+	long long pos = 2;
+	long long i = a[2];
+	while(pos <= n) {
+		i = a[pos-1] + x;
+		if (i < a[pos] ) i = a[pos];
+		pos++;
+	}
+	if ( i > k ) return false;
+	return true;
+}	
+
+int main()
+{	
+	ios_base :: sync_with_stdio(0);
+		
+	freopen("fence.in","r",stdin);
+	freopen("fence.out","w",stdout);
+
+	cin >> n >> k;
+
+	for ( int i = 1; i <= n; i++ ) {
+		cin >> a[i];
+		mn = min(mn,a[i]);	
+		mx = max(mx,a[i]);
+	}
+
+	sort(a + 1,a + n + 1);
+
+	//if (n > k ) { cout << 0; return 0; }
+	//if (mn > k ) { cout << 0; return 0; }
+
+	long long l = 0,r = k / n + 1;
+	while (r - l > 1) {
+		//cout << l << " " << r << endl;
+		long long mid = (long long)(l + r) / 2;
+		if ( f(mid) ) l = mid,ans = mid;
+			else r = mid;
+	}
+	cout << r - 1;
+}

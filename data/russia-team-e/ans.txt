@@ -1,0 +1,22 @@
+21
+103-e-1.cpp 103-e-2.cpp
+104-e-1.java 104-e-2.java 104-e-3.java 104-e-4.java 104-e-5.java
+106-e-1.cpp 106-e-2.cpp 106-e-3.cpp
+107-e-1.cpp 107-e-2.cpp
+108-e-1.dpr 108-e-2.dpr 108-e-3.dpr
+109-e-1.cpp 109-e-2.cpp 109-e-3.cpp
+111-e-1.pas 111-e-2.pas 111-e-3.pas 111-e-4.pas 111-e-5.pas 111-e-6.pas 111-e-7.pas 111-e-8.pas 111-e-9.pas
+112-e-1.dpr 112-e-2.dpr
+115-e-1.cpp 115-e-2.cpp 115-e-3.cpp 115-e-4.cpp 115-e-5.cpp 115-e-6.cpp 115-e-7.cpp 115-e-8.cpp 115-e-9.cpp
+201-e-1.pas 201-e-2.pas 201-e-3.pas 201-e-4.pas 201-e-5.pas 201-e-6.pas 201-e-7.pas
+203-e-1.cpp 203-e-2.cpp 203-e-3.cpp 203-e-4.cpp 203-e-5.cpp 203-e-6.cpp 203-e-7.cpp 203-e-8.cpp
+204-e-1.java 204-e-2.java
+206-e-1.py 206-e-2.py
+208-e-1.cpp 208-e-2.cpp 208-e-3.cpp
+209-e-1.cpp 209-e-2.cpp 209-e-3.cpp 209-e-4.cpp 209-e-5.cpp 209-e-6.cpp
+210-e-1.py 210-e-2.py 210-e-3.py 210-e-4.py
+213-e-1.py 213-e-2.py 213-e-3.py 213-e-4.py 213-e-5.py
+213-e-6.cpp 213-e-7.cpp 213-e-8.cpp 213-e-9.cpp
+216-e-1.cpp 216-e-2.cpp 216-e-3.cpp
+217-e-1.cpp 217-e-2.cpp
+218-e-1.cpp 218-e-2.cpp 218-e-3.cpp 218-e-4.cpp 218-e-5.cpp
