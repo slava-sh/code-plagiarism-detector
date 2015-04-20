@@ -1,5 +1,6 @@
 allData <- read.csv("output.tsv", sep="\t", header=TRUE)
 data    <- data.frame(ratio = allData$dist_ratio,
+                      dist  = allData$dist,
                       ans   = as.factor(allData$ans),
                       size  = allData$mess_size)
 rm(allData)
@@ -34,6 +35,6 @@ SMALL_THRESHOLD      <- 400
 draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
 
 MAX_DIST_RATIO       <- 0.35
-MAX_DIST_RATIO_SMALL <- 0.2
+MAX_DIST_RATIO_SMALL <- 0.225
 SMALL_THRESHOLD      <- 400
 draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=9)
