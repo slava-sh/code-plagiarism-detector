@@ -1,2 +1,5 @@
 data/A
+data/**/output.txt
+data/**/data.tsv
+data/**/data.svg
 .Rapp.history

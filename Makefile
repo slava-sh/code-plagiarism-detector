@@ -2,6 +2,7 @@ CXX       = clang++ -Wall -std=c++11
 CXX_FLAGS =
 PROG      = A
 CHECKER   = python3 check.py
+PLOT      = Rscript plot.R
 
 ifdef DEBUG
 	CXX_FLAGS += -DDEBUG
@@ -17,3 +18,8 @@ solution:
 run: solution
 	cd data/$(sample)/sources && ../../$(PROG)
 	$(CHECKER) $(sample)
+
+.PHONY: plot
+plot:
+	$(PLOT) data/$(sample)/data.tsv data/$(sample)/data.svg
+	open data/$(sample)/data.svg

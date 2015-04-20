@@ -1,45 +1,28 @@
-svg('plot.svg', width=4, height=3)
-
-allData <- read.csv("output.tsv", sep="\t", header=TRUE)
-data    <- data.frame(ratio = allData$dist_ratio,
-                      dist  = allData$dist,
-                      ans   = as.factor(allData$ans),
-                      size  = allData$mess_size)
-rm(allData)
-
-with(data, plot(ratio ~ size, col=ans, pch=20, cex=0.4))
-
-draw_simple_classifier <- function(y_small, x_threshold, y, col=0) {
+draw_simple_classifier <- function(y_small, x_threshold, y, col=8) {
     segments(0,           y_small, x_threshold,   y_small, col=col)
     segments(x_threshold, y_small, x_threshold,   y,       col=col)
     segments(x_threshold, y,       par("usr")[2], y,       col=col)
 }
 
-#MAX_DIST_RATIO       <- 0.37
-#MAX_DIST_RATIO_SMALL <- 0.28
-#SMALL_THRESHOLD      <- 440
-#abline(v=SMALL_THRESHOLD, col=4)
-#abline(MAX_DIST_RATIO_SMALL, 0, col=4)
-#abline(MAX_DIST_RATIO, 0, col=4)
+args       <- commandArgs(trailingOnly=TRUE)
+input.tsv  <- args[1]
+output.svg <- args[2]
 
-rect(400, 0.35/2, 410, 0.35, col="lightpink", border=NA)
+data       <- read.csv(input.tsv, sep="\t", header=TRUE)
+data$Ans   <- as.factor(data$Ans)
+data$Guess <- as.factor(data$Guess)
+data$Right <- data$Ans == data$Guess
 
-#MAX_DIST_RATIO       <- 0.35
-#MAX_DIST_RATIO_SMALL <- MAX_DIST_RATIO / 2
-#SMALL_THRESHOLD      <- 400
-#draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
+svg(output.svg, width=7, height=7)
 
-#MAX_DIST_RATIO       <- 0.35
-#MAX_DIST_RATIO_SMALL <- 0.2
-#SMALL_THRESHOLD      <- 400
-#draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
-
-#abline(0.228, 0)
-#abline(0.1029922568,  0.0003120542);
+with(data, plot(DistRatio ~ Size,
+                col=ifelse(data$Right, 8, ifelse(data$Guess == 0, "blue", "red")),
+                cex=ifelse(data$Right, 0.3, 1),
+                pch=16))
 
 MAX_DIST_RATIO       <- 0.35
 MAX_DIST_RATIO_SMALL <- 0.228
 SMALL_THRESHOLD      <- 450
 draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col="red")
 
-dev.off()
+invisible(dev.off())
