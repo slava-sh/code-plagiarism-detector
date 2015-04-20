@@ -13,18 +13,27 @@ data$Ans   <- as.factor(data$Ans)
 data$Guess <- as.factor(data$Guess)
 data$Right <- data$Ans == data$Guess
 
-svg(output.svg, width=7, height=7)
+size <- 10
+svg(output.svg, width=size, height=size)
 
 with(data, plot(DistRatio ~ Size,
                 col=ifelse(Right, ifelse(Guess == 0, 8, "lightpink"), ifelse(Guess == 0, "blue", "red")),
                 cex=ifelse(Right, 0.3, 1),
                 pch=16))
 
-with(data[!data$Right,], text(DistRatio ~ Size, labels=paste(I, J), cex=0.8, pos=4))
+if (size >= 20) {
+    with(data[!data$Right & data$Ans == 0,], text(DistRatio ~ Size, labels=paste(I, J), cex=0.8, pos=4))
+}
 
 MAX_DIST_RATIO       <- 0.35
 MAX_DIST_RATIO_SMALL <- 0.228
 SMALL_THRESHOLD      <- 450
 draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col="red")
+
+x <- c(1:2000)
+HI <- 0.35
+LO <- 0.228
+y <- LO + (HI - LO) / (1 + exp(-0.03 * (x - 580)))
+points(x, y, cex=0.1)
 
 invisible(dev.off())

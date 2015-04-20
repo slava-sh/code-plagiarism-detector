@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <cctype>
+#include <cmath>
 #include <vector>
 #include <map>
 #include <set>
@@ -12,8 +13,10 @@
 using namespace std;
 
 bool check(double size, double dist) {
+    static const double hi = 0.35;
+    static const double lo = 0.228;
     auto ratio = dist / size;
-    return ratio < (size < 450 ? 0.228 : 0.35);
+    return (ratio - lo) * (1 + exp(-0.03 * (size - 580))) < hi - lo;
 }
 
 string read_file(const char *filename) {
