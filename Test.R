@@ -22,18 +22,18 @@ draw_simple_classifier <- function(y_small, x_threshold, y, col=0) {
 
 rect(400, 0.35/2, 410, 0.35, col="lightpink", border=NA)
 
-MAX_DIST_RATIO       <- 0.35
-MAX_DIST_RATIO_SMALL <- MAX_DIST_RATIO / 2
-SMALL_THRESHOLD      <- 400
+#MAX_DIST_RATIO       <- 0.35
+#MAX_DIST_RATIO_SMALL <- MAX_DIST_RATIO / 2
+#SMALL_THRESHOLD      <- 400
 #draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
 
-MAX_DIST_RATIO       <- 0.35
-MAX_DIST_RATIO_SMALL <- 0.2
-SMALL_THRESHOLD      <- 400
-draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
+#MAX_DIST_RATIO       <- 0.35
+#MAX_DIST_RATIO_SMALL <- 0.2
+#SMALL_THRESHOLD      <- 400
+#draw_simple_classifier(MAX_DIST_RATIO_SMALL, SMALL_THRESHOLD, MAX_DIST_RATIO, col=8)
 
-abline(0.228, 0)
-abline(0.1029922568,  0.0003120542);
+#abline(0.228, 0)
+#abline(0.1029922568,  0.0003120542);
 
 MAX_DIST_RATIO       <- 0.35
 MAX_DIST_RATIO_SMALL <- 0.228
