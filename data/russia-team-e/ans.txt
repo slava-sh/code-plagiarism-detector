@@ -1,22 +1,77 @@
-21
-103-e-1.cpp 103-e-2.cpp
-104-e-1.java 104-e-2.java 104-e-3.java 104-e-4.java 104-e-5.java
-106-e-1.cpp 106-e-2.cpp 106-e-3.cpp
-107-e-1.cpp 107-e-2.cpp
-108-e-1.dpr 108-e-2.dpr 108-e-3.dpr
-109-e-1.cpp 109-e-2.cpp 109-e-3.cpp
-111-e-1.pas 111-e-2.pas 111-e-3.pas 111-e-4.pas 111-e-5.pas 111-e-6.pas 111-e-7.pas 111-e-8.pas 111-e-9.pas
-112-e-1.dpr 112-e-2.dpr
-115-e-1.cpp 115-e-2.cpp 115-e-3.cpp 115-e-4.cpp 115-e-5.cpp 115-e-6.cpp 115-e-7.cpp 115-e-8.cpp 115-e-9.cpp
-201-e-1.pas 201-e-2.pas 201-e-3.pas 201-e-4.pas 201-e-5.pas 201-e-6.pas 201-e-7.pas
-203-e-1.cpp 203-e-2.cpp 203-e-3.cpp 203-e-4.cpp 203-e-5.cpp 203-e-6.cpp 203-e-7.cpp 203-e-8.cpp
-204-e-1.java 204-e-2.java
-206-e-1.py 206-e-2.py
-208-e-1.cpp 208-e-2.cpp 208-e-3.cpp
-209-e-1.cpp 209-e-2.cpp 209-e-3.cpp 209-e-4.cpp 209-e-5.cpp 209-e-6.cpp
-210-e-1.py 210-e-2.py 210-e-3.py 210-e-4.py
+76
+514-e-1.pas 514-e-10.pas 514-e-2.pas 514-e-3.pas 514-e-4.pas 514-e-5.pas 514-e-6.pas 514-e-7.pas 514-e-8.pas 514-e-9.pas
+g01-e-1.cpp g01-e-2.cpp
+k19-e-1.cpp k19-e-2.cpp k19-e-3.cpp k19-e-4.cpp k19-e-5.cpp
+414-e-1.cpp 414-e-2.cpp 414-e-3.cpp 414-e-4.cpp
+519-e-1.cpp 519-e-2.cpp 519-e-3.cpp
+k29-e-1.cpp k29-e-2.cpp k29-e-3.cpp k29-e-4.cpp k29-e-5.cpp
+g08-e-1.cpp g08-e-10.cpp g08-e-11.cpp g08-e-12.cpp g08-e-13.cpp g08-e-14.cpp g08-e-15.cpp g08-e-16.cpp g08-e-17.cpp g08-e-18.cpp g08-e-19.cpp g08-e-2.cpp g08-e-20.cpp g08-e-21.cpp g08-e-22.cpp g08-e-23.cpp g08-e-3.cpp g08-e-4.cpp g08-e-5.cpp g08-e-6.cpp g08-e-7.cpp g08-e-8.cpp g08-e-9.cpp
+g05-e-1.cpp g05-e-2.cpp g05-e-3.cpp g05-e-4.cpp g05-e-5.cpp
 213-e-1.py 213-e-2.py 213-e-3.py 213-e-4.py 213-e-5.py
-213-e-6.cpp 213-e-7.cpp 213-e-8.cpp 213-e-9.cpp
+k21-e-1.cpp k21-e-2.cpp
+k20-e-1.cpp k20-e-2.cpp k20-e-3.cpp k20-e-4.cpp k20-e-5.cpp k20-e-6.cpp k20-e-7.cpp
+512-e-1.cpp 512-e-2.cpp 512-e-3.cpp 512-e-4.cpp
+g04-e-1.cpp g04-e-2.cpp
+523-e-1.cpp 523-e-2.cpp 523-e-3.cpp
+112-e-1.dpr 112-e-2.dpr
+k14-e-1.cpp k14-e-2.cpp k14-e-3.cpp
+k07-e-1.cpp k07-e-2.cpp
+203-e-1.cpp 203-e-2.cpp 203-e-3.cpp 203-e-4.cpp 203-e-5.cpp 203-e-6.cpp 203-e-7.cpp 203-e-8.cpp
+407-e-1.cpp 407-e-2.cpp 407-e-3.cpp 407-e-4.cpp
+109-e-1.cpp 109-e-2.cpp 109-e-3.cpp
+304-e-1.pas 304-e-2.pas
+506-e-1.cpp 506-e-2.cpp 506-e-3.cpp
+208-e-1.cpp 208-e-2.cpp 208-e-3.cpp
+206-e-1.py 206-e-2.py
+u02-e-1.cpp u02-e-2.cpp u02-e-3.cpp u02-e-4.cpp u02-e-5.cpp
+106-e-1.cpp 106-e-2.cpp 106-e-3.cpp
+u10-e-1.cpp u10-e-2.cpp u10-e-3.cpp
+415-e-1.pas 415-e-2.pas 415-e-3.pas
+k03-e-1.cpp k03-e-2.cpp k03-e-3.cpp k03-e-4.cpp k03-e-5.cpp
+303-e-1.dpr 303-e-2.dpr 303-e-3.dpr
+u03-e-1.cpp u03-e-2.cpp
+508-e-1.cpp 508-e-2.cpp
+522-e-1.cpp 522-e-2.cpp 522-e-3.cpp 522-e-4.cpp
+308-e-1.cpp 308-e-2.cpp 308-e-3.cpp 308-e-4.cpp 308-e-5.cpp 308-e-6.cpp
+602-e-1.cpp 602-e-2.cpp 602-e-3.cpp 602-e-4.cpp
+104-e-1.java 104-e-2.java 104-e-3.java 104-e-4.java 104-e-5.java
+409-e-1.cpp 409-e-2.cpp 409-e-3.cpp
+201-e-1.pas 201-e-2.pas 201-e-3.pas 201-e-4.pas 201-e-5.pas 201-e-6.pas 201-e-7.pas
+420-e-1.dpr 420-e-2.dpr 420-e-3.dpr 420-e-4.dpr
+k45-e-1.cpp k45-e-2.cpp k45-e-3.cpp k45-e-4.cpp
+k28-e-1.cpp k28-e-2.cpp k28-e-3.cpp k28-e-4.cpp k28-e-5.cpp
+111-e-1.pas 111-e-2.pas 111-e-3.pas 111-e-4.pas 111-e-5.pas 111-e-6.pas 111-e-7.pas 111-e-8.pas 111-e-9.pas
+404-e-1.cpp 404-e-2.cpp 404-e-3.cpp
+g13-e-1.cpp g13-e-2.cpp g13-e-3.cpp g13-e-4.cpp g13-e-5.cpp g13-e-6.cpp g13-e-7.cpp
+408-e-1.pas 408-e-2.pas
+517-e-1.cpp 517-e-2.cpp
+k32-e-1.cpp k32-e-10.cpp k32-e-2.cpp k32-e-3.cpp k32-e-4.cpp k32-e-5.cpp k32-e-6.cpp k32-e-7.cpp k32-e-8.cpp k32-e-9.cpp
 216-e-1.cpp 216-e-2.cpp 216-e-3.cpp
-217-e-1.cpp 217-e-2.cpp
+403-e-1.py 403-e-2.py 403-e-3.py
+115-e-1.cpp 115-e-2.cpp 115-e-3.cpp 115-e-4.cpp 115-e-5.cpp 115-e-6.cpp 115-e-7.cpp 115-e-8.cpp 115-e-9.cpp
+204-e-1.java 204-e-2.java
+503-e-1.cpp 503-e-2.cpp 503-e-3.cpp
+603-e-1.dpr 603-e-2.dpr
+k37-e-1.dpr k37-e-2.dpr k37-e-3.dpr k37-e-4.dpr k37-e-5.dpr k37-e-6.dpr
 218-e-1.cpp 218-e-2.cpp 218-e-3.cpp 218-e-4.cpp 218-e-5.cpp
+213-e-6.cpp 213-e-7.cpp 213-e-8.cpp 213-e-9.cpp
+g09-e-1.cpp g09-e-2.cpp g09-e-3.cpp g09-e-4.cpp g09-e-5.cpp g09-e-6.cpp
+k39-e-1.cpp k39-e-2.cpp k39-e-3.cpp k39-e-4.cpp
+108-e-1.dpr 108-e-2.dpr 108-e-3.dpr
+401-e-1.pas 401-e-2.pas 401-e-3.pas 401-e-4.pas 401-e-5.pas 401-e-6.pas 401-e-7.pas 401-e-8.pas 401-e-9.pas
+305-e-1.pas 305-e-2.pas 305-e-3.pas 305-e-4.pas 305-e-5.pas 305-e-6.pas 305-e-7.pas 305-e-8.pas 305-e-9.pas
+511-e-1.pas 511-e-2.pas 511-e-3.pas
+209-e-1.cpp 209-e-2.cpp 209-e-3.cpp 209-e-4.cpp 209-e-5.cpp 209-e-6.cpp
+107-e-1.cpp 107-e-2.cpp
+220-e-1.py 220-e-2.py 220-e-3.py
+416-e-1.cpp 416-e-2.cpp 416-e-3.cpp
+217-e-1.cpp 217-e-2.cpp
+411-e-1.py 411-e-2.py 411-e-3.py 411-e-4.py 411-e-5.py 411-e-6.py
+515-e-1.cpp 515-e-2.cpp
+504-e-1.cpp 504-e-2.cpp
+605-e-1.cpp 605-e-2.cpp 605-e-3.cpp 605-e-4.cpp
+103-e-1.cpp 103-e-2.cpp
+301-e-1.cpp 301-e-2.cpp 301-e-3.cpp 301-e-4.cpp
+410-e-1.cpp 410-e-2.cpp 410-e-3.cpp 410-e-4.cpp
+k36-e-1.cpp k36-e-2.cpp k36-e-3.cpp k36-e-4.cpp k36-e-5.cpp k36-e-6.cpp k36-e-7.cpp
+210-e-1.py 210-e-2.py 210-e-3.py 210-e-4.py

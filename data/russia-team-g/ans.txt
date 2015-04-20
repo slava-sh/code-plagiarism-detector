@@ -1,0 +1,125 @@
+124
+u01-g-1.cpp u01-g-2.cpp u01-g-3.cpp u01-g-4.cpp u01-g-5.cpp
+410-g-1.pas 410-g-2.pas
+209-g-1.cpp 209-g-2.cpp 209-g-3.cpp
+k33-g-1.cpp k33-g-2.cpp k33-g-3.cpp k33-g-4.cpp k33-g-5.cpp k33-g-6.cpp k33-g-7.cpp k33-g-8.cpp k33-g-9.cpp
+504-g-1.cpp 504-g-2.cpp
+406-g-10.cpp 406-g-8.cpp 406-g-9.cpp
+421-g-1.cpp 421-g-2.cpp
+201-g-1.cpp 201-g-2.cpp 201-g-3.cpp 201-g-4.cpp
+203-g-1.cpp 203-g-10.cpp 203-g-11.cpp 203-g-12.cpp 203-g-13.cpp 203-g-14.cpp 203-g-15.cpp 203-g-16.cpp 203-g-2.cpp 203-g-3.cpp 203-g-4.cpp 203-g-5.cpp 203-g-7.cpp 203-g-9.cpp
+k01-g-1.cpp k01-g-2.cpp k01-g-3.cpp
+108-g-1.cpp 108-g-2.cpp
+408-g-1.cpp 408-g-2.cpp 408-g-3.cpp 408-g-4.cpp 408-g-5.cpp 408-g-6.cpp 408-g-7.cpp 408-g-8.cpp
+103-g-1.cpp 103-g-2.cpp
+k09-g-1.cpp k09-g-2.cpp k09-g-3.cpp k09-g-4.cpp k09-g-5.cpp
+309-g-1.py 309-g-2.py 309-g-3.py
+115-g-1.cpp 115-g-2.cpp 115-g-3.cpp 115-g-4.cpp 115-g-5.cpp 115-g-6.cpp 115-g-7.cpp 115-g-8.cpp
+202-g-1.py 202-g-2.py
+520-g-1.cpp 520-g-2.cpp
+k45-g-1.cpp k45-g-2.cpp k45-g-3.cpp
+213-g-1.dpr 213-g-2.dpr
+524-g-1.dpr 524-g-2.dpr 524-g-3.dpr
+g15-g-1.cpp g15-g-2.cpp g15-g-3.cpp
+k41-g-1.cpp k41-g-2.cpp k41-g-3.cpp k41-g-4.cpp
+k28-g-1.cpp k28-g-2.cpp k28-g-3.cpp k28-g-4.cpp k28-g-5.cpp
+406-g-1.pas 406-g-2.pas 406-g-3.pas 406-g-4.pas 406-g-5.pas 406-g-6.pas 406-g-7.pas
+k31-g-1.cpp k31-g-2.cpp k31-g-3.cpp k31-g-4.cpp k31-g-5.cpp
+522-g-1.cpp 522-g-10.cpp 522-g-11.cpp 522-g-2.cpp 522-g-3.cpp 522-g-4.cpp 522-g-5.cpp 522-g-6.cpp 522-g-7.cpp 522-g-8.cpp 522-g-9.cpp
+501-g-1.cpp 501-g-2.cpp 501-g-3.cpp 501-g-4.cpp 501-g-5.cpp 501-g-6.cpp
+k37-g-1.cpp k37-g-2.cpp k37-g-3.cpp
+114-g-1.cpp 114-g-2.cpp
+u07-g-14.dpr u07-g-17.dpr
+519-g-1.cpp 519-g-2.cpp 519-g-3.cpp
+304-g-1.pas 304-g-2.pas
+110-g-1.cpp 110-g-2.cpp
+603-g-1.dpr 603-g-2.dpr 603-g-3.dpr
+509-g-1.cpp 509-g-2.cpp 509-g-3.cpp
+106-g-1.cpp 106-g-2.cpp 106-g-3.cpp
+515-g-1.py 515-g-2.py 515-g-3.py 515-g-4.py
+310-g-1.cpp 310-g-2.cpp 310-g-3.cpp
+k03-g-1.cpp k03-g-2.cpp k03-g-3.cpp
+422-g-1.pas 422-g-2.pas 422-g-3.pas
+220-g-1.cpp 220-g-2.cpp 220-g-3.cpp 220-g-4.cpp
+503-g-1.cpp 503-g-2.cpp 503-g-3.cpp
+u09-g-1.dpr u09-g-2.dpr u09-g-3.dpr u09-g-4.dpr u09-g-5.dpr
+k06-g-1.cpp k06-g-2.cpp k06-g-3.cpp
+521-g-1.py 521-g-2.py
+k02-g-5.cpp k02-g-6.cpp
+k38-g-1.cpp k38-g-10.cpp k38-g-11.cpp k38-g-12.cpp k38-g-13.cpp k38-g-14.cpp k38-g-15.cpp k38-g-16.cpp k38-g-17.cpp k38-g-18.cpp k38-g-19.cpp k38-g-2.cpp k38-g-20.cpp k38-g-21.cpp k38-g-22.cpp k38-g-23.cpp k38-g-24.cpp k38-g-25.cpp k38-g-3.cpp k38-g-4.cpp k38-g-5.cpp k38-g-6.cpp k38-g-7.cpp k38-g-8.cpp k38-g-9.cpp
+g11-g-1.cpp g11-g-2.cpp g11-g-3.cpp g11-g-4.cpp g11-g-5.cpp g11-g-6.cpp g11-g-7.cpp g11-g-8.cpp
+g09-g-1.cpp g09-g-2.cpp g09-g-3.cpp
+k36-g-1.cpp k36-g-2.cpp k36-g-3.cpp k36-g-4.cpp
+211-g-1.pas 211-g-2.pas 211-g-3.pas
+423-g-1.cpp 423-g-2.cpp 423-g-3.cpp 423-g-4.cpp 423-g-5.cpp
+k29-g-1.cpp k29-g-2.cpp k29-g-3.cpp k29-g-4.cpp k29-g-5.cpp
+507-g-1.cpp 507-g-2.cpp
+604-g-1.cpp 604-g-2.cpp
+208-g-1.cpp 208-g-2.cpp 208-g-3.cpp 208-g-4.cpp 208-g-5.cpp 208-g-6.cpp
+216-g-1.cpp 216-g-2.cpp 216-g-3.cpp 216-g-4.cpp 216-g-5.cpp 216-g-6.cpp 216-g-7.cpp
+415-g-1.pas 415-g-2.pas 415-g-3.pas
+203-g-6.pas 203-g-8.pas
+k30-g-1.cpp k30-g-2.cpp k30-g-3.cpp
+221-g-1.pas 221-g-2.pas 221-g-3.pas
+g05-g-1.cpp g05-g-2.cpp g05-g-3.cpp g05-g-4.cpp g05-g-5.cpp g05-g-6.cpp
+g08-g-1.cpp g08-g-2.cpp g08-g-3.cpp g08-g-4.cpp
+407-g-1.cpp 407-g-2.cpp 407-g-3.cpp
+k02-g-1.pas k02-g-2.pas k02-g-3.pas k02-g-4.pas
+401-g-1.pas 401-g-2.pas
+413-g-1.cpp 413-g-2.cpp
+511-g-1.pas 511-g-2.pas 511-g-3.pas
+301-g-1.pas 301-g-2.pas 301-g-3.pas
+k21-g-1.cpp k21-g-2.cpp k21-g-3.cpp
+513-g-1.cpp 513-g-2.cpp
+523-g-1.cpp 523-g-2.cpp
+510-g-1.cpp 510-g-2.cpp 510-g-3.cpp
+214-g-1.cpp 214-g-2.cpp
+307-g-1.cpp 307-g-2.cpp 307-g-3.cpp
+210-g-1.py 210-g-2.py 210-g-3.py 210-g-4.py 210-g-5.py
+k07-g-1.cpp k07-g-2.cpp
+g06-g-1.cpp g06-g-2.cpp g06-g-3.cpp g06-g-4.cpp
+405-g-1.dpr 405-g-2.dpr
+k35-g-1.cpp k35-g-2.cpp k35-g-3.cpp k35-g-4.cpp k35-g-5.cpp
+g01-g-1.cpp g01-g-2.cpp g01-g-3.cpp
+g14-g-1.cpp g14-g-2.cpp g14-g-3.cpp g14-g-4.cpp g14-g-5.cpp
+k04-g-1.cpp k04-g-2.cpp k04-g-3.cpp k04-g-4.cpp k04-g-5.cpp k04-g-6.cpp k04-g-7.cpp
+411-g-1.py 411-g-2.py 411-g-3.py 411-g-4.py 411-g-5.py 411-g-6.py
+g04-g-1.cpp g04-g-2.cpp g04-g-3.cpp
+k43-g-1.cpp k43-g-10.cpp k43-g-11.cpp k43-g-12.cpp k43-g-13.cpp k43-g-14.cpp k43-g-15.cpp k43-g-16.cpp k43-g-17.cpp k43-g-18.cpp k43-g-19.cpp k43-g-2.cpp k43-g-20.cpp k43-g-21.cpp k43-g-3.cpp k43-g-4.cpp k43-g-5.cpp k43-g-6.cpp k43-g-7.cpp k43-g-8.cpp k43-g-9.cpp
+u02-g-1.cpp u02-g-2.cpp u02-g-3.cpp u02-g-4.cpp u02-g-5.cpp u02-g-6.cpp u02-g-7.cpp
+k18-g-1.cpp k18-g-2.cpp k18-g-3.cpp k18-g-4.cpp k18-g-5.cpp k18-g-6.cpp
+218-g-1.cpp 218-g-2.cpp 218-g-3.cpp
+414-g-1.cpp 414-g-2.cpp 414-g-3.cpp
+k40-g-1.cpp k40-g-2.cpp k40-g-3.cpp k40-g-4.cpp k40-g-5.cpp k40-g-6.cpp
+417-g-1.cpp 417-g-2.cpp
+k20-g-1.cpp k20-g-2.cpp k20-g-3.cpp
+517-g-1.cpp 517-g-2.cpp 517-g-3.cpp 517-g-4.cpp 517-g-5.cpp 517-g-6.cpp
+403-g-1.cpp 403-g-2.cpp 403-g-3.cpp 403-g-4.cpp
+219-g-1.cpp 219-g-2.cpp 219-g-3.cpp 219-g-4.cpp 219-g-5.cpp 219-g-6.cpp
+605-g-1.cpp 605-g-2.cpp
+105-g-1.cpp 105-g-2.cpp
+215-g-1.py 215-g-2.py 215-g-3.py 215-g-4.py
+k39-g-1.cpp k39-g-2.cpp k39-g-3.cpp
+g07-g-1.cpp g07-g-2.cpp g07-g-3.cpp
+u03-g-1.cpp u03-g-2.cpp u03-g-3.cpp u03-g-4.cpp u03-g-5.cpp
+305-g-1.cpp 305-g-2.cpp 305-g-3.cpp 305-g-4.cpp 305-g-5.cpp 305-g-6.cpp
+k44-g-1.pas k44-g-2.pas k44-g-3.pas
+k32-g-1.cpp k32-g-2.cpp k32-g-3.cpp
+308-g-1.cpp 308-g-2.cpp
+104-g-1.cpp 104-g-2.cpp 104-g-3.cpp 104-g-4.cpp
+u07-g-1.pas u07-g-10.pas u07-g-11.pas u07-g-12.pas u07-g-13.pas u07-g-15.pas u07-g-16.pas u07-g-2.pas u07-g-3.pas u07-g-4.pas u07-g-5.pas u07-g-6.pas u07-g-7.pas u07-g-8.pas u07-g-9.pas
+402-g-1.py 402-g-2.py 402-g-3.py
+508-g-1.cpp 508-g-2.cpp 508-g-3.cpp 508-g-4.cpp 508-g-5.cpp
+k11-g-1.cpp k11-g-2.cpp
+601-g-1.cpp 601-g-2.cpp 601-g-3.cpp 601-g-4.cpp 601-g-5.cpp 601-g-6.cpp
+k14-g-1.cpp k14-g-2.cpp k14-g-3.cpp k14-g-4.cpp
+g13-g-1.cpp g13-g-2.cpp g13-g-3.cpp g13-g-4.cpp
+424-g-1.pas 424-g-2.pas
+206-g-1.py 206-g-3.py 206-g-4.py
+502-g-1.cpp 502-g-2.cpp 502-g-3.cpp 502-g-4.cpp 502-g-5.cpp 502-g-6.cpp
+204-g-1.java 204-g-2.java 204-g-3.java
+k08-g-1.cpp k08-g-2.cpp k08-g-3.cpp k08-g-4.cpp
+420-g-1.dpr 420-g-2.dpr 420-g-3.dpr 420-g-4.dpr 420-g-5.dpr 420-g-6.dpr
+g02-g-1.cpp g02-g-2.cpp g02-g-3.cpp g02-g-4.cpp
+g03-g-1.cpp g03-g-2.cpp g03-g-3.cpp g03-g-4.cpp g03-g-5.cpp
+514-g-1.pas 514-g-2.pas 514-g-3.pas

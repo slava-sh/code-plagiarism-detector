@@ -1,0 +1,75 @@
+74
+106-d-1.cpp 106-d-2.cpp 106-d-3.cpp
+g14-d-1.cpp g14-d-2.cpp g14-d-3.cpp g14-d-4.cpp g14-d-5.cpp g14-d-6.cpp g14-d-7.cpp
+510-d-1.cpp 510-d-2.cpp 510-d-3.cpp
+108-d-1.cpp 108-d-2.cpp 108-d-3.cpp
+111-d-1.pas 111-d-2.pas 111-d-3.pas 111-d-4.pas 111-d-5.pas 111-d-6.pas
+513-d-1.cpp 513-d-2.cpp 513-d-3.cpp 513-d-4.cpp
+k09-d-1.cpp k09-d-2.cpp
+k20-d-1.cpp k20-d-2.cpp k20-d-3.cpp k20-d-4.cpp k20-d-5.cpp k20-d-6.cpp k20-d-7.cpp k20-d-8.cpp k20-d-9.cpp
+517-d-1.cpp 517-d-2.cpp 517-d-3.cpp
+424-d-1.pas 424-d-2.pas 424-d-3.pas 424-d-4.pas 424-d-5.pas
+k38-d-1.cpp k38-d-2.cpp
+220-d-2.java 220-d-3.java 220-d-4.java 220-d-5.java
+g10-d-1.cpp g10-d-2.cpp g10-d-3.cpp
+502-d-1.cpp 502-d-2.cpp
+411-d-1.py 411-d-2.py 411-d-3.py
+218-d-1.cpp 218-d-2.cpp 218-d-3.cpp
+u11-d-1.cpp u11-d-2.cpp u11-d-3.cpp u11-d-4.cpp u11-d-5.cpp u11-d-6.cpp
+406-d-1.cpp 406-d-10.cpp 406-d-11.cpp 406-d-2.cpp 406-d-3.cpp 406-d-4.cpp 406-d-5.cpp 406-d-6.cpp 406-d-8.cpp 406-d-9.cpp
+107-d-1.cpp 107-d-2.cpp
+k28-d-1.cpp k28-d-2.cpp
+g03-d-1.cpp g03-d-10.cpp g03-d-11.cpp g03-d-12.cpp g03-d-13.cpp g03-d-14.cpp g03-d-15.cpp g03-d-16.cpp g03-d-17.cpp g03-d-18.cpp g03-d-19.cpp g03-d-2.cpp g03-d-20.cpp g03-d-21.cpp g03-d-3.cpp g03-d-4.cpp g03-d-5.cpp g03-d-6.cpp g03-d-7.cpp g03-d-8.cpp g03-d-9.cpp
+416-d-1.cpp 416-d-2.cpp
+g11-d-1.cpp g11-d-2.cpp g11-d-3.cpp g11-d-4.cpp g11-d-5.cpp g11-d-6.cpp g11-d-7.cpp
+k37-d-1.cpp k37-d-2.cpp k37-d-3.cpp k37-d-4.cpp k37-d-5.cpp
+g06-d-1.cpp g06-d-2.cpp g06-d-3.cpp
+g08-d-1.cpp g08-d-2.cpp g08-d-3.cpp g08-d-4.cpp g08-d-5.cpp g08-d-6.cpp g08-d-7.cpp g08-d-8.cpp
+521-d-1.py 521-d-10.py 521-d-11.py 521-d-2.py 521-d-3.py 521-d-4.py 521-d-5.py 521-d-6.py 521-d-7.py 521-d-8.py 521-d-9.py
+k08-d-1.cpp k08-d-10.cpp k08-d-11.cpp k08-d-12.cpp k08-d-13.cpp k08-d-14.cpp k08-d-15.cpp k08-d-2.cpp k08-d-3.cpp k08-d-4.cpp k08-d-5.cpp k08-d-6.cpp k08-d-7.cpp k08-d-8.cpp k08-d-9.cpp
+523-d-1.cpp 523-d-2.cpp 523-d-3.cpp
+102-d-1.dpr 102-d-2.dpr
+601-d-1.cpp 601-d-2.cpp 601-d-3.cpp 601-d-4.cpp
+409-d-1.cpp 409-d-2.cpp
+g15-d-1.cpp g15-d-10.cpp g15-d-11.cpp g15-d-12.cpp g15-d-13.cpp g15-d-14.cpp g15-d-15.cpp g15-d-16.cpp g15-d-17.cpp g15-d-18.cpp g15-d-2.cpp g15-d-3.cpp g15-d-4.cpp g15-d-5.cpp g15-d-6.cpp g15-d-7.cpp g15-d-8.cpp g15-d-9.cpp
+516-d-1.cpp 516-d-2.cpp
+206-d-1.py 206-d-2.py 206-d-3.py 206-d-4.py 206-d-5.py
+301-d-1.java 301-d-2.java 301-d-3.java 301-d-4.java 301-d-5.java 301-d-6.java 301-d-7.java
+403-d-1.cpp 403-d-2.cpp
+221-d-1.pas 221-d-2.pas
+k02-d-1.pas k02-d-2.pas k02-d-3.pas k02-d-4.pas
+519-d-1.cpp 519-d-2.cpp 519-d-3.cpp 519-d-4.cpp
+404-d-1.cpp 404-d-2.cpp 404-d-3.cpp 404-d-4.cpp
+109-d-1.cpp 109-d-2.cpp
+g04-d-1.cpp g04-d-2.cpp g04-d-3.cpp
+105-d-1.cpp 105-d-2.cpp
+k19-d-1.cpp k19-d-2.cpp k19-d-3.cpp k19-d-4.cpp
+415-d-1.pas 415-d-2.pas 415-d-3.pas 415-d-4.pas 415-d-5.pas 415-d-6.pas
+402-d-1.py 402-d-2.py
+209-d-1.cpp 209-d-2.cpp
+421-d-1.cpp 421-d-2.cpp 421-d-3.cpp 421-d-4.cpp
+201-d-1.cpp 201-d-10.cpp 201-d-11.cpp 201-d-12.cpp 201-d-13.cpp 201-d-14.cpp 201-d-15.cpp 201-d-16.cpp 201-d-2.cpp 201-d-3.cpp 201-d-4.cpp 201-d-5.cpp 201-d-6.cpp 201-d-7.cpp 201-d-8.cpp 201-d-9.cpp
+k43-d-1.cpp k43-d-2.cpp k43-d-3.cpp k43-d-4.cpp
+g09-d-1.cpp g09-d-2.cpp g09-d-3.cpp g09-d-4.cpp g09-d-5.cpp
+418-d-1.cpp 418-d-2.cpp
+603-d-1.dpr 603-d-2.dpr 603-d-3.dpr 603-d-4.dpr
+k14-d-1.cpp k14-d-2.cpp
+115-d-1.cpp 115-d-2.cpp 115-d-3.cpp 115-d-4.cpp 115-d-5.cpp
+420-d-1.dpr 420-d-2.dpr 420-d-3.dpr 420-d-4.dpr
+514-d-1.pas 514-d-2.pas 514-d-3.pas 514-d-4.pas 514-d-5.pas
+203-d-1.cpp 203-d-2.cpp
+506-d-1.cpp 506-d-2.cpp
+205-d-1.cpp 205-d-2.cpp
+k29-d-1.cpp k29-d-2.cpp k29-d-3.cpp k29-d-4.cpp k29-d-5.cpp
+214-d-1.cpp 214-d-2.cpp 214-d-3.cpp
+k39-d-1.cpp k39-d-2.cpp k39-d-3.cpp k39-d-4.cpp
+216-d-1.cpp 216-d-2.cpp
+k33-d-1.cpp k33-d-10.cpp k33-d-11.cpp k33-d-12.cpp k33-d-13.cpp k33-d-14.cpp k33-d-15.cpp k33-d-2.cpp k33-d-3.cpp k33-d-4.cpp k33-d-5.cpp k33-d-6.cpp k33-d-7.cpp k33-d-8.cpp k33-d-9.cpp
+310-d-1.cpp 310-d-2.cpp 310-d-3.cpp 310-d-4.cpp 310-d-5.cpp 310-d-6.cpp 310-d-7.cpp
+515-d-1.cpp 515-d-2.cpp 515-d-3.cpp 515-d-4.cpp
+g07-d-1.cpp g07-d-2.cpp g07-d-3.cpp g07-d-4.cpp g07-d-5.cpp g07-d-6.cpp g07-d-7.cpp
+604-d-1.cpp 604-d-2.cpp
+g05-d-1.cpp g05-d-10.cpp g05-d-11.cpp g05-d-12.cpp g05-d-13.cpp g05-d-14.cpp g05-d-15.cpp g05-d-16.cpp g05-d-2.cpp g05-d-3.cpp g05-d-4.cpp g05-d-5.cpp g05-d-6.cpp g05-d-7.cpp g05-d-8.cpp g05-d-9.cpp
+308-d-1.cpp 308-d-2.cpp 308-d-3.cpp 308-d-4.cpp
+520-d-1.cpp 520-d-2.cpp
+401-d-1.pas 401-d-2.pas 401-d-3.pas 401-d-4.pas 401-d-5.pas 401-d-6.pas
