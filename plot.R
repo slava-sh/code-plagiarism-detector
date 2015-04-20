@@ -16,9 +16,11 @@ data$Right <- data$Ans == data$Guess
 svg(output.svg, width=7, height=7)
 
 with(data, plot(DistRatio ~ Size,
-                col=ifelse(data$Right, 8, ifelse(data$Guess == 0, "blue", "red")),
-                cex=ifelse(data$Right, 0.3, 1),
+                col=ifelse(Right, ifelse(Guess == 0, 8, "lightpink"), ifelse(Guess == 0, "blue", "red")),
+                cex=ifelse(Right, 0.3, 1),
                 pch=16))
+
+with(data[!data$Right,], text(DistRatio ~ Size, labels=paste(I, J), cex=0.8, pos=4))
 
 MAX_DIST_RATIO       <- 0.35
 MAX_DIST_RATIO_SMALL <- 0.228
