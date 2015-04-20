@@ -147,6 +147,7 @@ string remove_comments(string code, const string& extension) {
     else if (extension == "pas" || extension == "dpr") {
         code = remove_nested(code, "{$if", "{$endif}");
         code = remove_nonnested(code, "{", "}");
+        code = remove_nonnested(code, "(*", "*)");
     }
     else if (extension == "hs") {
         code = remove_nested(code, "{-", "-}");
