@@ -402,12 +402,12 @@ struct Solution {
     string filename;
     string code;
     map< string, int > id;
-    vector< int > mess;
+    vector< int > fingerprint;
     bool is_grouped;
 
     Solution(): is_grouped(false) {}
 
-    void create_mess() {
+    void create_fingerprint() {
         static const string main = "main";
 
         auto extension = file_extension(filename);
@@ -472,7 +472,7 @@ struct Solution {
                     id[token] = id.size();
                 }
             }
-            mess.push_back(id[token]);
+            fingerprint.push_back(id[token]);
         }
     }
 };
@@ -528,7 +528,7 @@ int main() {
             safe_getline(cin, solution.filename);
         } while (solution.filename.empty());
         solution.code = read_file(solution.filename.c_str());
-        solution.create_mess();
+        solution.create_fingerprint();
     }
 
 #ifdef DEBUG
@@ -570,11 +570,10 @@ int main() {
             if (j->is_grouped) {
                 continue;
             }
-            auto dist = levenshtein_distance(i->mess, j->mess);
-            auto mess_size = (double) (i->mess.size() + j->mess.size()) / 2;
-            bool ans = false;
-            if (check(mess_size, dist)) {
-                ans = true;
+            auto dist = levenshtein_distance(i->fingerprint, j->fingerprint);
+            auto size = (double) (i->fingerprint.size() + j->fingerprint.size()) / 2;
+            bool ans = check(size, dist);
+            if (ans) {
                 group.insert(j->filename);
                 j->is_grouped = true;
             }
@@ -589,8 +588,8 @@ int main() {
             }
             data_tsv << right_ans + 0 << "\t"
                      << ans + 0 << "\t"
-                     << mess_size << "\t"
-                     << (double) dist / mess_size << "\t"
+                     << size << "\t"
+                     << (double) dist / size << "\t"
                      << dist << "\t"
                      << i->filename << "\t"
                      << j->filename << endl;
