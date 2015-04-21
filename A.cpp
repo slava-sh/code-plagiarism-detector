@@ -12,11 +12,12 @@
 #include <algorithm>
 using namespace std;
 
-bool check(double size, double dist) {
-    static const double hi = 0.35;
-    static const double lo = 0.228;
-    auto ratio = dist / size;
-    return (ratio - lo) * (1 + exp(-0.03 * (size - 580))) < hi - lo;
+bool check(double size, double ratio) {
+    static const double hi    = 0.35;
+    static const double lo    = 0.228;
+    static const double peak  = 580;
+    static const double boost = 0.03;
+    return (ratio - lo) * (1 + exp(-boost * (size - peak))) < hi - lo;
 }
 
 string read_file(const char *filename) {
@@ -572,7 +573,8 @@ int main() {
             }
             auto dist = levenshtein_distance(i->fingerprint, j->fingerprint);
             auto size = (double) (i->fingerprint.size() + j->fingerprint.size()) / 2;
-            bool ans = check(size, dist);
+            auto ratio = dist / size;
+            bool ans = check(size, ratio);
             if (ans) {
                 group.insert(j->filename);
                 j->is_grouped = true;
