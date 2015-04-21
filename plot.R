@@ -13,7 +13,7 @@ data$Ans   <- as.factor(data$Ans)
 data$Guess <- as.factor(data$Guess)
 data$Right <- data$Ans == data$Guess
 
-size <- 12
+size <- 20
 svg(output.svg, width=size, height=size)
 
 with(data, plot(DistRatio ~ Size,

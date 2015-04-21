@@ -1,0 +1,51 @@
+50
+000100-open-2015-326-Green.cpp 000126-open-2015-326-Green.cpp 000151-open-2015-326-Green.cpp
+000133-open-2015-174-Green.cpp 000974-open-2015-174-Green.cpp
+000142-open-2015-191-Green.cpp 000295-open-2015-191-Green.cpp
+000171-open-2015-326-Green.cpp 000177-open-2015-326-Green.cpp
+000176-open-2015-152-Green.cpp 000201-open-2015-152-Green.cpp 000222-open-2015-152-Green.cpp
+000259-open-2015-239-Green.cpp 000365-open-2015-239-Green.cpp
+000307-open-2015-334-Green.cpp 000371-open-2015-334-Green.cpp
+000348-open-2015-145-Green.cpp 000378-open-2015-145-Green.cpp
+000539-open-2015-334-Green.cpp 005891-open-2015-334-Green.cpp
+000557-open-2015-256-Green.cpp 000574-open-2015-256-Green.cpp 000841-open-2015-256-Green.cpp 000850-open-2015-256-Green.cpp
+000702-open-2015-171-Green.cpp 001764-open-2015-171-Green.cpp
+000810-open-2015-022-Green.cpp 001081-open-2015-022-Green.cpp
+000812-open-2015-206-Green.cpp 001444-open-2015-206-Green.cpp 001492-open-2015-206-Green.cpp 001926-open-2015-206-Green.cpp
+000842-open-2015-206-Green.cpp 001030-open-2015-206-Green.cpp
+000861-open-2015-094-Green.cpp 001324-open-2015-094-Green.cpp
+000947-open-2015-207-Green.cpp 000979-open-2015-207-Green.cpp
+001060-open-2015-314-Green.cpp 002216-open-2015-314-Green.cpp
+001272-open-2015-328-Green.cpp 001285-open-2015-328-Green.cpp
+001374-open-2015-290-Green.py 001385-open-2015-290-Green.cpp 001442-open-2015-290-Green.cpp 003858-open-2015-065-Green.cpp
+001519-open-2015-342-Green.cpp 001545-open-2015-342-Green.cpp
+002281-open-2015-071-Green.cpp 006859-open-2015-071-Green.cpp
+002358-open-2015-004-Green.cpp 002538-open-2015-004-Green.cpp
+002380-open-2015-023-Green.pas 002763-open-2015-023-Green.pas
+002432-open-2015-314-Green.cpp 004533-open-2015-314-Green.cpp
+002490-open-2015-336-Green.cpp 002526-open-2015-336-Green.cpp
+002912-open-2015-283-Green.cpp 002929-open-2015-283-Green.cpp
+003167-open-2015-130-Green.cpp 003447-open-2015-130-Green.cpp
+003283-open-2015-216-Green.cpp 003325-open-2015-216-Green.cpp
+003629-open-2015-067-Green.cpp 003822-open-2015-067-Green.cpp 003914-open-2015-067-Green.cpp 004058-open-2015-067-Green.cpp 004098-open-2015-067-Green.cpp
+003644-open-2015-072-Green.cpp 003714-open-2015-072-Green.cpp 003726-open-2015-072-Green.cpp
+003767-open-2015-153-Green.cpp 006143-open-2015-153-Green.cpp 006413-open-2015-153-Green.cpp 006633-open-2015-153-Green.cpp 006843-open-2015-153-Green.cpp
+003844-open-2015-167-Green.cpp 003878-open-2015-167-Green.cpp
+003928-open-2015-270-Green.cpp 004026-open-2015-270-Green.cpp 004065-open-2015-270-Green.cpp 004081-open-2015-270-Green.cpp
+004035-open-2015-155-Green.cpp 005781-open-2015-155-Green.cpp
+004282-open-2015-053-Green.cpp 005600-open-2015-053-Green.cpp
+004308-open-2015-072-Green.cpp 004434-open-2015-072-Green.cpp 004540-open-2015-072-Green.cpp
+004482-open-2015-321-Green.cpp 005910-open-2015-321-Green.cpp
+004496-open-2015-077-Green.cpp 004708-open-2015-077-Green.cpp
+004511-open-2015-326-Green.cpp 004821-open-2015-326-Green.cpp 004851-open-2015-326-Green.cpp
+004619-open-2015-095-Green.cpp 004720-open-2015-095-Green.cpp
+004706-open-2015-322-Green.cpp 005059-open-2015-322-Green.cpp 005138-open-2015-322-Green.cpp
+004784-open-2015-117-Green.cpp 004927-open-2015-117-Green.cpp
+004838-open-2015-094-Green.cpp 004849-open-2015-094-Green.cpp
+005344-open-2015-177-Green.cpp 006540-open-2015-177-Green.cpp
+005411-open-2015-207-Green.cpp 005953-open-2015-207-Green.cpp 005989-open-2015-207-Green.cpp
+005538-open-2015-079-Green.cpp 006058-open-2015-079-Green.cpp 006098-open-2015-079-Green.cpp
+005653-open-2015-207-Green.cpp 006025-open-2015-207-Green.cpp 006510-open-2015-207-Green.cpp
+005820-open-2015-212-Green.cpp 006249-open-2015-212-Green.cpp
+005915-open-2015-152-Green.cpp 006243-open-2015-152-Green.cpp 006307-open-2015-152-Green.cpp
+006555-open-2015-152-Green.cpp 006676-open-2015-152-Green.cpp
