@@ -62,12 +62,12 @@ def main():
     if print_was and was:
         for sample in sorted(was.keys()):
             print('{} WAs:'.format(sample))
-            for a, b in was[sample]:
+            for a, b in sorted(was[sample]):
                 print(' data/{}/sources/{} data/{}/sources/{}'.format(sample, a, sample, b))
     if print_misses and misses:
         for sample in sorted(misses.keys()):
             print('{} misses:'.format(sample))
-            for a, b in misses[sample]:
+            for a, b in sorted(misses[sample]):
                 print(' data/{}/sources/{} data/{}/sources/{}'.format(sample, a, sample, b))
 
 if __name__ == '__main__':
