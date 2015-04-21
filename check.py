@@ -1,4 +1,4 @@
-import sys
+import argparse
 
 def read_answer(f):
     groups = list(map(lambda line: line.split(), f.readlines()[1:]))
@@ -31,7 +31,10 @@ def score_sample(sample):
         score = 0
         print(' PE', end=' ')
     elif given.issubset(correct):
-        score = int(round(len(given) * 100. / len(correct)))
+        if correct:
+            score = int(round(len(given) * 100. / len(correct)))
+        else:
+            score = 100
         print('{:3}'.format(score), end=' ')
         for i in correct - given:
             misses.setdefault(sample, []).append(i)
@@ -43,21 +46,29 @@ def score_sample(sample):
     return score
 
 def main():
-    samples = sys.argv[1:]
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--no-misses', action='store_true')
+    parser.add_argument('--no-was', action='store_true')
+    parser.add_argument('samples', nargs='*')
+    args = parser.parse_args()
+    samples = args.samples
+    print_misses = not args.no_misses
+    print_was = not args.no_was
+
     score = 0
     for sample in samples:
         score += score_sample(sample)
-    print('| {}'.format(score))
-    if was:
+    print('| {} / {}'.format(score, len(samples) * 100))
+    if print_was and was:
         for sample in sorted(was.keys()):
             print('{} WAs:'.format(sample))
             for a, b in was[sample]:
-                print(' {:10} {:10}'.format(a, b))
-    if misses:
+                print(' data/{}/sources/{} data/{}/sources/{}'.format(sample, a, sample, b))
+    if print_misses and misses:
         for sample in sorted(misses.keys()):
             print('{} misses:'.format(sample))
             for a, b in misses[sample]:
-                print(' {:10} {:10}'.format(a, b))
+                print(' data/{}/sources/{} data/{}/sources/{}'.format(sample, a, sample, b))
 
 if __name__ == '__main__':
     main()
