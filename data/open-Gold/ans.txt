@@ -1,0 +1,40 @@
+39
+002177-open-2015-121-Gold.cpp 006697-open-2015-121-Gold.cpp
+006939-open-2015-321-Gold.cpp 006960-open-2015-321-Gold.cpp
+001676-open-2015-067-Gold.cpp 001753-open-2015-067-Gold.cpp 001840-open-2015-067-Gold.cpp 001889-open-2015-067-Gold.cpp
+003446-open-2015-157-Gold.cpp 003494-open-2015-157-Gold.cpp 003509-open-2015-157-Gold.cpp 003686-open-2015-157-Gold.cpp 003762-open-2015-157-Gold.cpp
+004252-open-2015-340-Gold.cpp 011112-open-2015-340-Gold.cpp
+000718-open-2015-336-Gold.cpp 004902-open-2015-336-Gold.cpp 005350-open-2015-336-Gold.cpp 005391-open-2015-336-Gold.cpp 005508-open-2015-336-Gold.cpp 008764-open-2015-336-Gold.cpp 009926-open-2015-336-Gold.cpp 010092-open-2015-336-Gold.cpp
+000452-open-2015-274-Gold.cpp 004228-open-2015-274-Gold.cpp 004313-open-2015-274-Gold.cpp
+005732-open-2015-348-Gold.cpp 005873-open-2015-348-Gold.cpp 006441-open-2015-348-Gold.cpp 007012-open-2015-348-Gold.cpp 007029-open-2015-348-Gold.cpp 007254-open-2015-348-Gold.cpp 007333-open-2015-348-Gold.cpp 011088-open-2015-348-Gold.cpp 011221-open-2015-348-Gold.cpp
+003683-open-2015-011-Gold.cpp 005627-open-2015-011-Gold.cpp 009083-open-2015-011-Gold.cpp
+000364-open-2015-264-Gold.cpp 000377-open-2015-264-Gold.cpp 000399-open-2015-264-Gold.cpp 000408-open-2015-264-Gold.cpp
+000420-open-2015-077-Gold.cpp 000874-open-2015-077-Gold.cpp
+000937-open-2015-342-Gold.cpp 001900-open-2015-342-Gold.cpp
+000991-open-2015-174-Gold.cpp 001366-open-2015-174-Gold.cpp 001476-open-2015-174-Gold.cpp
+006087-open-2015-177-Gold.py 006243-open-2015-177-Gold.py 010600-open-2015-177-Gold.py
+001403-open-2015-094-Gold.cpp 001420-open-2015-094-Gold.cpp 001455-open-2015-094-Gold.cpp 001473-open-2015-094-Gold.cpp 001604-open-2015-094-Gold.cpp 001644-open-2015-094-Gold.cpp
+003009-open-2015-118-Gold.cpp 003179-open-2015-118-Gold.cpp 003271-open-2015-118-Gold.cpp 003380-open-2015-118-Gold.cpp
+004371-open-2015-255-Gold.cpp 004469-open-2015-255-Gold.cpp
+001227-open-2015-177-Gold.cpp 001347-open-2015-177-Gold.cpp 001451-open-2015-177-Gold.cpp 009857-open-2015-177-Gold.cpp 009925-open-2015-177-Gold.cpp 010610-open-2015-177-Gold.cpp 011095-open-2015-177-Gold.cpp
+001851-open-2015-018-Gold.cpp 001937-open-2015-018-Gold.cpp
+000297-open-2015-334-Gold.cpp 000354-open-2015-334-Gold.cpp
+001936-open-2015-153-Gold.cpp 002276-open-2015-153-Gold.cpp
+000200-open-2015-169-Gold.cpp 000409-open-2015-169-Gold.cpp
+000227-open-2015-206-Gold.cpp 003200-open-2015-206-Gold.cpp 003277-open-2015-206-Gold.cpp 003371-open-2015-206-Gold.cpp 003382-open-2015-206-Gold.cpp 007466-open-2015-206-Gold.cpp 007501-open-2015-206-Gold.cpp
+001237-open-2015-322-Gold.cpp 010447-open-2015-322-Gold.cpp
+000855-open-2015-071-Gold.cpp 001093-open-2015-071-Gold.cpp
+001091-open-2015-146-Gold.pas 007492-open-2015-146-Gold.pas
+004212-open-2015-203-Gold.cpp 006319-open-2015-203-Gold.cpp 006342-open-2015-203-Gold.cpp 006431-open-2015-203-Gold.cpp 006734-open-2015-203-Gold.cpp 006943-open-2015-203-Gold.cpp 006971-open-2015-203-Gold.cpp
+003072-open-2015-208-Gold.java 006480-open-2015-208-Gold.java 006517-open-2015-208-Gold.java
+000997-open-2015-326-Gold.cpp 009230-open-2015-326-Gold.cpp 009414-open-2015-326-Gold.cpp 009597-open-2015-326-Gold.cpp 009641-open-2015-326-Gold.cpp 010004-open-2015-326-Gold.cpp 010021-open-2015-326-Gold.cpp 010088-open-2015-326-Gold.cpp 010544-open-2015-326-Gold.cpp 010887-open-2015-326-Gold.cpp 010994-open-2015-326-Gold.cpp 011081-open-2015-326-Gold.cpp
+001711-open-2015-194-Gold.java 001912-open-2015-194-Gold.java 007011-open-2015-194-Gold.java 007105-open-2015-194-Gold.java 007137-open-2015-194-Gold.java
+000270-open-2015-064-Gold.cpp 000317-open-2015-064-Gold.cpp
+005067-open-2015-239-Gold.cpp 009533-open-2015-239-Gold.cpp
+002485-open-2015-004-Gold.cpp 002597-open-2015-004-Gold.cpp 002769-open-2015-004-Gold.cpp 005224-open-2015-004-Gold.cpp
+001024-open-2015-031-Gold.cpp 001164-open-2015-031-Gold.cpp
+004243-open-2015-305-Gold.cpp 004249-open-2015-305-Gold.cpp 004436-open-2015-305-Gold.cpp 004446-open-2015-305-Gold.cpp 004620-open-2015-305-Gold.cpp 004839-open-2015-305-Gold.cpp 004969-open-2015-305-Gold.cpp 005351-open-2015-305-Gold.cpp 005376-open-2015-305-Gold.cpp 005410-open-2015-305-Gold.cpp 005503-open-2015-305-Gold.cpp 006281-open-2015-305-Gold.cpp
+000458-open-2015-152-Gold.cpp 000506-open-2015-152-Gold.cpp 004447-open-2015-152-Gold.cpp 004755-open-2015-152-Gold.cpp 004923-open-2015-152-Gold.cpp 005101-open-2015-152-Gold.cpp 005229-open-2015-152-Gold.cpp 005275-open-2015-152-Gold.cpp 005414-open-2015-152-Gold.cpp 005431-open-2015-152-Gold.cpp 005456-open-2015-152-Gold.cpp 006592-open-2015-152-Gold.cpp
+006840-open-2015-050-Gold.cpp 007243-open-2015-050-Gold.cpp 007309-open-2015-050-Gold.cpp 007523-open-2015-050-Gold.cpp 011072-open-2015-050-Gold.cpp 011234-open-2015-050-Gold.cpp
+002490-open-2015-292-Gold.cpp 002631-open-2015-292-Gold.cpp
+003445-open-2015-214-Gold.cpp 007148-open-2015-214-Gold.cpp 007188-open-2015-214-Gold.cpp 007767-open-2015-214-Gold.cpp 008072-open-2015-214-Gold.cpp 009029-open-2015-214-Gold.cpp 009329-open-2015-214-Gold.cpp 009452-open-2015-214-Gold.cpp 009792-open-2015-214-Gold.cpp

@@ -1,0 +1,48 @@
+47
+001293-open-2015-006-Blue.cpp 004625-open-2015-006-Blue.cpp 006106-open-2015-006-Blue.cpp 006329-open-2015-006-Blue.cpp
+002552-open-2015-071-Blue.cpp 002753-open-2015-071-Blue.cpp 005872-open-2015-071-Blue.cpp 005919-open-2015-071-Blue.cpp
+004408-open-2015-165-Blue.java 004416-open-2015-165-Blue.java 004659-open-2015-165-Blue.java
+003677-open-2015-322-Blue.cpp 006421-open-2015-322-Blue.cpp 006630-open-2015-322-Blue.cpp
+004328-open-2015-145-Blue.cpp 006681-open-2015-145-Blue.cpp 006905-open-2015-145-Blue.cpp
+003090-open-2015-190-Blue.cpp 003339-open-2015-190-Blue.cpp 003380-open-2015-190-Blue.cpp
+005479-open-2015-321-Blue.cpp 005515-open-2015-321-Blue.cpp 005755-open-2015-321-Blue.cpp 005803-open-2015-321-Blue.cpp
+001250-open-2015-113-Blue.cpp 001482-open-2015-113-Blue.cpp
+004991-open-2015-220-Blue.cpp 006573-open-2015-220-Blue.cpp 006608-open-2015-220-Blue.cpp
+000531-open-2015-264-Blue.cpp 000676-open-2015-264-Blue.cpp 001191-open-2015-264-Blue.cpp 001386-open-2015-264-Blue.cpp
+005194-open-2015-257-Blue.cpp 005646-open-2015-257-Blue.cpp
+005298-open-2015-053-Blue.cpp 005414-open-2015-053-Blue.cpp
+006050-open-2015-290-Blue.cpp 006355-open-2015-290-Blue.cpp
+002001-open-2015-152-Blue.cpp 004423-open-2015-152-Blue.cpp
+004358-open-2015-019-Blue.cpp 004420-open-2015-019-Blue.cpp 004483-open-2015-019-Blue.cpp 004761-open-2015-019-Blue.cpp
+004965-open-2015-077-Blue.cpp 005141-open-2015-077-Blue.cpp 005341-open-2015-077-Blue.cpp
+002850-open-2015-118-Blue.cpp 003227-open-2015-118-Blue.cpp 004030-open-2015-118-Blue.cpp 004057-open-2015-118-Blue.cpp 004220-open-2015-118-Blue.cpp
+003967-open-2015-028-Blue.cpp 006469-open-2015-028-Blue.cpp
+005231-open-2015-072-Blue.cpp 005334-open-2015-072-Blue.cpp
+002797-open-2015-255-Blue.cpp 003911-open-2015-255-Blue.cpp
+000644-open-2015-146-Blue.pas 002854-open-2015-146-Blue.pas
+004668-open-2015-169-Blue.cpp 004856-open-2015-169-Blue.cpp
+004669-open-2015-080-Blue.cpp 004727-open-2015-080-Blue.cpp 004911-open-2015-080-Blue.cpp 004958-open-2015-080-Blue.cpp
+003358-open-2015-324-Blue.cpp 003448-open-2015-324-Blue.cpp 005663-open-2015-324-Blue.cpp 006635-open-2015-324-Blue.cpp
+004737-open-2015-087-Blue.cpp 004822-open-2015-087-Blue.cpp
+003696-open-2015-206-Blue.cpp 004787-open-2015-206-Blue.cpp 005232-open-2015-206-Blue.cpp 006441-open-2015-206-Blue.cpp 006511-open-2015-206-Blue.cpp 006604-open-2015-206-Blue.cpp
+005055-open-2015-142-Blue.cpp 005216-open-2015-142-Blue.cpp 005425-open-2015-142-Blue.cpp
+000825-open-2015-342-Blue.cpp 002359-open-2015-342-Blue.cpp 002381-open-2015-342-Blue.cpp 002401-open-2015-342-Blue.cpp 002462-open-2015-342-Blue.cpp 002988-open-2015-342-Blue.cpp 003027-open-2015-342-Blue.cpp 003075-open-2015-342-Blue.cpp 003101-open-2015-342-Blue.cpp 003160-open-2015-342-Blue.cpp 003171-open-2015-342-Blue.cpp 003203-open-2015-342-Blue.cpp 003847-open-2015-342-Blue.cpp 004131-open-2015-342-Blue.cpp 004140-open-2015-342-Blue.cpp 004288-open-2015-342-Blue.cpp 004371-open-2015-342-Blue.cpp 004406-open-2015-342-Blue.cpp 004771-open-2015-342-Blue.cpp 004810-open-2015-342-Blue.cpp 005063-open-2015-342-Blue.cpp 005172-open-2015-342-Blue.cpp
+004485-open-2015-011-Blue.cpp 004645-open-2015-011-Blue.cpp 004807-open-2015-011-Blue.cpp 004978-open-2015-011-Blue.cpp 006335-open-2015-011-Blue.cpp
+004061-open-2015-079-Blue.cpp 004124-open-2015-079-Blue.cpp 004409-open-2015-079-Blue.cpp
+000700-open-2015-050-Blue.cpp 000737-open-2015-050-Blue.cpp
+000795-open-2015-214-Blue.cpp 001138-open-2015-214-Blue.cpp 001318-open-2015-214-Blue.cpp 001804-open-2015-214-Blue.cpp 001855-open-2015-214-Blue.cpp 002776-open-2015-214-Blue.cpp 002839-open-2015-214-Blue.cpp 003105-open-2015-214-Blue.cpp 003338-open-2015-214-Blue.cpp 003589-open-2015-214-Blue.cpp 003673-open-2015-214-Blue.cpp
+002258-open-2015-163-Blue.cpp 005595-open-2015-163-Blue.cpp
+004983-open-2015-262-Blue.cpp 006105-open-2015-262-Blue.cpp
+002184-open-2015-067-Blue.cpp 002711-open-2015-067-Blue.cpp 006862-open-2015-067-Blue.cpp
+000763-open-2015-336-Blue.cpp 001121-open-2015-336-Blue.cpp 001295-open-2015-336-Blue.cpp 001527-open-2015-336-Blue.cpp 005106-open-2015-336-Blue.cpp 005721-open-2015-336-Blue.cpp 005983-open-2015-336-Blue.cpp
+001668-open-2015-106-Blue.cpp 002708-open-2015-106-Blue.cpp 002775-open-2015-106-Blue.cpp 002789-open-2015-106-Blue.cpp
+004200-open-2015-334-Blue.cpp 005176-open-2015-334-Blue.cpp 005189-open-2015-334-Blue.cpp
+003354-open-2015-314-Blue.cpp 005421-open-2015-314-Blue.cpp
+003665-open-2015-351-Blue.cpp 004231-open-2015-351-Blue.cpp
+003630-open-2015-121-Blue.cpp 003916-open-2015-121-Blue.cpp
+003851-open-2015-340-Blue.cpp 005051-open-2015-340-Blue.cpp
+001677-open-2015-326-Blue.cpp 001703-open-2015-326-Blue.cpp 001732-open-2015-326-Blue.cpp 001817-open-2015-326-Blue.cpp 002927-open-2015-326-Blue.cpp 003381-open-2015-326-Blue.cpp 003472-open-2015-326-Blue.cpp
+001280-open-2015-239-Blue.cpp 001784-open-2015-239-Blue.cpp 002311-open-2015-239-Blue.cpp 006477-open-2015-239-Blue.cpp 006616-open-2015-239-Blue.cpp
+001787-open-2015-194-Blue.java 002073-open-2015-194-Blue.java 005340-open-2015-194-Blue.java
+005095-open-2015-064-Blue.cpp 005930-open-2015-064-Blue.cpp
+005984-open-2015-065-Blue.cpp 006380-open-2015-065-Blue.cpp 006480-open-2015-065-Blue.cpp 006571-open-2015-065-Blue.cpp 006597-open-2015-065-Blue.cpp

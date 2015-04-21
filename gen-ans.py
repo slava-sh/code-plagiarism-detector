@@ -10,9 +10,10 @@ def main():
     groups = {}
     for filename in files:
         #team, task, submit = filename.split('-')
-        _, _, _, team, task, submit = filename.split('-')
+        print(filename, filename.split('-'))
+        _, _, _, team, submit = filename.split('-')
         #006766-open-2015-023-Blue.pas
-        extension = submit.split('.')[1]
+        task, extension = submit.split('.')
         groups.setdefault((team, task, extension), []).append(filename)
 
     ans = []
