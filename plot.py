@@ -10,15 +10,14 @@ plot.rcParams['figure.figsize'] = 8, 8
 plot.rcParams['svg.fonttype'] = 'none'
 ET.register_namespace('','http://www.w3.org/2000/svg')
 
-Ans       = 'Ans'
-Color     = 'Color'
-DistRatio = 'DistRatio'
-DotSize   = 'DotSize'
-Guess     = 'Guess'
-I         = 'I'
-J         = 'J'
-Right     = 'Right'
-Size      = 'Size'
+Ans   = 'Ans'
+Color = 'Color'
+Guess = 'Guess'
+I     = 'I'
+J     = 'J'
+Right = 'Right'
+X     = 'Size'
+Y     = 'DistRatio'
 
 sample = sys.argv[1]
 
@@ -33,11 +32,19 @@ color = np.matrix([
 ])
 data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
 
-scatter = plot.scatter(data[Size], data[DistRatio], c=data[Color], edgecolor='none')
+plot.scatter(data[X], data[Y], c=data[Color], edgecolor='none')
+
+x     = np.arange(np.min(data[X]), np.max(data[X]))
+hi    = 0.35
+lo    = 0.228
+peak  = 580
+boost = 0.03
+y     = lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
+plot.plot(x, y)
 
 def annotateRow(row):
     label = 'data/{0}/sources/{1} data/{0}/sources/{2}'.format(sample, row[I], row[J])
-    xy = (row[Size], row[DistRatio])
+    xy = (row[X], row[Y])
     annotation = plot.annotate(label, xy=xy)
     annotation.set_gid('point-{}'.format(row.name))
 
