@@ -1,4 +1,4 @@
-CXX           = clang++ -Wall -std    = c++11
+CXX           = clang++ -Wall -std=c++11
 CXX_FLAGS     =
 PROG          = A
 CHECK         = python3 check.py
