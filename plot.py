@@ -41,6 +41,9 @@ peak  = 580
 boost = 0.03
 y     = lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
 plot.plot(x, y)
+x     = np.arange(0, 200, 0.1)
+y     = np.sin(x * 2 * np.pi / peak) * lo
+plot.plot(x, y)
 
 def annotateRow(row):
     label = 'data/{0}/sources/{1} data/{0}/sources/{2}'.format(sample, row[I], row[J])

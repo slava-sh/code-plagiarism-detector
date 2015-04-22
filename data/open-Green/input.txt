@@ -1,4 +1,4 @@
-200
+196
 000100-open-2015-326-Green.cpp
 000126-open-2015-326-Green.cpp
 000133-open-2015-174-Green.cpp
@@ -113,9 +113,6 @@
 002929-open-2015-283-Green.cpp
 003116-open-2015-212-Green.cpp
 003167-open-2015-130-Green.cpp
-003283-open-2015-216-Green.cpp
-003325-open-2015-216-Green.cpp
-003367-open-2015-216-Green.cpp
 003447-open-2015-130-Green.cpp
 003629-open-2015-067-Green.cpp
 003644-open-2015-072-Green.cpp
@@ -133,7 +130,6 @@
 003914-open-2015-067-Green.cpp
 003928-open-2015-270-Green.cpp
 004015-open-2015-022-Green.cpp
-004023-open-2015-216-Green.cpp
 004026-open-2015-270-Green.cpp
 004035-open-2015-155-Green.cpp
 004058-open-2015-067-Green.cpp

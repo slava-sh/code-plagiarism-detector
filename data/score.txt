@@ -1,7 +1,37 @@
-100 100 100 100  97 100 100 100 100 100  46  41  46  WA  55  49  66  WA  76  89  78  99  WA  82  74 100  82  65  73 100  78 100 | 2396 / 3200
+01 100
+02 100
+03 100
+04 100
+05  97
+06 100
+07 100
+08 100
+09 100
+10 100
+open-Blue  46
+open-Cyan  41
+open-Gold  46
+open-Green WA
+open-Magenta  55
+open-Olive  49
+open-Red  66
+open-Yellow WA
+russia-team-a  76
+russia-team-c  89
+russia-team-e  78
+russia-team-f  99
+russia-team-h WA
+russia-team-j  82
+russia-team-k  74
+spb-team-c 100
+spb-team-e  82
+spb-team-f  65
+spb-team-h  73
+spb-team-i 100
+spb-team-j  78
+spb-team-k 100
+2396 / 3200
 open-Green WAs:
- data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/001385-open-2015-290-Green.cpp
- data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/001442-open-2015-290-Green.cpp
  data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/003858-open-2015-065-Green.cpp
  data/open-Green/sources/001385-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
  data/open-Green/sources/001442-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp

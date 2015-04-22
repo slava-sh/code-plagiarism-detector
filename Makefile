@@ -29,4 +29,4 @@ ALL_SAMPLES = $(filter-out all, $(subst /,, $(subst data,, $(filter %/, $(wildca
 .PHONY: score
 score:
 	$(CHECK) $(ALL_SAMPLES) >data/score.txt
-	head -n 1 data/score.txt
+	sed '/\//q' data/score.txt

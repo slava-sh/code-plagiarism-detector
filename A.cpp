@@ -193,7 +193,7 @@ string expand_ifdefs(const string& s) {
             for (; i < n && is_identifier(s[i]); ++i) {
                 buf += s[i];
             }
-            // --i; s[i] is a whitespace or )
+            --i;
             if (starts_with(online_judge, buf) && defined.back()) {
                 defined.push_back(true);
             }
@@ -382,16 +382,19 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
             if (depth == 0 && j < n && tokens[j] == "{" && result.count(token) == 0) {
                 Tokens body;
                 int depth = 1;
-                for (i = j + 1; depth > 0 && i < n; ++i) {
+                for (i = j + 1; i < n; ++i) {
                     body.push_back(tokens[i]);
                     if (tokens[i] == "{") {
                         ++depth;
                     }
                     else if (tokens[i] == "}") {
                         --depth;
+                        if (depth == 0) {
+                            break;
+                        }
                     }
                 }
-                if (j < n && !body.empty()) {
+                if (i < n && !body.empty()) {
                     body.pop_back();
                     result[token] = body;
                 }
@@ -455,12 +458,15 @@ struct Solution {
                     if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
                         // Spaghetti
                         int depth = 1;
-                        for (i = i + 2; depth > 0 && i < n; ++i) {
+                        for (i = i + 2; i < n; ++i) {
                             if (tokens[i] == "(") {
                                 ++depth;
                             }
                             else if (tokens[i] == ")") {
                                 --depth;
+                                if (depth == 0) {
+                                    break;
+                                }
                             }
                         }
                         if (depth == 0) {

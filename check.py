@@ -29,18 +29,18 @@ def score_sample(sample):
         given = read_answer(f)
     if given is None:
         score = 0
-        print(' PE', end=' ')
+        print('{} PE'.format(sample))
     elif given.issubset(correct):
         if correct:
             score = int(round(len(given) * 100. / len(correct)))
         else:
             score = 100
-        print('{:3}'.format(score), end=' ')
+        print('{} {:3}'.format(sample, score))
         for i in correct - given:
             misses.setdefault(sample, []).append(i)
     else:
         score = 0
-        print(' WA', end=' ')
+        print('{} WA'.format(sample))
         for i in given - correct:
             was.setdefault(sample, []).append(i)
     return score
@@ -58,7 +58,7 @@ def main():
     score = 0
     for sample in samples:
         score += score_sample(sample)
-    print('| {} / {}'.format(score, len(samples) * 100))
+    print('{} / {}'.format(score, len(samples) * 100))
     if print_was and was:
         for sample in sorted(was.keys()):
             print('{} WAs:'.format(sample))
