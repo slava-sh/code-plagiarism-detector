@@ -1,7 +1,6 @@
-8
+7
 406-c-1.cpp 406-c-2.cpp
 218-c-1.cpp 218-c-2.cpp
-308-c-1.pas 308-c-2.pas
 310-c-1.pas 310-c-2.pas
 107-c-1.cpp 107-c-2.cpp
 513-c-1.cpp 513-c-2.cpp 513-c-3.cpp

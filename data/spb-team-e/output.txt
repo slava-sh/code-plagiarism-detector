@@ -1,4 +1,4 @@
-48
+46
 102-e-1.cs 102-e-2.cs 102-e-3.cs 102-e-4.cs
 104-e-1.cpp 104-e-2.cpp
 104-e-3.cpp 104-e-4.cpp 104-e-5.cpp
@@ -44,6 +44,4 @@
 518-e-1.cpp 518-e-2.cpp
 601-e-1.cpp 601-e-2.cpp 601-e-3.cpp 601-e-4.cpp
 602-e-1.pas 602-e-2.pas 602-e-3.pas
-603-e-1.java 603-e-10.java 603-e-2.java 603-e-3.java 603-e-4.java 603-e-8.java 603-e-9.java
-603-e-5.java 603-e-6.java 603-e-7.java
 guest-e-2.cpp guest-e-4.cpp guest-e-5.cpp

@@ -1,12 +1,10 @@
-100 100 100 100  97 100 100 100 100 100  46  41  46  WA  55  WA  66  WA  76  89  78  99  WA  82  74  90  78  65  73 100  78  94 | 2327 / 3200
+100 100 100 100  97 100 100 100 100 100  46  41  46  WA  55  49  66  WA  76  89  78  99  WA  82  74 100  82  65  73 100  78 100 | 2396 / 3200
 open-Green WAs:
  data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/001385-open-2015-290-Green.cpp
  data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/001442-open-2015-290-Green.cpp
  data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/003858-open-2015-065-Green.cpp
  data/open-Green/sources/001385-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
  data/open-Green/sources/001442-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
-open-Olive WAs:
- data/open-Olive/sources/005304-open-2015-274-Olive.py data/open-Olive/sources/005315-open-2015-274-Olive.cpp
 open-Yellow WAs:
  data/open-Yellow/sources/000073-open-2015-214-Yellow.cpp data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp
  data/open-Yellow/sources/000076-open-2015-214-Yellow.cpp data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp
@@ -1239,6 +1237,228 @@ open-Magenta misses:
  data/open-Magenta/sources/008339-open-2015-194-Magenta.java data/open-Magenta/sources/009712-open-2015-194-Magenta.java
  data/open-Magenta/sources/010044-open-2015-264-Magenta.cpp data/open-Magenta/sources/011246-open-2015-264-Magenta.cpp
  data/open-Magenta/sources/010337-open-2015-264-Magenta.cpp data/open-Magenta/sources/011246-open-2015-264-Magenta.cpp
+open-Olive misses:
+ data/open-Olive/sources/000347-open-2015-022-Olive.cpp data/open-Olive/sources/001984-open-2015-022-Olive.cpp
+ data/open-Olive/sources/000347-open-2015-022-Olive.cpp data/open-Olive/sources/008826-open-2015-022-Olive.cpp
+ data/open-Olive/sources/000381-open-2015-022-Olive.cpp data/open-Olive/sources/001984-open-2015-022-Olive.cpp
+ data/open-Olive/sources/000381-open-2015-022-Olive.cpp data/open-Olive/sources/008826-open-2015-022-Olive.cpp
+ data/open-Olive/sources/000421-open-2015-257-Olive.cpp data/open-Olive/sources/005146-open-2015-257-Olive.cpp
+ data/open-Olive/sources/000421-open-2015-257-Olive.cpp data/open-Olive/sources/005324-open-2015-257-Olive.cpp
+ data/open-Olive/sources/000421-open-2015-257-Olive.cpp data/open-Olive/sources/009917-open-2015-257-Olive.cpp
+ data/open-Olive/sources/001289-open-2015-262-Olive.cpp data/open-Olive/sources/011037-open-2015-262-Olive.cpp
+ data/open-Olive/sources/001289-open-2015-262-Olive.cpp data/open-Olive/sources/011129-open-2015-262-Olive.cpp
+ data/open-Olive/sources/002057-open-2015-216-Olive.cpp data/open-Olive/sources/007273-open-2015-216-Olive.cpp
+ data/open-Olive/sources/002057-open-2015-216-Olive.cpp data/open-Olive/sources/009824-open-2015-216-Olive.cpp
+ data/open-Olive/sources/002083-open-2015-065-Olive.cpp data/open-Olive/sources/003115-open-2015-065-Olive.cpp
+ data/open-Olive/sources/002083-open-2015-065-Olive.cpp data/open-Olive/sources/003254-open-2015-065-Olive.cpp
+ data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/002675-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/002842-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/003704-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002481-open-2015-340-Olive.cpp data/open-Olive/sources/007720-open-2015-340-Olive.cpp
+ data/open-Olive/sources/002481-open-2015-340-Olive.cpp data/open-Olive/sources/007744-open-2015-340-Olive.cpp
+ data/open-Olive/sources/002481-open-2015-340-Olive.cpp data/open-Olive/sources/008381-open-2015-340-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/003321-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/003367-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/003386-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/003462-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/004999-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/005128-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002529-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
+ data/open-Olive/sources/002675-open-2015-334-Olive.cpp data/open-Olive/sources/002842-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002675-open-2015-334-Olive.cpp data/open-Olive/sources/003704-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002736-open-2015-324-Olive.cpp data/open-Olive/sources/008996-open-2015-324-Olive.cpp
+ data/open-Olive/sources/002842-open-2015-334-Olive.cpp data/open-Olive/sources/003704-open-2015-334-Olive.cpp
+ data/open-Olive/sources/002902-open-2015-080-Olive.cpp data/open-Olive/sources/003122-open-2015-080-Olive.cpp
+ data/open-Olive/sources/002902-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
+ data/open-Olive/sources/002929-open-2015-065-Olive.cpp data/open-Olive/sources/003115-open-2015-065-Olive.cpp
+ data/open-Olive/sources/002929-open-2015-065-Olive.cpp data/open-Olive/sources/003254-open-2015-065-Olive.cpp
+ data/open-Olive/sources/002944-open-2015-324-Olive.cpp data/open-Olive/sources/008996-open-2015-324-Olive.cpp
+ data/open-Olive/sources/003122-open-2015-080-Olive.cpp data/open-Olive/sources/003356-open-2015-080-Olive.cpp
+ data/open-Olive/sources/003122-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/003462-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/004999-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005128-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003356-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/003462-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/004999-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/005128-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/003462-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/004999-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/005128-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003386-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/004999-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/005128-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
+ data/open-Olive/sources/003711-open-2015-171-Olive.cpp data/open-Olive/sources/006266-open-2015-171-Olive.cpp
+ data/open-Olive/sources/003808-open-2015-183-Olive.cpp data/open-Olive/sources/011229-open-2015-183-Olive.cpp
+ data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006150-open-2015-152-Olive.cpp
+ data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006713-open-2015-152-Olive.cpp
+ data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
+ data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
+ data/open-Olive/sources/004774-open-2015-113-Olive.cpp data/open-Olive/sources/006089-open-2015-113-Olive.cpp
+ data/open-Olive/sources/005099-open-2015-206-Olive.cpp data/open-Olive/sources/005679-open-2015-206-Olive.cpp
+ data/open-Olive/sources/005099-open-2015-206-Olive.cpp data/open-Olive/sources/006007-open-2015-206-Olive.cpp
+ data/open-Olive/sources/005146-open-2015-257-Olive.cpp data/open-Olive/sources/005324-open-2015-257-Olive.cpp
+ data/open-Olive/sources/005146-open-2015-257-Olive.cpp data/open-Olive/sources/009917-open-2015-257-Olive.cpp
+ data/open-Olive/sources/005182-open-2015-212-Olive.cpp data/open-Olive/sources/006367-open-2015-212-Olive.cpp
+ data/open-Olive/sources/005182-open-2015-212-Olive.cpp data/open-Olive/sources/009115-open-2015-212-Olive.cpp
+ data/open-Olive/sources/005182-open-2015-212-Olive.cpp data/open-Olive/sources/009179-open-2015-212-Olive.cpp
+ data/open-Olive/sources/005304-open-2015-274-Olive.py data/open-Olive/sources/005915-open-2015-274-Olive.cpp
+ data/open-Olive/sources/005315-open-2015-274-Olive.cpp data/open-Olive/sources/005915-open-2015-274-Olive.cpp
+ data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/006915-open-2015-118-Olive.cpp
+ data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/008568-open-2015-118-Olive.cpp
+ data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/008596-open-2015-118-Olive.cpp
+ data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006150-open-2015-152-Olive.cpp
+ data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006713-open-2015-152-Olive.cpp
+ data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
+ data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/006941-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007160-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007228-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007365-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007633-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006150-open-2015-152-Olive.cpp data/open-Olive/sources/006713-open-2015-152-Olive.cpp
+ data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/007285-open-2015-322-Olive.cpp
+ data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009272-open-2015-322-Olive.cpp
+ data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009608-open-2015-322-Olive.cpp
+ data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009689-open-2015-322-Olive.cpp
+ data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009887-open-2015-322-Olive.cpp
+ data/open-Olive/sources/006181-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006365-open-2015-071-Olive.cpp data/open-Olive/sources/006776-open-2015-071-Olive.cpp
+ data/open-Olive/sources/006365-open-2015-071-Olive.cpp data/open-Olive/sources/008665-open-2015-071-Olive.cpp
+ data/open-Olive/sources/006418-open-2015-214-Olive.cpp data/open-Olive/sources/006668-open-2015-214-Olive.cpp
+ data/open-Olive/sources/006435-open-2015-214-Olive.cpp data/open-Olive/sources/006668-open-2015-214-Olive.cpp
+ data/open-Olive/sources/006460-open-2015-214-Olive.cpp data/open-Olive/sources/006668-open-2015-214-Olive.cpp
+ data/open-Olive/sources/006542-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006542-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006574-open-2015-290-Olive.cpp data/open-Olive/sources/008564-open-2015-290-Olive.cpp
+ data/open-Olive/sources/006598-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006670-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006713-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
+ data/open-Olive/sources/006713-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
+ data/open-Olive/sources/006776-open-2015-071-Olive.cpp data/open-Olive/sources/006849-open-2015-071-Olive.cpp
+ data/open-Olive/sources/006776-open-2015-071-Olive.cpp data/open-Olive/sources/008665-open-2015-071-Olive.cpp
+ data/open-Olive/sources/006792-open-2015-157-Olive.cpp data/open-Olive/sources/006996-open-2015-157-Olive.cpp
+ data/open-Olive/sources/006792-open-2015-157-Olive.cpp data/open-Olive/sources/010328-open-2015-157-Olive.cpp
+ data/open-Olive/sources/006792-open-2015-157-Olive.cpp data/open-Olive/sources/010893-open-2015-157-Olive.cpp
+ data/open-Olive/sources/006827-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006827-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006837-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006849-open-2015-071-Olive.cpp data/open-Olive/sources/008665-open-2015-071-Olive.cpp
+ data/open-Olive/sources/006888-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006888-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/007160-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/007228-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/007365-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/007633-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007097-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007168-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007218-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007298-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007362-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007400-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007436-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007482-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008202-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008301-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008316-open-2015-094-Olive.cpp
+ data/open-Olive/sources/006996-open-2015-157-Olive.cpp data/open-Olive/sources/010328-open-2015-157-Olive.cpp
+ data/open-Olive/sources/006996-open-2015-157-Olive.cpp data/open-Olive/sources/010893-open-2015-157-Olive.cpp
+ data/open-Olive/sources/007160-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007160-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007160-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007160-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007228-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007228-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007228-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007228-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007280-open-2015-207-Olive.cpp data/open-Olive/sources/008186-open-2015-207-Olive.cpp
+ data/open-Olive/sources/007285-open-2015-322-Olive.cpp data/open-Olive/sources/009272-open-2015-322-Olive.cpp
+ data/open-Olive/sources/007285-open-2015-322-Olive.cpp data/open-Olive/sources/009608-open-2015-322-Olive.cpp
+ data/open-Olive/sources/007285-open-2015-322-Olive.cpp data/open-Olive/sources/009689-open-2015-322-Olive.cpp
+ data/open-Olive/sources/007285-open-2015-322-Olive.cpp data/open-Olive/sources/009887-open-2015-322-Olive.cpp
+ data/open-Olive/sources/007303-open-2015-067-Olive.cpp data/open-Olive/sources/009588-open-2015-067-Olive.cpp
+ data/open-Olive/sources/007303-open-2015-067-Olive.cpp data/open-Olive/sources/010286-open-2015-067-Olive.cpp
+ data/open-Olive/sources/007303-open-2015-067-Olive.cpp data/open-Olive/sources/011171-open-2015-067-Olive.cpp
+ data/open-Olive/sources/007365-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007365-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007365-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007365-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007398-open-2015-031-Olive.cpp data/open-Olive/sources/008353-open-2015-031-Olive.cpp
+ data/open-Olive/sources/007398-open-2015-031-Olive.cpp data/open-Olive/sources/009387-open-2015-031-Olive.cpp
+ data/open-Olive/sources/007633-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007633-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007633-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007633-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
+ data/open-Olive/sources/007720-open-2015-340-Olive.cpp data/open-Olive/sources/008381-open-2015-340-Olive.cpp
+ data/open-Olive/sources/007744-open-2015-340-Olive.cpp data/open-Olive/sources/008381-open-2015-340-Olive.cpp
+ data/open-Olive/sources/007867-open-2015-342-Olive.cpp data/open-Olive/sources/008616-open-2015-342-Olive.cpp
+ data/open-Olive/sources/007989-open-2015-342-Olive.cpp data/open-Olive/sources/008616-open-2015-342-Olive.cpp
+ data/open-Olive/sources/008114-open-2015-169-Olive.cpp data/open-Olive/sources/008269-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008114-open-2015-169-Olive.cpp data/open-Olive/sources/009694-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008114-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/008269-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/009694-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008269-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
+ data/open-Olive/sources/008353-open-2015-031-Olive.cpp data/open-Olive/sources/009387-open-2015-031-Olive.cpp
+ data/open-Olive/sources/008477-open-2015-019-Olive.cpp data/open-Olive/sources/010022-open-2015-019-Olive.cpp
+ data/open-Olive/sources/008477-open-2015-019-Olive.cpp data/open-Olive/sources/010150-open-2015-019-Olive.cpp
+ data/open-Olive/sources/008477-open-2015-019-Olive.cpp data/open-Olive/sources/010810-open-2015-019-Olive.cpp
+ data/open-Olive/sources/008681-open-2015-006-Olive.cpp data/open-Olive/sources/008830-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008681-open-2015-006-Olive.cpp data/open-Olive/sources/009994-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008681-open-2015-006-Olive.cpp data/open-Olive/sources/010072-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008681-open-2015-006-Olive.cpp data/open-Olive/sources/010149-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008761-open-2015-006-Olive.cpp data/open-Olive/sources/008830-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008761-open-2015-006-Olive.cpp data/open-Olive/sources/009994-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008761-open-2015-006-Olive.cpp data/open-Olive/sources/010072-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008761-open-2015-006-Olive.cpp data/open-Olive/sources/010149-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008830-open-2015-006-Olive.cpp data/open-Olive/sources/009994-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008830-open-2015-006-Olive.cpp data/open-Olive/sources/010072-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008830-open-2015-006-Olive.cpp data/open-Olive/sources/010149-open-2015-006-Olive.cpp
+ data/open-Olive/sources/008917-open-2015-324-Olive.cpp data/open-Olive/sources/008996-open-2015-324-Olive.cpp
+ data/open-Olive/sources/008996-open-2015-324-Olive.cpp data/open-Olive/sources/009002-open-2015-324-Olive.cpp
+ data/open-Olive/sources/009272-open-2015-322-Olive.cpp data/open-Olive/sources/009608-open-2015-322-Olive.cpp
+ data/open-Olive/sources/009272-open-2015-322-Olive.cpp data/open-Olive/sources/009689-open-2015-322-Olive.cpp
+ data/open-Olive/sources/009272-open-2015-322-Olive.cpp data/open-Olive/sources/009887-open-2015-322-Olive.cpp
+ data/open-Olive/sources/009541-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
+ data/open-Olive/sources/009694-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
+ data/open-Olive/sources/009775-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
+ data/open-Olive/sources/009982-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
+ data/open-Olive/sources/010255-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
+ data/open-Olive/sources/010328-open-2015-157-Olive.cpp data/open-Olive/sources/010893-open-2015-157-Olive.cpp
+ data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011037-open-2015-262-Olive.cpp
+ data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011129-open-2015-262-Olive.cpp
 open-Red misses:
  data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/004985-open-2015-118-Red.cpp
  data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/005286-open-2015-118-Red.cpp
@@ -1471,9 +1691,6 @@ russia-team-e misses:
  data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-7.pas
  data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-8.pas
  data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-9.pas
- data/russia-team-e/sources/605-e-1.cpp data/russia-team-e/sources/605-e-4.cpp
- data/russia-team-e/sources/605-e-2.cpp data/russia-team-e/sources/605-e-4.cpp
- data/russia-team-e/sources/605-e-3.cpp data/russia-team-e/sources/605-e-4.cpp
  data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-11.cpp
  data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-12.cpp
  data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-13.cpp
@@ -1736,8 +1953,6 @@ russia-team-k misses:
  data/russia-team-k/sources/k19-k-7.cpp data/russia-team-k/sources/k19-k-8.cpp
  data/russia-team-k/sources/k19-k-8.cpp data/russia-team-k/sources/k19-k-9.cpp
  data/russia-team-k/sources/k42-k-1.cpp data/russia-team-k/sources/k42-k-2.cpp
-spb-team-c misses:
- data/spb-team-c/sources/308-c-1.pas data/spb-team-c/sources/308-c-2.pas
 spb-team-e misses:
  data/spb-team-e/sources/104-e-1.cpp data/spb-team-e/sources/104-e-3.cpp
  data/spb-team-e/sources/104-e-1.cpp data/spb-team-e/sources/104-e-4.cpp
@@ -1792,37 +2007,11 @@ spb-team-e misses:
  data/spb-team-e/sources/517-e-2.cpp data/spb-team-e/sources/517-e-4.cpp
  data/spb-team-e/sources/517-e-2.cpp data/spb-team-e/sources/517-e-5.cpp
  data/spb-team-e/sources/517-e-2.cpp data/spb-team-e/sources/517-e-6.cpp
- data/spb-team-e/sources/518-e-1.cpp data/spb-team-e/sources/518-e-3.cpp
- data/spb-team-e/sources/518-e-1.cpp data/spb-team-e/sources/518-e-4.cpp
- data/spb-team-e/sources/518-e-2.cpp data/spb-team-e/sources/518-e-3.cpp
- data/spb-team-e/sources/518-e-2.cpp data/spb-team-e/sources/518-e-4.cpp
- data/spb-team-e/sources/518-e-3.cpp data/spb-team-e/sources/518-e-4.cpp
  data/spb-team-e/sources/519-e-1.cpp data/spb-team-e/sources/519-e-2.cpp
  data/spb-team-e/sources/601-e-1.cpp data/spb-team-e/sources/601-e-5.cpp
  data/spb-team-e/sources/601-e-2.cpp data/spb-team-e/sources/601-e-5.cpp
  data/spb-team-e/sources/601-e-3.cpp data/spb-team-e/sources/601-e-5.cpp
  data/spb-team-e/sources/601-e-4.cpp data/spb-team-e/sources/601-e-5.cpp
- data/spb-team-e/sources/603-e-1.java data/spb-team-e/sources/603-e-5.java
- data/spb-team-e/sources/603-e-1.java data/spb-team-e/sources/603-e-6.java
- data/spb-team-e/sources/603-e-1.java data/spb-team-e/sources/603-e-7.java
- data/spb-team-e/sources/603-e-10.java data/spb-team-e/sources/603-e-5.java
- data/spb-team-e/sources/603-e-10.java data/spb-team-e/sources/603-e-6.java
- data/spb-team-e/sources/603-e-10.java data/spb-team-e/sources/603-e-7.java
- data/spb-team-e/sources/603-e-2.java data/spb-team-e/sources/603-e-5.java
- data/spb-team-e/sources/603-e-2.java data/spb-team-e/sources/603-e-6.java
- data/spb-team-e/sources/603-e-2.java data/spb-team-e/sources/603-e-7.java
- data/spb-team-e/sources/603-e-3.java data/spb-team-e/sources/603-e-5.java
- data/spb-team-e/sources/603-e-3.java data/spb-team-e/sources/603-e-6.java
- data/spb-team-e/sources/603-e-3.java data/spb-team-e/sources/603-e-7.java
- data/spb-team-e/sources/603-e-4.java data/spb-team-e/sources/603-e-5.java
- data/spb-team-e/sources/603-e-4.java data/spb-team-e/sources/603-e-6.java
- data/spb-team-e/sources/603-e-4.java data/spb-team-e/sources/603-e-7.java
- data/spb-team-e/sources/603-e-5.java data/spb-team-e/sources/603-e-8.java
- data/spb-team-e/sources/603-e-5.java data/spb-team-e/sources/603-e-9.java
- data/spb-team-e/sources/603-e-6.java data/spb-team-e/sources/603-e-8.java
- data/spb-team-e/sources/603-e-6.java data/spb-team-e/sources/603-e-9.java
- data/spb-team-e/sources/603-e-7.java data/spb-team-e/sources/603-e-8.java
- data/spb-team-e/sources/603-e-7.java data/spb-team-e/sources/603-e-9.java
  data/spb-team-e/sources/guest-e-1.cpp data/spb-team-e/sources/guest-e-2.cpp
  data/spb-team-e/sources/guest-e-1.cpp data/spb-team-e/sources/guest-e-4.cpp
  data/spb-team-e/sources/guest-e-1.cpp data/spb-team-e/sources/guest-e-5.cpp
@@ -2297,8 +2486,3 @@ spb-team-j misses:
  data/spb-team-j/sources/518-j-3.cpp data/spb-team-j/sources/518-j-5.cpp
  data/spb-team-j/sources/518-j-3.cpp data/spb-team-j/sources/518-j-6.cpp
  data/spb-team-j/sources/603-j-1.java data/spb-team-j/sources/603-j-2.java
-spb-team-k misses:
- data/spb-team-k/sources/304-k-1.java data/spb-team-k/sources/304-k-2.java
- data/spb-team-k/sources/518-k-1.cpp data/spb-team-k/sources/518-k-2.cpp
- data/spb-team-k/sources/518-k-1.cpp data/spb-team-k/sources/518-k-3.cpp
- data/spb-team-k/sources/518-k-1.cpp data/spb-team-k/sources/518-k-4.cpp

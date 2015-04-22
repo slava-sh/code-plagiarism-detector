@@ -69,7 +69,7 @@ k39-e-1.cpp k39-e-2.cpp k39-e-3.cpp k39-e-4.cpp
 411-e-1.py 411-e-2.py 411-e-3.py 411-e-4.py 411-e-5.py 411-e-6.py
 515-e-1.cpp 515-e-2.cpp
 504-e-1.cpp 504-e-2.cpp
-605-e-1.cpp 605-e-2.cpp 605-e-3.cpp 605-e-4.cpp
+605-e-1.cpp 605-e-2.cpp 605-e-3.cpp
 103-e-1.cpp 103-e-2.cpp
 301-e-1.cpp 301-e-2.cpp 301-e-3.cpp 301-e-4.cpp
 410-e-1.cpp 410-e-2.cpp 410-e-3.cpp 410-e-4.cpp
