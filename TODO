@@ -1,5 +1,5 @@
+limit min fingerprint size
+dsu
+every with every
 with/without comments
 with/without expansion
-every with every
-mess -> fingerprint, limit
-dsu

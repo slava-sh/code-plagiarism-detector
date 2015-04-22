@@ -12,6 +12,8 @@
 #include <algorithm>
 using namespace std;
 
+const int MAX_FINGERPRINT_SIZE = 5000;
+
 bool check(double size, double ratio) {
     static const double hi    = 0.35;
     static const double lo    = 0.228;
@@ -435,6 +437,9 @@ struct Solution {
         }
         id = base_id;
         expand(tokens, functions);
+        if (fingerprint.size() > MAX_FINGERPRINT_SIZE) {
+            fingerprint.resize(MAX_FINGERPRINT_SIZE);
+        }
     }
 
     void expand(const Tokens& tokens, map< string, Tokens >& functions) {
