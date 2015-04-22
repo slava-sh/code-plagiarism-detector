@@ -11,17 +11,19 @@ plot.rcParams['svg.fonttype'] = 'none'
 ET.register_namespace('','http://www.w3.org/2000/svg')
 
 Ans       = 'Ans'
-Right     = 'Right'
-Size      = 'Size'
 Color     = 'Color'
-Guess     = 'Guess'
 DistRatio = 'DistRatio'
+DotSize   = 'DotSize'
+Guess     = 'Guess'
 I         = 'I'
 J         = 'J'
+Right     = 'Right'
+Size      = 'Size'
 
 sample = sys.argv[1]
 
 data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
+
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
@@ -31,7 +33,7 @@ color = np.matrix([
 ])
 data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
 
-scatter = plot.scatter(data[Size], data[DistRatio], color=data[Color], edgecolor='none')
+scatter = plot.scatter(data[Size], data[DistRatio], c=data[Color], edgecolor='none')
 
 def annotateRow(row):
     label = 'data/{0}/sources/{1} data/{0}/sources/{2}'.format(sample, row[I], row[J])
@@ -39,7 +41,7 @@ def annotateRow(row):
     annotation = plot.annotate(label, xy=xy)
     annotation.set_gid('point-{}'.format(row.name))
 
-annotatedData = data[~data[Right]]
+annotatedData = data[~data[Right] | data[Ans]]
 annotatedData.apply(annotateRow, axis=1)
 
 script = '''
@@ -52,9 +54,10 @@ function onLoad() {
         var x = text.attributes.x.value;
         var y = text.attributes.y.value;
         var point = document.querySelector('use[x="' + x + '"][y="' + y + '"]');
-        point.addEventListener('click', (function(label) {
+        var toggleLabel = (function(label) {
             label.style.display = label.style.display == '' ? 'none' : '';
-        }).bind(null, label));
+        }).bind(null, label);
+        point.addEventListener('click', toggleLabel);
         label.style.display = 'none';
     }
 }
