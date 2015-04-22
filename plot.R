@@ -16,6 +16,7 @@ data$Right <- data$Ans == data$Guess
 size <- 20
 svg(output.svg, width=size, height=size)
 
+data <- data[!data$Right,]
 with(data, plot(DistRatio ~ Size,
                 col=ifelse(Right, ifelse(Guess == 0, 8, "lightpink"), ifelse(Guess == 0, "blue", "red")),
                 cex=ifelse(Right, 0.3, 0.6),

@@ -1,8 +1,8 @@
-CXX       = clang++ -Wall -std=c++11
-CXX_FLAGS =
-PROG      = A
-CHECK     = python3 check.py
-PLOT      = Rscript plot.R
+CXX           = clang++ -Wall -std    = c++11
+CXX_FLAGS     =
+PROG          = A
+CHECK         = python3 check.py
+PLOT          = python3 plot.py
 
 ifdef DEBUG
 	CXX_FLAGS += -DDEBUG
@@ -21,7 +21,7 @@ run: solution
 
 .PHONY: plot
 plot:
-	$(PLOT) data/$(sample)/data.tsv data/$(sample)/data.svg
+	$(PLOT) $(sample)
 	open data/$(sample)/data.svg
 
 ALL_SAMPLES = $(filter-out all, $(subst /,, $(subst data,, $(filter %/, $(wildcard data/*/)))))
