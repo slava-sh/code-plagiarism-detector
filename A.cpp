@@ -379,14 +379,14 @@ Tokens tokenize_python(const string& code) {
     return result;
 }
 
-map< string, int > base_id;
+map< string, int > common_token_id;
 
 map< string, Tokens > extract_functions(const Tokens& tokens) {
     map< string, Tokens > result;
     int n = tokens.size();
     for (int i = 0; i < n; ++i) {
         auto& token = tokens[i];
-        bool is_name = is_identifier(token[0]) && base_id.count(token) == 0;
+        bool is_name = is_identifier(token[0]) && common_token_id.count(token) == 0;
         if (is_name && i + 1 < n && tokens[i + 1] == "(") {
             // Horrible
             int j = i + 2;
@@ -425,9 +425,10 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
 }
 
 struct Solution {
+    int id;
     string filename;
     string code;
-    map< string, int > id;
+    map< string, int > token_id;
     vector< int > fingerprint;
     bool is_grouped;
 
@@ -458,7 +459,7 @@ struct Solution {
         if (functions.count(main) != 0) {
             tokens = functions[main];
         }
-        id = base_id;
+        token_id = common_token_id;
         expand(tokens, functions);
         if (fingerprint.size() > MAX_FINGERPRINT_SIZE) {
             fingerprint.resize(MAX_FINGERPRINT_SIZE);
@@ -472,7 +473,7 @@ struct Solution {
             if (isdigit(token[0])) {
                 token = "0";
             }
-            if (id.count(token) == 0) {
+            if (token_id.count(token) == 0) {
                 if (is_identifier(token[0])) {
                     auto f = functions.find(token);
                     if (f != functions.end() && i + 1 < n && tokens[i + 1] == "(") {
@@ -501,10 +502,10 @@ struct Solution {
                     }
                 }
                 else {
-                    id[token] = id.size();
+                    token_id[token] = token_id.size();
                 }
             }
-            fingerprint.push_back(id[token]);
+            fingerprint.push_back(token_id[token]);
         }
     }
 };
@@ -545,9 +546,9 @@ int main() {
         "struct", "switch", "try", "typedef", "union", "while", "with", "yield",
     };
     for (auto& token : special_tokens) {
-        base_id[token] = base_id.size();
+        common_token_id[token] = common_token_id.size();
     }
-    base_id["'"] = base_id["\""];
+    common_token_id["'"] = common_token_id["\""];
 
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
@@ -555,7 +556,9 @@ int main() {
     int n;
     cin >> n;
     vector< Solution > solutions(n);
-    for (auto& solution : solutions) {
+    for (int i = 0; i < n; ++i) {
+        auto& solution = solutions[i];
+        solution.id = i;
         do {
             safe_getline(cin, solution.filename);
         } while (solution.filename.empty());
@@ -592,12 +595,12 @@ int main() {
     ofstream data_tsv("../data.tsv");
     data_tsv << "Ans\tGuess\tSize\tDistRatio\tDist\tI\tJ" << endl;
 #endif
-    vector< set< string > > ans;
+    vector< set< int > > ans;
     for (auto i = solutions.begin(); i != solutions.end(); ++i) {
         if (i->is_grouped) {
             continue;
         }
-        set< string > group;
+        set< int > group;
         for (auto j = i + 1; j != solutions.end(); ++j) {
             if (j->is_grouped) {
                 continue;
@@ -607,7 +610,7 @@ int main() {
             auto ratio = dist / size;
             bool ans = classify(size, ratio);
             if (ans) {
-                group.insert(j->filename);
+                group.insert(j->id);
                 j->is_grouped = true;
             }
 #ifdef DEBUG
@@ -629,7 +632,7 @@ int main() {
 #endif
         }
         if (!group.empty()) {
-            group.insert(i->filename);
+            group.insert(i->id);
             ans.push_back(group);
         }
     }
@@ -640,14 +643,14 @@ int main() {
     cout << ans.size() << "\n";
     for (auto& group : ans) {
         bool first = true;
-        for (auto& filename : group) {
+        for (auto& id : group) {
             if (first) {
                 first = false;
             }
             else {
                 cout << " ";
             }
-            cout << filename;
+            cout << solutions[id].filename;
         }
         cout << "\n";
     }
