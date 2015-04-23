@@ -12,14 +12,34 @@
 #include <algorithm>
 using namespace std;
 
-const int MAX_FINGERPRINT_SIZE = 5000;
+const int    MAX_FINGERPRINT_SIZE = 5000;
+const double NORMAL_LO            = 0.228;
+const double NORMAL_HI            = 0.35;
+const double NORMAL_PEAK          = 580;
+const double NORMAL_BOOST         = 0.03;
+const double SMALL_THRESHOLD      = 350;
+const double SMALL_BOOST          = 0.0228;
 
-bool check(double size, double ratio) {
-    static const double hi    = 0.35;
-    static const double lo    = 0.228;
-    static const double peak  = 580;
-    static const double boost = 0.03;
-    return (ratio - lo) * (1 + exp(-boost * (size - peak))) < hi - lo;
+struct SigmoidClassifier {
+    const double lo;
+    const double hi;
+    const double peak;
+    const double boost;
+
+    SigmoidClassifier(double lo, double hi, double peak, double boost):
+        lo(lo), hi(hi), peak(peak), boost(boost) {}
+
+    bool classify(double x, double y) const {
+        return (y - lo) * (1 + exp(-boost * (x - peak))) < hi - lo;
+    }
+};
+
+const SigmoidClassifier normal_classifier(NORMAL_LO, NORMAL_HI, NORMAL_PEAK, NORMAL_BOOST);
+const SigmoidClassifier small_classifier(-NORMAL_LO, NORMAL_LO, 0, SMALL_BOOST);
+
+bool classify(double size, double ratio) {
+    auto& classifier = size < SMALL_THRESHOLD ? small_classifier : normal_classifier;
+    return classifier.classify(size, ratio);
 }
 
 string read_file(const char *filename) {
@@ -585,7 +605,7 @@ int main() {
             auto dist = levenshtein_distance(i->fingerprint, j->fingerprint);
             auto size = (double) (i->fingerprint.size() + j->fingerprint.size()) / 2;
             auto ratio = dist / size;
-            bool ans = check(size, ratio);
+            bool ans = classify(size, ratio);
             if (ans) {
                 group.insert(j->filename);
                 j->is_grouped = true;

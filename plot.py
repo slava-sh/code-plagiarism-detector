@@ -26,7 +26,8 @@ data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 
 if sample == 'all':
-    data = data[(~data[Right] & data[Guess]) | ((0.2 < data[Y]) & (data[Y] < 0.5))]
+    #data = data[data[X] < 1000]
+    data = data[(~data[Right] & data[Guess]) | (data[Y] < 0.5)]
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
 color = np.matrix([
@@ -37,19 +38,27 @@ data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
 
 plot.scatter(data[X], data[Y], c=data[Color], edgecolor='none')
 
-x     = np.arange(np.min(data[X]), np.max(data[X]))
+def sigmoid(lo, hi, peak, boost):
+    return lambda x: lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
+
+small_threshold = 350
+
+x     = np.arange(max(small_threshold, np.min(data[X])), np.max(data[X]))
 hi    = 0.35
 lo    = 0.228
 peak  = 580
 boost = 0.03
-y     = lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
-plot.plot(x, y)
-#x     = np.arange(0, 200, 0.1)
-#y     = np.sin(x * 2 * np.pi / peak) * lo
-#plot.plot(x, y)
+plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
+
+x     = np.arange(np.min(data[X]), min(small_threshold, np.max(data[X])))
+hi    = lo
+lo    = -hi
+peak  = 0
+boost = 0.0228
+plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
 
 def annotateRow(row):
-    label = 'data/{0}/sources/{1} data/{0}/sources/{2}'.format(sample, row[I], row[J])
+    label = 'data/*/sources/{} data/*/sources/{}'.format(row[I], row[J])
     xy = (row[X], row[Y])
     annotation = plot.annotate(label, xy=xy)
     annotation.set_gid('point-{}'.format(row.name))
