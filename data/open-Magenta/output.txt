@@ -30,7 +30,7 @@
 006989-open-2015-324-Magenta.cpp 007478-open-2015-324-Magenta.cpp 007578-open-2015-324-Magenta.cpp 007703-open-2015-324-Magenta.cpp 007952-open-2015-324-Magenta.cpp 008083-open-2015-324-Magenta.cpp 008440-open-2015-324-Magenta.cpp 009450-open-2015-324-Magenta.cpp 009935-open-2015-324-Magenta.cpp 010154-open-2015-324-Magenta.cpp 010486-open-2015-324-Magenta.cpp 010638-open-2015-324-Magenta.cpp 010650-open-2015-324-Magenta.cpp 010779-open-2015-324-Magenta.cpp 010940-open-2015-324-Magenta.cpp 011064-open-2015-324-Magenta.cpp 011198-open-2015-324-Magenta.cpp
 007153-open-2015-336-Magenta.cpp 007198-open-2015-336-Magenta.cpp
 007155-open-2015-123-Magenta.cpp 007856-open-2015-123-Magenta.cpp 008176-open-2015-123-Magenta.cpp
-007488-open-2015-336-Magenta.cpp 007539-open-2015-336-Magenta.cpp 007920-open-2015-336-Magenta.cpp
+007488-open-2015-336-Magenta.cpp 007539-open-2015-336-Magenta.cpp
 007700-open-2015-190-Magenta.cpp 007848-open-2015-190-Magenta.cpp
 009687-open-2015-079-Magenta.pas 009853-open-2015-079-Magenta.pas
 010044-open-2015-264-Magenta.cpp 010337-open-2015-264-Magenta.cpp

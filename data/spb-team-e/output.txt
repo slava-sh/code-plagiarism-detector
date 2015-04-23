@@ -40,7 +40,7 @@
 504-e-1.pas 504-e-2.pas 504-e-3.pas 504-e-4.pas 504-e-5.pas 504-e-7.pas 504-e-8.pas
 509-e-2.java 509-e-3.java
 513-e-1.cpp 513-e-2.cpp 513-e-3.cpp 513-e-4.cpp
-517-e-3.cpp 517-e-4.cpp 517-e-5.cpp 517-e-6.cpp
+517-e-2.cpp 517-e-3.cpp 517-e-4.cpp 517-e-5.cpp 517-e-6.cpp
 518-e-1.cpp 518-e-2.cpp
 601-e-1.cpp 601-e-2.cpp 601-e-3.cpp 601-e-4.cpp
 602-e-1.pas 602-e-2.pas 602-e-3.pas

@@ -1,4 +1,4 @@
-74
+75
 000938-open-2015-011-Cyan.cpp 001054-open-2015-011-Cyan.cpp 001105-open-2015-011-Cyan.cpp 002082-open-2015-011-Cyan.cpp 002299-open-2015-011-Cyan.cpp
 001603-open-2015-165-Cyan.java 002107-open-2015-165-Cyan.java
 001839-open-2015-214-Cyan.cpp 003715-open-2015-214-Cyan.cpp
@@ -50,7 +50,7 @@
 006882-open-2015-095-Cyan.cpp 007208-open-2015-095-Cyan.cpp
 006958-open-2015-276-Cyan.cpp 007755-open-2015-276-Cyan.cpp
 007169-open-2015-023-Cyan.pas 008157-open-2015-023-Cyan.pas
-007181-open-2015-191-Cyan.cpp 008450-open-2015-191-Cyan.cpp 008532-open-2015-191-Cyan.cpp 008580-open-2015-191-Cyan.cpp
+007181-open-2015-191-Cyan.cpp 008150-open-2015-191-Cyan.cpp 008450-open-2015-191-Cyan.cpp 008532-open-2015-191-Cyan.cpp 008580-open-2015-191-Cyan.cpp
 007257-open-2015-342-Cyan.cpp 007379-open-2015-342-Cyan.cpp 009244-open-2015-342-Cyan.cpp 009299-open-2015-342-Cyan.cpp 009510-open-2015-342-Cyan.cpp
 007458-open-2015-077-Cyan.cpp 007721-open-2015-077-Cyan.cpp
 007467-open-2015-216-Cyan.cpp 007951-open-2015-216-Cyan.cpp 008165-open-2015-216-Cyan.cpp 008699-open-2015-216-Cyan.cpp
@@ -58,7 +58,7 @@
 007616-open-2015-118-Cyan.cpp 007858-open-2015-118-Cyan.cpp
 007629-open-2015-065-Cyan.cpp 008054-open-2015-065-Cyan.cpp 008387-open-2015-065-Cyan.cpp 008424-open-2015-065-Cyan.cpp
 007823-open-2015-321-Cyan.cpp 008056-open-2015-321-Cyan.cpp 008212-open-2015-321-Cyan.cpp
-007831-open-2015-145-Cyan.cpp 007916-open-2015-145-Cyan.cpp 011140-open-2015-145-Cyan.cpp 011191-open-2015-145-Cyan.cpp
+007831-open-2015-145-Cyan.cpp 007916-open-2015-145-Cyan.cpp
 007841-open-2015-174-Cyan.cpp 009195-open-2015-174-Cyan.cpp 009400-open-2015-174-Cyan.cpp 009447-open-2015-174-Cyan.cpp 009560-open-2015-174-Cyan.cpp
 008036-open-2015-066-Cyan.cpp 010484-open-2015-066-Cyan.cpp 010526-open-2015-066-Cyan.cpp
 008087-open-2015-220-Cyan.cpp 009943-open-2015-220-Cyan.cpp
@@ -68,8 +68,9 @@
 008399-open-2015-077-Cyan.cpp 008482-open-2015-077-Cyan.cpp
 008479-open-2015-351-Cyan.cpp 008538-open-2015-351-Cyan.cpp
 009275-open-2015-216-Cyan.cpp 009456-open-2015-216-Cyan.cpp 009933-open-2015-216-Cyan.cpp 010253-open-2015-216-Cyan.cpp 010617-open-2015-216-Cyan.cpp 010666-open-2015-216-Cyan.cpp 010823-open-2015-216-Cyan.cpp
-009409-open-2015-351-Cyan.cpp 009805-open-2015-351-Cyan.cpp
+009409-open-2015-351-Cyan.cpp 009805-open-2015-351-Cyan.cpp 010111-open-2015-351-Cyan.cpp
 009430-open-2015-283-Cyan.cpp 010313-open-2015-283-Cyan.cpp 011014-open-2015-283-Cyan.cpp
 009525-open-2015-332-Cyan.cpp 009619-open-2015-332-Cyan.cpp
 010098-open-2015-340-Cyan.cpp 010207-open-2015-340-Cyan.cpp 010521-open-2015-340-Cyan.cpp
 011047-open-2015-153-Cyan.cpp 011142-open-2015-153-Cyan.cpp
+011140-open-2015-145-Cyan.cpp 011191-open-2015-145-Cyan.cpp
