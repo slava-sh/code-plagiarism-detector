@@ -163,7 +163,9 @@ string remove_general(const string& s, const string& begin, const string& end,
         }
         if (ends_with(begin, s, i)) {
             if (depth == 0) {
-                result.resize(result.size() - begin.size());
+                if (ends_with(begin, result, result.size() - 1)) {
+                    result.resize(result.size() - begin.size());
+                }
             }
             if (depth == 0 || nested) {
                 ++depth;
@@ -256,7 +258,8 @@ string remove_comments(string code, const string& extension) {
     code = replace_all(code, "#ifdef defined", "#ifdef");
     code = expand_ifdefs(code);
 
-    code = remove_nonnested(code, "#", "\n");
+    code = replace_all(code, "\n#", "\n\n#");
+    code = remove_nonnested(code, "\n#", "\n");
     if (extension == "d") {
         code = remove_nonnested(code, "/++", "+/");
     }
@@ -269,15 +272,6 @@ string remove_comments(string code, const string& extension) {
         code = remove_nonnested(code, "--", "\n");
     }
     return code;
-}
-
-string normalize_line_endings(string s) {
-    for (auto& c : s) {
-        if (c == '\r') {
-            c = '\n';
-        }
-    }
-    return s;
 }
 
 typedef vector< string > Tokens;
@@ -452,13 +446,16 @@ Tokens tokenize_python(const string& code) {
 
 map< string, int > common_token_id;
 
-map< string, Tokens > extract_functions(const Tokens& tokens) {
-    map< string, Tokens > result;
+pair< map< string, Tokens >, Tokens > extract_functions(const Tokens& tokens,
+        bool python) {
+    map< string, Tokens > functions;
+    Tokens rest;
     int n = tokens.size();
     for (int i = 0; i < n; ++i) {
         auto& token = tokens[i];
         bool is_name = is_identifier(token[0]) && common_token_id.count(token) == 0;
-        if (is_name && i + 1 < n && tokens[i + 1] == "(") {
+        if (is_name && i + 1 < n && tokens[i + 1] == "(" &&
+                (!python || (!rest.empty() && rest.back() == "def"))) {
             // Horrible
             int j = i + 2;
             int depth = 1;
@@ -470,7 +467,7 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
                     --depth;
                 }
             }
-            if (depth == 0 && j < n && tokens[j] == "{" && result.count(token) == 0) {
+            if (depth == 0 && j < n && tokens[j] == "{" && functions.count(token) == 0) {
                 Tokens body;
                 int depth = 1;
                 for (i = j + 1; i < n; ++i) {
@@ -487,12 +484,17 @@ map< string, Tokens > extract_functions(const Tokens& tokens) {
                 }
                 if (i < n && !body.empty()) {
                     body.pop_back();
-                    result[token] = body;
+                    functions[token] = body;
+                    if (python) {
+                        rest.pop_back(); // Remove def
+                    }
+                    continue;
                 }
             }
         }
+        rest.push_back(token);
     }
-    return result;
+    return make_pair(functions, rest);
 }
 
 struct Solution {
@@ -509,7 +511,8 @@ struct Solution {
         transform(extension.begin(), extension.end(), extension.begin(), ::tolower);
 
         transform(code.begin(), code.end(), code.begin(), ::tolower);
-        code = normalize_line_endings(code);
+        code = replace_all(code, "\r",  "\n");
+        code = replace_all(code, "\t",  " ");
         code = remove_comments(code, extension);
 
         auto tokens = tokenize(code);
@@ -527,11 +530,9 @@ struct Solution {
         }
 
         map< string, Tokens > functions;
-        if (!python) {
-            functions = extract_functions(tokens);
-            if (functions.count(main) != 0) {
-                tokens = functions[main];
-            }
+        tie(functions, tokens) = extract_functions(tokens, python);
+        if (functions.count(main) != 0 && !python) {
+            tokens = functions[main];
         }
         token_id = common_token_id;
         expand(tokens, functions);
