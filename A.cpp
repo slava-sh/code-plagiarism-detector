@@ -513,7 +513,9 @@ struct Solution {
         code = remove_comments(code, extension);
 
         auto tokens = tokenize(code);
+        bool python = false;
         if (extension == "py" || extension == "py2" || extension == "py3") {
+            python = true;
             tokens = tokenize_python(code);
         }
         else if (extension == "java") {
@@ -524,9 +526,12 @@ struct Solution {
             tokens = fix_pascal_functions(tokens);
         }
 
-        auto functions = extract_functions(tokens);
-        if (functions.count(main) != 0) {
-            tokens = functions[main];
+        map< string, Tokens > functions;
+        if (!python) {
+            functions = extract_functions(tokens);
+            if (functions.count(main) != 0) {
+                tokens = functions[main];
+            }
         }
         token_id = common_token_id;
         expand(tokens, functions);
