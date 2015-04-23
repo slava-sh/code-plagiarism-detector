@@ -430,9 +430,6 @@ struct Solution {
     string code;
     map< string, int > token_id;
     vector< int > fingerprint;
-    bool is_grouped;
-
-    Solution(): is_grouped(false) {}
 
     void create_fingerprint() {
         static const string main = "main";
@@ -535,6 +532,47 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
     return result;
 }
 
+struct DSU {
+    vector< int > parent;
+    vector< int > size;
+
+    DSU(int size): parent(size, -1), size(size, 1) {}
+
+    void unite(int a, int b) {
+        a = find(a);
+        b = find(b);
+        if (a != b) {
+            if (size[a] < size[b]) {
+                swap(a, b);
+            }
+            parent[b] = a;
+            size[a] += size[b];
+        }
+    }
+
+    int find(int x) {
+        if (parent[x] == -1) {
+            return x;
+        }
+        return parent[x] = find(parent[x]);
+    }
+
+    vector< vector< int > > groups() {
+        map< int, vector< int > > groups;
+        for (int i = 0; i < parent.size(); ++i) {
+            int x = find(i);
+            if (size[x] > 1) {
+                groups[x].push_back(i);
+            }
+        }
+        vector< vector< int > > result;
+        for (auto& group : groups) {
+            result.push_back(group.second);
+        }
+        return result;
+    }
+};
+
 int main() {
     Tokens special_tokens = {
         "0",
@@ -595,24 +633,18 @@ int main() {
     ofstream data_tsv("../data.tsv");
     data_tsv << "Ans\tGuess\tSize\tDistRatio\tDist\tI\tJ" << endl;
 #endif
-    vector< set< int > > ans;
+
+    DSU ans(solutions.size());
     for (auto i = solutions.begin(); i != solutions.end(); ++i) {
-        if (i->is_grouped) {
-            continue;
-        }
-        set< int > group;
         for (auto j = i + 1; j != solutions.end(); ++j) {
-            if (j->is_grouped) {
-                continue;
-            }
             auto dist = levenshtein_distance(i->fingerprint, j->fingerprint);
             auto size = (double) (i->fingerprint.size() + j->fingerprint.size()) / 2;
             auto ratio = dist / size;
-            bool ans = classify(size, ratio);
-            if (ans) {
-                group.insert(j->id);
-                j->is_grouped = true;
+            bool similar = classify(size, ratio);
+            if (similar) {
+                ans.unite(i->id, j->id);
             }
+
 #ifdef DEBUG
             bool right_ans;
             {
@@ -623,7 +655,7 @@ int main() {
                 right_ans = right_pairs.count(key) != 0;
             }
             data_tsv << right_ans + 0 << "\t"
-                     << ans + 0 << "\t"
+                     << similar + 0 << "\t"
                      << size << "\t"
                      << (double) dist / size << "\t"
                      << dist << "\t"
@@ -631,17 +663,15 @@ int main() {
                      << j->filename << endl;
 #endif
         }
-        if (!group.empty()) {
-            group.insert(i->id);
-            ans.push_back(group);
-        }
     }
+
 #ifdef DEBUG
     data_tsv.close();
 #endif
 
-    cout << ans.size() << "\n";
-    for (auto& group : ans) {
+    auto groups = ans.groups();
+    cout << groups.size() << "\n";
+    for (auto& group : groups) {
         bool first = true;
         for (auto& id : group) {
             if (first) {

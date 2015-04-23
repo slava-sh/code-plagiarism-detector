@@ -3,7 +3,7 @@
 000270-open-2015-064-Gold.cpp 000317-open-2015-064-Gold.cpp
 000297-open-2015-334-Gold.cpp 000354-open-2015-334-Gold.cpp
 000364-open-2015-264-Gold.cpp 000377-open-2015-264-Gold.cpp 000399-open-2015-264-Gold.cpp 000408-open-2015-264-Gold.cpp
-000452-open-2015-274-Gold.cpp 004228-open-2015-274-Gold.cpp 004313-open-2015-274-Gold.cpp
+000452-open-2015-274-Gold.cpp 004228-open-2015-274-Gold.cpp
 000458-open-2015-152-Gold.cpp 000506-open-2015-152-Gold.cpp 004447-open-2015-152-Gold.cpp
 000718-open-2015-336-Gold.cpp 008764-open-2015-336-Gold.cpp
 000855-open-2015-071-Gold.cpp 001093-open-2015-071-Gold.cpp

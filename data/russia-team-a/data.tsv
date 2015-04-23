@@ -1962,7 +1962,7 @@ Ans	Guess	Size	DistRatio	Dist	I	J
 0	0	0	inf	475	k25-a-3.cpp	k42-a-1.cpp
 0	0	0	inf	475	k25-a-3.cpp	k42-a-2.cpp
 0	0	217	2	434	k25-a-3.cpp	k45-a-1.cpp
-1	1	43.5	0.183908	8	k26-a-1.cpp	k26-a-2.cpp
+1	0	43.5	0.183908	8	k26-a-1.cpp	k26-a-2.cpp
 0	0	202	1.60891	325	k26-a-1.cpp	k32-a-1.cpp
 0	0	233.5	1.66167	388	k26-a-1.cpp	k32-a-2.cpp
 0	0	211	1.62559	343	k26-a-1.cpp	k32-a-3.cpp
@@ -1974,6 +1974,17 @@ Ans	Guess	Size	DistRatio	Dist	I	J
 0	0	20	2	40	k26-a-1.cpp	k42-a-1.cpp
 0	0	20	2	40	k26-a-1.cpp	k42-a-2.cpp
 0	0	237	1.66245	394	k26-a-1.cpp	k45-a-1.cpp
+0	0	205.5	1.55231	319	k26-a-2.cpp	k32-a-1.cpp
+0	0	237	1.61181	382	k26-a-2.cpp	k32-a-2.cpp
+0	0	214.5	1.5711	337	k26-a-2.cpp	k32-a-3.cpp
+0	0	217.5	1.57701	343	k26-a-2.cpp	k32-a-4.cpp
+0	0	232.5	1.6043	373	k26-a-2.cpp	k32-a-5.cpp
+0	0	252.5	1.63564	413	k26-a-2.cpp	k32-a-6.cpp
+0	0	261.5	1.64818	431	k26-a-2.cpp	k32-a-7.cpp
+0	0	261	1.64751	430	k26-a-2.cpp	k32-a-8.cpp
+0	0	23.5	2	47	k26-a-2.cpp	k42-a-1.cpp
+0	0	23.5	2	47	k26-a-2.cpp	k42-a-2.cpp
+0	0	240.5	1.61331	388	k26-a-2.cpp	k45-a-1.cpp
 1	1	395.5	0.159292	63	k32-a-1.cpp	k32-a-2.cpp
 1	1	373	0.209115	78	k32-a-1.cpp	k32-a-3.cpp
 1	0	376	0.289894	109	k32-a-1.cpp	k32-a-4.cpp
