@@ -1,4 +1,4 @@
-36
+35
 000158-open-2015-066-Magenta.cpp 000205-open-2015-066-Magenta.cpp
 000345-open-2015-194-Magenta.java 008339-open-2015-194-Magenta.java
 000551-open-2015-191-Magenta.cpp 000568-open-2015-191-Magenta.cpp
@@ -21,7 +21,7 @@
 003415-open-2015-314-Magenta.cpp 003479-open-2015-314-Magenta.cpp 003585-open-2015-314-Magenta.cpp
 003589-open-2015-321-Magenta.cpp 004204-open-2015-321-Magenta.cpp
 003770-open-2015-094-Magenta.cpp 003790-open-2015-094-Magenta.cpp 003833-open-2015-094-Magenta.cpp 003934-open-2015-094-Magenta.cpp 004029-open-2015-094-Magenta.cpp 004118-open-2015-094-Magenta.cpp 004181-open-2015-094-Magenta.cpp 004191-open-2015-094-Magenta.cpp 004323-open-2015-094-Magenta.cpp 004346-open-2015-094-Magenta.cpp 009466-open-2015-094-Magenta.cpp 009797-open-2015-094-Magenta.cpp
-003835-open-2015-321-Magenta.cpp 004333-open-2015-321-Magenta.cpp 004473-open-2015-321-Magenta.cpp 004829-open-2015-321-Magenta.cpp
+003835-open-2015-321-Magenta.cpp 004333-open-2015-321-Magenta.cpp 004473-open-2015-321-Magenta.cpp 004829-open-2015-321-Magenta.cpp 010108-open-2015-321-Magenta.cpp 010382-open-2015-321-Magenta.cpp 010636-open-2015-321-Magenta.cpp
 003868-open-2015-351-Magenta.cpp 004673-open-2015-351-Magenta.cpp
 004248-open-2015-283-Magenta.cpp 004314-open-2015-283-Magenta.cpp
 005048-open-2015-121-Magenta.cpp 005190-open-2015-121-Magenta.cpp
@@ -34,4 +34,3 @@
 007700-open-2015-190-Magenta.cpp 007848-open-2015-190-Magenta.cpp
 009687-open-2015-079-Magenta.pas 009853-open-2015-079-Magenta.pas
 010044-open-2015-264-Magenta.cpp 010337-open-2015-264-Magenta.cpp
-010108-open-2015-321-Magenta.cpp 010382-open-2015-321-Magenta.cpp 010636-open-2015-321-Magenta.cpp

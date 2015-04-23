@@ -81,8 +81,8 @@ istream& safe_getline(istream& in, string& s) {
 string replace_all(string s, const string& a, const string& b) {
     int i = 0;
     while ((i = s.find(a, i)) != string::npos) {
-         s.replace(i, a.length(), b);
-         i += b.length();
+        s.replace(i, a.length(), b);
+        i += b.length();
     }
     return s;
 }

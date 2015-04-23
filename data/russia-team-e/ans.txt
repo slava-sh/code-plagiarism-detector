@@ -1,4 +1,4 @@
-76
+75
 514-e-1.pas 514-e-10.pas 514-e-2.pas 514-e-3.pas 514-e-4.pas 514-e-5.pas 514-e-6.pas 514-e-7.pas 514-e-8.pas 514-e-9.pas
 g01-e-1.cpp g01-e-2.cpp
 k19-e-1.cpp k19-e-2.cpp k19-e-3.cpp k19-e-4.cpp k19-e-5.cpp
@@ -73,5 +73,4 @@ k39-e-1.cpp k39-e-2.cpp k39-e-3.cpp k39-e-4.cpp
 103-e-1.cpp 103-e-2.cpp
 301-e-1.cpp 301-e-2.cpp 301-e-3.cpp 301-e-4.cpp
 410-e-1.cpp 410-e-2.cpp 410-e-3.cpp 410-e-4.cpp
-k36-e-1.cpp k36-e-2.cpp k36-e-3.cpp k36-e-4.cpp k36-e-5.cpp k36-e-6.cpp k36-e-7.cpp
 210-e-1.py 210-e-2.py 210-e-3.py 210-e-4.py

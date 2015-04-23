@@ -1,6 +1,5 @@
-55
-104-h-1.cpp 104-h-2.cpp 104-h-3.cpp 104-h-4.cpp 104-h-5.cpp
-104-h-10.cpp 104-h-6.cpp 104-h-7.cpp 104-h-8.cpp 104-h-9.cpp
+47
+104-h-1.cpp 104-h-10.cpp 104-h-2.cpp 104-h-3.cpp 104-h-4.cpp 104-h-5.cpp 104-h-6.cpp 104-h-7.cpp 104-h-8.cpp 104-h-9.cpp
 104-h-11.cpp 104-h-12.cpp
 107-h-1.cpp 107-h-2.cpp
 108-h-1.cpp 108-h-2.cpp 108-h-3.cpp 108-h-4.cpp 108-h-5.cpp 108-h-6.cpp 108-h-7.cpp 108-h-8.cpp 108-h-9.cpp
@@ -12,17 +11,16 @@
 215-h-1.cpp 215-h-2.cpp
 217-h-1.cpp 217-h-2.cpp 217-h-3.cpp 217-h-4.cpp
 218-h-1.cpp 218-h-2.cpp
-220-h-1.java 220-h-2.java 220-h-3.java
+220-h-1.java 220-h-2.java 220-h-3.java 220-h-4.java
 221-h-1.cpp 221-h-2.cpp 221-h-3.cpp
 303-h-1.dpr 303-h-2.dpr 303-h-3.dpr 303-h-4.dpr 303-h-5.dpr 303-h-6.dpr 303-h-7.dpr 303-h-8.dpr
 308-h-1.cpp 308-h-2.cpp
-310-h-1.cpp 310-h-2.cpp 310-h-3.cpp 310-h-4.cpp
+310-h-1.cpp 310-h-2.cpp 310-h-3.cpp 310-h-4.cpp 310-h-5.cpp
 404-h-1.cpp 404-h-2.cpp 404-h-3.cpp 404-h-4.cpp
 405-h-1.dpr 405-h-2.dpr 405-h-3.dpr 405-h-4.dpr 405-h-5.dpr
-413-h-1.cpp 413-h-2.cpp 413-h-3.cpp 413-h-4.cpp 413-h-7.cpp 413-h-8.cpp
-413-h-10.cpp 413-h-11.cpp 413-h-9.cpp
+413-h-1.cpp 413-h-10.cpp 413-h-11.cpp 413-h-2.cpp 413-h-3.cpp 413-h-4.cpp 413-h-5.cpp 413-h-7.cpp 413-h-8.cpp 413-h-9.cpp
 416-h-10.cpp 416-h-6.cpp 416-h-7.cpp 416-h-8.cpp 416-h-9.cpp
-416-h-2.cpp 416-h-3.cpp 416-h-4.cpp 416-h-5.cpp k07-h-1.cpp k07-h-2.cpp k20-h-2.cpp
+416-h-2.cpp 416-h-3.cpp 416-h-4.cpp 416-h-5.cpp g14-h-1.cpp k07-h-1.cpp k07-h-2.cpp k20-h-2.cpp
 417-h-1.cpp 417-h-2.cpp 417-h-3.cpp
 423-h-1.cpp 423-h-2.cpp
 502-h-1.cpp 502-h-2.cpp
@@ -34,18 +32,12 @@
 602-h-1.cpp 602-h-2.cpp
 g05-h-1.cpp g05-h-2.cpp g05-h-3.cpp g05-h-4.cpp g05-h-5.cpp g05-h-6.cpp g05-h-7.cpp g05-h-8.cpp
 g09-h-1.cpp g09-h-2.cpp
-g09-h-10.cpp g09-h-11.cpp g09-h-12.cpp g09-h-13.cpp g09-h-14.cpp g09-h-15.cpp g09-h-16.cpp g09-h-17.cpp g09-h-18.cpp g09-h-23.cpp g09-h-4.cpp g09-h-6.cpp g09-h-7.cpp g09-h-8.cpp g09-h-9.cpp
+g09-h-10.cpp g09-h-11.cpp g09-h-12.cpp g09-h-13.cpp g09-h-14.cpp g09-h-15.cpp g09-h-16.cpp g09-h-17.cpp g09-h-18.cpp g09-h-23.cpp g09-h-24.cpp g09-h-25.cpp g09-h-3.cpp g09-h-4.cpp g09-h-5.cpp g09-h-6.cpp g09-h-7.cpp g09-h-8.cpp g09-h-9.cpp
 g09-h-19.cpp g09-h-20.cpp g09-h-21.cpp g09-h-22.cpp
-g09-h-24.cpp g09-h-25.cpp
-g09-h-3.cpp g09-h-5.cpp
-g15-h-1.cpp g15-h-2.cpp g15-h-3.cpp g15-h-4.cpp g15-h-5.cpp g15-h-6.cpp
-g15-h-7.cpp g15-h-8.cpp
+g15-h-1.cpp g15-h-2.cpp g15-h-3.cpp g15-h-4.cpp g15-h-5.cpp g15-h-6.cpp g15-h-7.cpp g15-h-8.cpp
 k02-h-1.cpp k02-h-2.cpp k02-h-3.cpp
-k03-h-1.cpp k03-h-11.cpp k03-h-15.cpp k03-h-2.cpp k03-h-3.cpp k03-h-4.cpp k03-h-5.cpp k03-h-6.cpp k03-h-7.cpp k03-h-8.cpp k03-h-9.cpp
-k03-h-10.cpp k03-h-13.cpp k03-h-14.cpp
-k03-h-12.cpp k03-h-16.cpp k03-h-17.cpp
-k20-h-1.cpp k20-h-4.cpp
-k20-h-10.cpp k20-h-11.cpp k20-h-12.cpp k20-h-13.cpp k20-h-14.cpp k20-h-15.cpp k20-h-16.cpp k20-h-17.cpp k20-h-18.cpp k20-h-19.cpp k20-h-3.cpp k20-h-5.cpp k20-h-6.cpp k20-h-7.cpp k20-h-8.cpp k20-h-9.cpp
+k03-h-1.cpp k03-h-10.cpp k03-h-11.cpp k03-h-12.cpp k03-h-13.cpp k03-h-14.cpp k03-h-15.cpp k03-h-16.cpp k03-h-17.cpp k03-h-2.cpp k03-h-3.cpp k03-h-4.cpp k03-h-5.cpp k03-h-6.cpp k03-h-7.cpp k03-h-8.cpp k03-h-9.cpp
+k20-h-1.cpp k20-h-10.cpp k20-h-11.cpp k20-h-12.cpp k20-h-13.cpp k20-h-14.cpp k20-h-15.cpp k20-h-16.cpp k20-h-17.cpp k20-h-18.cpp k20-h-19.cpp k20-h-3.cpp k20-h-4.cpp k20-h-5.cpp k20-h-6.cpp k20-h-7.cpp k20-h-8.cpp k20-h-9.cpp
 k28-h-10.cpp k28-h-11.cpp k28-h-5.cpp k28-h-6.cpp k28-h-7.cpp k28-h-8.cpp k28-h-9.cpp
 k28-h-2.cpp k28-h-3.cpp k28-h-4.cpp
 k31-h-1.cpp k31-h-2.cpp k31-h-3.cpp k31-h-4.cpp k31-h-5.cpp

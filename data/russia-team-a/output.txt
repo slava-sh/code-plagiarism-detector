@@ -1,4 +1,4 @@
-27
+25
 101-a-1.cpp 101-a-2.cpp
 103-a-1.cpp 103-a-2.cpp
 105-a-1.cpp 105-a-2.cpp
@@ -23,6 +23,4 @@
 602-a-1.cpp 602-a-2.cpp
 604-a-1.cpp 604-a-2.cpp 604-a-3.cpp
 k24-a-1.cpp k24-a-2.cpp
-k32-a-1.cpp k32-a-2.cpp k32-a-3.cpp
-k32-a-4.cpp k32-a-5.cpp k32-a-6.cpp
-k32-a-7.cpp k32-a-8.cpp
+k32-a-1.cpp k32-a-2.cpp k32-a-3.cpp k32-a-4.cpp k32-a-5.cpp k32-a-6.cpp k32-a-7.cpp k32-a-8.cpp

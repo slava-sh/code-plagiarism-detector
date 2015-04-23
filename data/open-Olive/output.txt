@@ -1,14 +1,13 @@
-42
+40
 000347-open-2015-022-Olive.cpp 000381-open-2015-022-Olive.cpp
 001003-open-2015-332-Olive.cpp 002196-open-2015-332-Olive.cpp
 001289-open-2015-262-Olive.cpp 010854-open-2015-262-Olive.cpp
 001984-open-2015-022-Olive.cpp 008826-open-2015-022-Olive.cpp
-002083-open-2015-065-Olive.cpp 002929-open-2015-065-Olive.cpp
+002083-open-2015-065-Olive.cpp 002929-open-2015-065-Olive.cpp 003115-open-2015-065-Olive.cpp 003254-open-2015-065-Olive.cpp
 002736-open-2015-324-Olive.cpp 002944-open-2015-324-Olive.cpp 008917-open-2015-324-Olive.cpp 009002-open-2015-324-Olive.cpp
-002902-open-2015-080-Olive.cpp 003356-open-2015-080-Olive.cpp
-003115-open-2015-065-Olive.cpp 003254-open-2015-065-Olive.cpp
+002902-open-2015-080-Olive.cpp 003356-open-2015-080-Olive.cpp 003418-open-2015-080-Olive.cpp
 003321-open-2015-326-Olive.cpp 003367-open-2015-326-Olive.cpp 003386-open-2015-326-Olive.cpp
-003856-open-2015-152-Olive.cpp 005671-open-2015-152-Olive.cpp
+003856-open-2015-152-Olive.cpp 005671-open-2015-152-Olive.cpp 006150-open-2015-152-Olive.cpp 006824-open-2015-152-Olive.cpp 006920-open-2015-152-Olive.cpp
 004238-open-2015-326-Olive.cpp 004965-open-2015-326-Olive.cpp 004999-open-2015-326-Olive.cpp 005128-open-2015-326-Olive.cpp 005233-open-2015-326-Olive.cpp 005290-open-2015-326-Olive.cpp 005440-open-2015-326-Olive.cpp
 004376-open-2015-232-Olive.cpp 004530-open-2015-232-Olive.cpp
 005153-open-2015-167-Olive.cpp 005218-open-2015-167-Olive.cpp
@@ -17,8 +16,7 @@
 005324-open-2015-257-Olive.cpp 009917-open-2015-257-Olive.cpp
 005539-open-2015-064-Olive.cpp 005747-open-2015-064-Olive.cpp 009937-open-2015-064-Olive.cpp
 005679-open-2015-206-Olive.cpp 006007-open-2015-206-Olive.cpp
-006150-open-2015-152-Olive.cpp 006824-open-2015-152-Olive.cpp 006920-open-2015-152-Olive.cpp
-006181-open-2015-094-Olive.cpp 006598-open-2015-094-Olive.cpp 006670-open-2015-094-Olive.cpp 006837-open-2015-094-Olive.cpp 007097-open-2015-094-Olive.cpp 007168-open-2015-094-Olive.cpp 007218-open-2015-094-Olive.cpp 007298-open-2015-094-Olive.cpp 007362-open-2015-094-Olive.cpp 007400-open-2015-094-Olive.cpp 007436-open-2015-094-Olive.cpp 007482-open-2015-094-Olive.cpp 008202-open-2015-094-Olive.cpp 008301-open-2015-094-Olive.cpp 008316-open-2015-094-Olive.cpp
+006181-open-2015-094-Olive.cpp 006598-open-2015-094-Olive.cpp 006670-open-2015-094-Olive.cpp 006837-open-2015-094-Olive.cpp 006949-open-2015-094-Olive.cpp 007097-open-2015-094-Olive.cpp 007168-open-2015-094-Olive.cpp 007218-open-2015-094-Olive.cpp 007298-open-2015-094-Olive.cpp 007362-open-2015-094-Olive.cpp 007400-open-2015-094-Olive.cpp 007436-open-2015-094-Olive.cpp 007482-open-2015-094-Olive.cpp 008202-open-2015-094-Olive.cpp 008301-open-2015-094-Olive.cpp 008316-open-2015-094-Olive.cpp
 006365-open-2015-071-Olive.cpp 006849-open-2015-071-Olive.cpp
 006367-open-2015-212-Olive.cpp 009115-open-2015-212-Olive.cpp 009179-open-2015-212-Olive.cpp
 006418-open-2015-214-Olive.cpp 006435-open-2015-214-Olive.cpp 006460-open-2015-214-Olive.cpp
@@ -30,7 +28,7 @@
 007720-open-2015-340-Olive.cpp 007744-open-2015-340-Olive.cpp
 007867-open-2015-342-Olive.cpp 007989-open-2015-342-Olive.cpp
 008114-open-2015-169-Olive.cpp 008198-open-2015-169-Olive.cpp
-008269-open-2015-169-Olive.cpp 009694-open-2015-169-Olive.cpp
+008269-open-2015-169-Olive.cpp 009694-open-2015-169-Olive.cpp 010336-open-2015-169-Olive.cpp
 008455-open-2015-153-Olive.cpp 009199-open-2015-153-Olive.cpp 009221-open-2015-153-Olive.cpp 009538-open-2015-153-Olive.cpp
 008681-open-2015-006-Olive.cpp 008761-open-2015-006-Olive.cpp
 008960-open-2015-190-Olive.cpp 011153-open-2015-190-Olive.cpp

@@ -1,4 +1,4 @@
-39
+38
 101-c-1.cpp 101-c-2.cpp 101-c-3.cpp
 103-c-1.cpp 103-c-2.cpp 103-c-3.cpp
 105-c-1.cpp 105-c-2.cpp
@@ -32,8 +32,7 @@
 515-c-1.cpp 515-c-2.cpp 515-c-3.cpp
 518-c-1.cpp 518-c-2.cpp 518-c-3.cpp
 601-c-1.cpp 601-c-10.cpp 601-c-11.cpp 601-c-12.cpp 601-c-2.cpp 601-c-3.cpp 601-c-4.cpp 601-c-5.cpp 601-c-6.cpp 601-c-7.cpp 601-c-8.cpp 601-c-9.cpp
-g04-c-1.cpp g04-c-2.cpp
-g04-c-3.cpp g04-c-4.cpp
+g04-c-1.cpp g04-c-2.cpp g04-c-3.cpp g04-c-4.cpp
 k01-c-1.cpp k01-c-2.cpp k01-c-3.cpp k01-c-4.cpp k01-c-5.cpp k01-c-6.cpp
 k19-c-1.cpp k19-c-2.cpp
 k40-c-1.cpp k40-c-2.cpp k40-c-3.cpp

@@ -1,9 +1,9 @@
-51
-000552-open-2015-118-Red.cpp 004636-open-2015-118-Red.cpp 004858-open-2015-118-Red.cpp
+50
+000552-open-2015-118-Red.cpp 004636-open-2015-118-Red.cpp 004858-open-2015-118-Red.cpp 004985-open-2015-118-Red.cpp 005286-open-2015-118-Red.cpp 005700-open-2015-118-Red.cpp 006193-open-2015-118-Red.cpp 006301-open-2015-118-Red.cpp
 000571-open-2015-064-Red.cpp 000586-open-2015-064-Red.cpp 000779-open-2015-064-Red.cpp
 000785-open-2015-194-Red.java 000971-open-2015-194-Red.java
 001076-open-2015-324-Red.cpp 003872-open-2015-324-Red.cpp
-001110-open-2015-351-Red.cpp 001513-open-2015-351-Red.cpp 001540-open-2015-351-Red.cpp 004498-open-2015-351-Red.cpp 004537-open-2015-351-Red.cpp
+001110-open-2015-351-Red.cpp 001513-open-2015-351-Red.cpp 001540-open-2015-351-Red.cpp 004498-open-2015-351-Red.cpp 004537-open-2015-351-Red.cpp 006269-open-2015-351-Red.cpp
 001185-open-2015-326-Red.cpp 001212-open-2015-326-Red.cpp 001225-open-2015-326-Red.cpp
 001378-open-2015-255-Red.cpp 001433-open-2015-255-Red.cpp 006373-open-2015-255-Red.cpp
 001394-open-2015-067-Red.cpp 001602-open-2015-067-Red.cpp
@@ -28,7 +28,7 @@
 003241-open-2015-019-Red.cpp 003281-open-2015-019-Red.cpp 003313-open-2015-019-Red.cpp 003805-open-2015-019-Red.cpp 003903-open-2015-019-Red.cpp
 003252-open-2015-065-Red.cpp 003465-open-2015-065-Red.cpp 003549-open-2015-065-Red.cpp 003690-open-2015-065-Red.cpp
 003271-open-2015-232-Red.cpp 005870-open-2015-232-Red.cpp
-003311-open-2015-239-Red.cpp 003502-open-2015-239-Red.cpp 003579-open-2015-239-Red.cpp 003725-open-2015-239-Red.cpp 003806-open-2015-239-Red.cpp 004111-open-2015-239-Red.cpp
+003311-open-2015-239-Red.cpp 003502-open-2015-239-Red.cpp 003579-open-2015-239-Red.cpp 003725-open-2015-239-Red.cpp 003806-open-2015-239-Red.cpp 004111-open-2015-239-Red.cpp 004289-open-2015-239-Red.cpp
 003348-open-2015-152-Red.cpp 003609-open-2015-152-Red.cpp 003810-open-2015-152-Red.cpp 003843-open-2015-152-Red.cpp
 003512-open-2015-004-Red.cpp 003742-open-2015-004-Red.cpp 003899-open-2015-004-Red.cpp 004320-open-2015-004-Red.cpp
 003534-open-2015-309-Red.java 004224-open-2015-309-Red.java
@@ -36,14 +36,13 @@
 003988-open-2015-336-Red.cpp 004024-open-2015-336-Red.cpp
 004006-open-2015-212-Red.cpp 004060-open-2015-212-Red.cpp
 004187-open-2015-165-Red.java 006730-open-2015-165-Red.java
-004370-open-2015-340-Red.cpp 006146-open-2015-340-Red.cpp
+004370-open-2015-340-Red.cpp 006146-open-2015-340-Red.cpp 006575-open-2015-340-Red.cpp
 004378-open-2015-314-Red.cpp 004954-open-2015-314-Red.cpp
 004396-open-2015-066-Red.cpp 004530-open-2015-066-Red.cpp 004547-open-2015-066-Red.cpp 005080-open-2015-066-Red.cpp
 004400-open-2015-023-Red.pas 004536-open-2015-023-Red.pas 004697-open-2015-023-Red.pas 004912-open-2015-023-Red.pas 005196-open-2015-023-Red.pas 005255-open-2015-023-Red.pas 005369-open-2015-023-Red.pas 005452-open-2015-023-Red.pas 005502-open-2015-023-Red.pas
 004432-open-2015-022-Red.cpp 004492-open-2015-022-Red.cpp 004656-open-2015-022-Red.cpp
 004928-open-2015-171-Red.cpp 005002-open-2015-171-Red.cpp
 005242-open-2015-106-Red.cpp 005726-open-2015-106-Red.cpp
-005286-open-2015-118-Red.cpp 005700-open-2015-118-Red.cpp 006193-open-2015-118-Red.cpp 006301-open-2015-118-Red.cpp
 005384-open-2015-080-Red.cpp 006099-open-2015-080-Red.cpp 006223-open-2015-080-Red.cpp
 005504-open-2015-146-Red.pas 005874-open-2015-146-Red.pas
 005751-open-2015-087-Red.cpp 005768-open-2015-087-Red.cpp

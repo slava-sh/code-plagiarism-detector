@@ -8,50 +8,49 @@
 08 100
 09 100
 10 100
-open-Blue  46
-open-Cyan  42
-open-Gold  46
-open-Green WA
-open-Magenta  55
-open-Olive  49
-open-Red  66
-open-Yellow WA
-russia-team-a  76
-russia-team-c  92
-russia-team-e  78
+open-Blue  73
+open-Cyan  60
+open-Gold  52
+open-Green  40
+open-Magenta  57
+open-Olive  55
+open-Red  75
+open-Yellow  68
+russia-team-a  92
+russia-team-c  94
+russia-team-e  95
 russia-team-f  99
 russia-team-h WA
 russia-team-j  82
-russia-team-k  74
+russia-team-k  92
 spb-team-c 100
-spb-team-e  83
-spb-team-f  65
-spb-team-h  73
+spb-team-e  87
+spb-team-f  68
+spb-team-h  75
 spb-team-i 100
-spb-team-j  78
+spb-team-j  84
 spb-team-k 100
-2404 / 3200
-open-Green WAs:
- data/open-Green/sources/001374-open-2015-290-Green.py data/open-Green/sources/003858-open-2015-065-Green.cpp
- data/open-Green/sources/001385-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
- data/open-Green/sources/001442-open-2015-290-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
-open-Yellow WAs:
- data/open-Yellow/sources/000073-open-2015-214-Yellow.cpp data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp
- data/open-Yellow/sources/000076-open-2015-214-Yellow.cpp data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp
- data/open-Yellow/sources/000077-open-2015-214-Yellow.cpp data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp
+2648 / 3200
 russia-team-h WAs:
+ data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/k07-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/k07-h-2.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/k20-h-2.cpp
+ data/russia-team-h/sources/416-h-3.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-3.cpp data/russia-team-h/sources/k07-h-1.cpp
  data/russia-team-h/sources/416-h-3.cpp data/russia-team-h/sources/k07-h-2.cpp
  data/russia-team-h/sources/416-h-3.cpp data/russia-team-h/sources/k20-h-2.cpp
+ data/russia-team-h/sources/416-h-4.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-4.cpp data/russia-team-h/sources/k07-h-1.cpp
  data/russia-team-h/sources/416-h-4.cpp data/russia-team-h/sources/k07-h-2.cpp
  data/russia-team-h/sources/416-h-4.cpp data/russia-team-h/sources/k20-h-2.cpp
+ data/russia-team-h/sources/416-h-5.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-5.cpp data/russia-team-h/sources/k07-h-1.cpp
  data/russia-team-h/sources/416-h-5.cpp data/russia-team-h/sources/k07-h-2.cpp
  data/russia-team-h/sources/416-h-5.cpp data/russia-team-h/sources/k20-h-2.cpp
+ data/russia-team-h/sources/g14-h-1.cpp data/russia-team-h/sources/k07-h-1.cpp
+ data/russia-team-h/sources/g14-h-1.cpp data/russia-team-h/sources/k07-h-2.cpp
+ data/russia-team-h/sources/g14-h-1.cpp data/russia-team-h/sources/k20-h-2.cpp
  data/russia-team-h/sources/k07-h-1.cpp data/russia-team-h/sources/k20-h-2.cpp
  data/russia-team-h/sources/k07-h-2.cpp data/russia-team-h/sources/k20-h-2.cpp
 open-Blue misses:
@@ -68,6 +67,7 @@ open-Blue misses:
  data/open-Blue/sources/000763-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/001138-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/001318-open-2015-214-Blue.cpp
+ data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/001804-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/002776-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/002839-open-2015-214-Blue.cpp
@@ -75,18 +75,6 @@ open-Blue misses:
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003338-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003589-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003673-open-2015-214-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/002988-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003027-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003075-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003101-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003160-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003171-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/003203-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/000825-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/001121-open-2015-336-Blue.cpp data/open-Blue/sources/005721-open-2015-336-Blue.cpp
- data/open-Blue/sources/001121-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001318-open-2015-214-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001804-open-2015-214-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
@@ -103,8 +91,6 @@ open-Blue misses:
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/004625-open-2015-006-Blue.cpp
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/006106-open-2015-006-Blue.cpp
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/006329-open-2015-006-Blue.cpp
- data/open-Blue/sources/001295-open-2015-336-Blue.cpp data/open-Blue/sources/005721-open-2015-336-Blue.cpp
- data/open-Blue/sources/001295-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/001804-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/002776-open-2015-214-Blue.cpp
@@ -113,17 +99,13 @@ open-Blue misses:
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003338-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003589-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003673-open-2015-214-Blue.cpp
- data/open-Blue/sources/001527-open-2015-336-Blue.cpp data/open-Blue/sources/005721-open-2015-336-Blue.cpp
- data/open-Blue/sources/001527-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002708-open-2015-106-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002775-open-2015-106-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002789-open-2015-106-Blue.cpp
- data/open-Blue/sources/001677-open-2015-326-Blue.cpp data/open-Blue/sources/001732-open-2015-326-Blue.cpp
  data/open-Blue/sources/001677-open-2015-326-Blue.cpp data/open-Blue/sources/001817-open-2015-326-Blue.cpp
  data/open-Blue/sources/001677-open-2015-326-Blue.cpp data/open-Blue/sources/002927-open-2015-326-Blue.cpp
  data/open-Blue/sources/001677-open-2015-326-Blue.cpp data/open-Blue/sources/003381-open-2015-326-Blue.cpp
  data/open-Blue/sources/001677-open-2015-326-Blue.cpp data/open-Blue/sources/003472-open-2015-326-Blue.cpp
- data/open-Blue/sources/001703-open-2015-326-Blue.cpp data/open-Blue/sources/001732-open-2015-326-Blue.cpp
  data/open-Blue/sources/001703-open-2015-326-Blue.cpp data/open-Blue/sources/001817-open-2015-326-Blue.cpp
  data/open-Blue/sources/001703-open-2015-326-Blue.cpp data/open-Blue/sources/002927-open-2015-326-Blue.cpp
  data/open-Blue/sources/001703-open-2015-326-Blue.cpp data/open-Blue/sources/003381-open-2015-326-Blue.cpp
@@ -132,7 +114,6 @@ open-Blue misses:
  data/open-Blue/sources/001732-open-2015-326-Blue.cpp data/open-Blue/sources/002927-open-2015-326-Blue.cpp
  data/open-Blue/sources/001732-open-2015-326-Blue.cpp data/open-Blue/sources/003381-open-2015-326-Blue.cpp
  data/open-Blue/sources/001732-open-2015-326-Blue.cpp data/open-Blue/sources/003472-open-2015-326-Blue.cpp
- data/open-Blue/sources/001804-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
  data/open-Blue/sources/001804-open-2015-214-Blue.cpp data/open-Blue/sources/002776-open-2015-214-Blue.cpp
  data/open-Blue/sources/001804-open-2015-214-Blue.cpp data/open-Blue/sources/002839-open-2015-214-Blue.cpp
  data/open-Blue/sources/001804-open-2015-214-Blue.cpp data/open-Blue/sources/003105-open-2015-214-Blue.cpp
@@ -150,46 +131,6 @@ open-Blue misses:
  data/open-Blue/sources/001855-open-2015-214-Blue.cpp data/open-Blue/sources/003673-open-2015-214-Blue.cpp
  data/open-Blue/sources/002001-open-2015-152-Blue.cpp data/open-Blue/sources/004423-open-2015-152-Blue.cpp
  data/open-Blue/sources/002258-open-2015-163-Blue.cpp data/open-Blue/sources/005595-open-2015-163-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/002988-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003027-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003075-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003101-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003160-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003171-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/003203-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/002359-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/002988-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003027-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003075-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003101-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003160-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003171-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/003203-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/002381-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/002988-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003027-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003075-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003101-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003160-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003171-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/003203-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/002401-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/002988-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003027-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003075-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003101-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003160-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003171-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/003203-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/002462-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/002552-open-2015-071-Blue.cpp data/open-Blue/sources/002753-open-2015-071-Blue.cpp
  data/open-Blue/sources/002552-open-2015-071-Blue.cpp data/open-Blue/sources/005872-open-2015-071-Blue.cpp
  data/open-Blue/sources/002552-open-2015-071-Blue.cpp data/open-Blue/sources/005919-open-2015-071-Blue.cpp
@@ -200,57 +141,8 @@ open-Blue misses:
  data/open-Blue/sources/002850-open-2015-118-Blue.cpp data/open-Blue/sources/004030-open-2015-118-Blue.cpp
  data/open-Blue/sources/002850-open-2015-118-Blue.cpp data/open-Blue/sources/004057-open-2015-118-Blue.cpp
  data/open-Blue/sources/002850-open-2015-118-Blue.cpp data/open-Blue/sources/004220-open-2015-118-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/002988-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003027-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003075-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
  data/open-Blue/sources/003090-open-2015-190-Blue.cpp data/open-Blue/sources/003339-open-2015-190-Blue.cpp
  data/open-Blue/sources/003090-open-2015-190-Blue.cpp data/open-Blue/sources/003380-open-2015-190-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003101-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003160-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003171-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/003847-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004131-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004140-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/003203-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
  data/open-Blue/sources/003227-open-2015-118-Blue.cpp data/open-Blue/sources/004030-open-2015-118-Blue.cpp
  data/open-Blue/sources/003227-open-2015-118-Blue.cpp data/open-Blue/sources/004057-open-2015-118-Blue.cpp
  data/open-Blue/sources/003227-open-2015-118-Blue.cpp data/open-Blue/sources/004220-open-2015-118-Blue.cpp
@@ -267,31 +159,14 @@ open-Blue misses:
  data/open-Blue/sources/003696-open-2015-206-Blue.cpp data/open-Blue/sources/006441-open-2015-206-Blue.cpp
  data/open-Blue/sources/003696-open-2015-206-Blue.cpp data/open-Blue/sources/006511-open-2015-206-Blue.cpp
  data/open-Blue/sources/003696-open-2015-206-Blue.cpp data/open-Blue/sources/006604-open-2015-206-Blue.cpp
- data/open-Blue/sources/003847-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/003847-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/003847-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/004061-open-2015-079-Blue.cpp data/open-Blue/sources/004409-open-2015-079-Blue.cpp
  data/open-Blue/sources/004124-open-2015-079-Blue.cpp data/open-Blue/sources/004409-open-2015-079-Blue.cpp
- data/open-Blue/sources/004131-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/004131-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004131-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/004140-open-2015-342-Blue.cpp data/open-Blue/sources/004288-open-2015-342-Blue.cpp
- data/open-Blue/sources/004140-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004140-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/004200-open-2015-334-Blue.cpp data/open-Blue/sources/005176-open-2015-334-Blue.cpp
  data/open-Blue/sources/004200-open-2015-334-Blue.cpp data/open-Blue/sources/005189-open-2015-334-Blue.cpp
- data/open-Blue/sources/004288-open-2015-342-Blue.cpp data/open-Blue/sources/004371-open-2015-342-Blue.cpp
- data/open-Blue/sources/004288-open-2015-342-Blue.cpp data/open-Blue/sources/004406-open-2015-342-Blue.cpp
- data/open-Blue/sources/004288-open-2015-342-Blue.cpp data/open-Blue/sources/004771-open-2015-342-Blue.cpp
- data/open-Blue/sources/004288-open-2015-342-Blue.cpp data/open-Blue/sources/004810-open-2015-342-Blue.cpp
  data/open-Blue/sources/004328-open-2015-145-Blue.cpp data/open-Blue/sources/006681-open-2015-145-Blue.cpp
  data/open-Blue/sources/004328-open-2015-145-Blue.cpp data/open-Blue/sources/006905-open-2015-145-Blue.cpp
  data/open-Blue/sources/004358-open-2015-019-Blue.cpp data/open-Blue/sources/004483-open-2015-019-Blue.cpp
  data/open-Blue/sources/004358-open-2015-019-Blue.cpp data/open-Blue/sources/004761-open-2015-019-Blue.cpp
- data/open-Blue/sources/004371-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004371-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
- data/open-Blue/sources/004406-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004406-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/004408-open-2015-165-Blue.java data/open-Blue/sources/004659-open-2015-165-Blue.java
  data/open-Blue/sources/004416-open-2015-165-Blue.java data/open-Blue/sources/004659-open-2015-165-Blue.java
  data/open-Blue/sources/004420-open-2015-019-Blue.cpp data/open-Blue/sources/004483-open-2015-019-Blue.cpp
@@ -303,16 +178,10 @@ open-Blue misses:
  data/open-Blue/sources/004645-open-2015-011-Blue.cpp data/open-Blue/sources/004807-open-2015-011-Blue.cpp
  data/open-Blue/sources/004645-open-2015-011-Blue.cpp data/open-Blue/sources/004978-open-2015-011-Blue.cpp
  data/open-Blue/sources/004645-open-2015-011-Blue.cpp data/open-Blue/sources/006335-open-2015-011-Blue.cpp
- data/open-Blue/sources/004771-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004771-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/004787-open-2015-206-Blue.cpp data/open-Blue/sources/006441-open-2015-206-Blue.cpp
- data/open-Blue/sources/004810-open-2015-342-Blue.cpp data/open-Blue/sources/005063-open-2015-342-Blue.cpp
- data/open-Blue/sources/004810-open-2015-342-Blue.cpp data/open-Blue/sources/005172-open-2015-342-Blue.cpp
  data/open-Blue/sources/004965-open-2015-077-Blue.cpp data/open-Blue/sources/005141-open-2015-077-Blue.cpp
  data/open-Blue/sources/004965-open-2015-077-Blue.cpp data/open-Blue/sources/005341-open-2015-077-Blue.cpp
  data/open-Blue/sources/004983-open-2015-262-Blue.cpp data/open-Blue/sources/006105-open-2015-262-Blue.cpp
- data/open-Blue/sources/005106-open-2015-336-Blue.cpp data/open-Blue/sources/005721-open-2015-336-Blue.cpp
- data/open-Blue/sources/005106-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/005232-open-2015-206-Blue.cpp data/open-Blue/sources/006441-open-2015-206-Blue.cpp
  data/open-Blue/sources/006441-open-2015-206-Blue.cpp data/open-Blue/sources/006511-open-2015-206-Blue.cpp
  data/open-Blue/sources/006441-open-2015-206-Blue.cpp data/open-Blue/sources/006604-open-2015-206-Blue.cpp
@@ -331,13 +200,6 @@ open-Cyan misses:
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/004410-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/004475-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
@@ -353,54 +215,14 @@ open-Cyan misses:
  data/open-Cyan/sources/002190-open-2015-206-Cyan.cpp data/open-Cyan/sources/002840-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002190-open-2015-206-Cyan.cpp data/open-Cyan/sources/008473-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002387-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/002622-open-2015-257-Cyan.cpp data/open-Cyan/sources/003456-open-2015-257-Cyan.cpp
- data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
- data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
- data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
  data/open-Cyan/sources/002840-open-2015-206-Cyan.cpp data/open-Cyan/sources/008473-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002897-open-2015-239-Cyan.cpp data/open-Cyan/sources/008047-open-2015-239-Cyan.cpp
- data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/002986-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
- data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp
@@ -417,10 +239,6 @@ open-Cyan misses:
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006001-open-2015-006-Cyan.cpp
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006226-open-2015-006-Cyan.cpp
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006320-open-2015-006-Cyan.cpp
- data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp
@@ -468,8 +286,6 @@ open-Cyan misses:
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
- data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp
- data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004410-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
@@ -477,19 +293,15 @@ open-Cyan misses:
  data/open-Cyan/sources/004475-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004505-open-2015-163-Cyan.cpp data/open-Cyan/sources/008346-open-2015-163-Cyan.cpp
- data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
- data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp
- data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
- data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp
@@ -498,32 +310,17 @@ open-Cyan misses:
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/004596-open-2015-031-Cyan.cpp data/open-Cyan/sources/005420-open-2015-031-Cyan.cpp
- data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
- data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004821-open-2015-031-Cyan.cpp data/open-Cyan/sources/005420-open-2015-031-Cyan.cpp
- data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
@@ -555,17 +352,6 @@ open-Cyan misses:
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
@@ -578,12 +364,8 @@ open-Cyan misses:
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
- data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
- data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
- data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/005363-open-2015-106-Cyan.cpp data/open-Cyan/sources/007363-open-2015-106-Cyan.cpp
- data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/005537-open-2015-080-Cyan.cpp data/open-Cyan/sources/010626-open-2015-080-Cyan.cpp
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp
@@ -595,17 +377,6 @@ open-Cyan misses:
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005645-open-2015-080-Cyan.cpp data/open-Cyan/sources/010626-open-2015-080-Cyan.cpp
  data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp
@@ -620,7 +391,6 @@ open-Cyan misses:
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
- data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -628,7 +398,6 @@ open-Cyan misses:
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006226-open-2015-006-Cyan.cpp data/open-Cyan/sources/006320-open-2015-006-Cyan.cpp
- data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -648,7 +417,6 @@ open-Cyan misses:
  data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp data/open-Cyan/sources/010207-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp data/open-Cyan/sources/010521-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
- data/open-Cyan/sources/006665-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -659,7 +427,6 @@ open-Cyan misses:
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
- data/open-Cyan/sources/006843-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
@@ -667,26 +434,16 @@ open-Cyan misses:
  data/open-Cyan/sources/007169-open-2015-023-Cyan.pas data/open-Cyan/sources/008239-open-2015-023-Cyan.pas
  data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/007216-open-2015-232-Cyan.cpp data/open-Cyan/sources/008720-open-2015-232-Cyan.cpp
- data/open-Cyan/sources/007234-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/007629-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008054-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008387-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008424-open-2015-065-Cyan.cpp
- data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
- data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008227-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007458-open-2015-077-Cyan.cpp data/open-Cyan/sources/008399-open-2015-077-Cyan.cpp
  data/open-Cyan/sources/007458-open-2015-077-Cyan.cpp data/open-Cyan/sources/008482-open-2015-077-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp
@@ -698,22 +455,8 @@ open-Cyan misses:
  data/open-Cyan/sources/007831-open-2015-145-Cyan.cpp data/open-Cyan/sources/011191-open-2015-145-Cyan.cpp
  data/open-Cyan/sources/007916-open-2015-145-Cyan.cpp data/open-Cyan/sources/011140-open-2015-145-Cyan.cpp
  data/open-Cyan/sources/007916-open-2015-145-Cyan.cpp data/open-Cyan/sources/011191-open-2015-145-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/008157-open-2015-023-Cyan.pas data/open-Cyan/sources/008239-open-2015-023-Cyan.pas
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/008360-open-2015-264-Cyan.cpp data/open-Cyan/sources/009416-open-2015-264-Cyan.cpp
@@ -728,18 +471,8 @@ open-Cyan misses:
  data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
- data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
- data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
- data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
- data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
@@ -809,24 +542,14 @@ open-Gold misses:
  data/open-Gold/sources/001451-open-2015-177-Gold.cpp data/open-Gold/sources/009925-open-2015-177-Gold.cpp
  data/open-Gold/sources/001451-open-2015-177-Gold.cpp data/open-Gold/sources/010610-open-2015-177-Gold.cpp
  data/open-Gold/sources/001451-open-2015-177-Gold.cpp data/open-Gold/sources/011095-open-2015-177-Gold.cpp
- data/open-Gold/sources/001676-open-2015-067-Gold.cpp data/open-Gold/sources/001840-open-2015-067-Gold.cpp
- data/open-Gold/sources/001676-open-2015-067-Gold.cpp data/open-Gold/sources/001889-open-2015-067-Gold.cpp
- data/open-Gold/sources/001711-open-2015-194-Gold.java data/open-Gold/sources/007105-open-2015-194-Gold.java
- data/open-Gold/sources/001753-open-2015-067-Gold.cpp data/open-Gold/sources/001840-open-2015-067-Gold.cpp
- data/open-Gold/sources/001753-open-2015-067-Gold.cpp data/open-Gold/sources/001889-open-2015-067-Gold.cpp
  data/open-Gold/sources/001851-open-2015-018-Gold.cpp data/open-Gold/sources/001937-open-2015-018-Gold.cpp
- data/open-Gold/sources/001912-open-2015-194-Gold.java data/open-Gold/sources/007105-open-2015-194-Gold.java
  data/open-Gold/sources/001936-open-2015-153-Gold.cpp data/open-Gold/sources/002276-open-2015-153-Gold.cpp
  data/open-Gold/sources/003072-open-2015-208-Gold.java data/open-Gold/sources/006480-open-2015-208-Gold.java
  data/open-Gold/sources/003072-open-2015-208-Gold.java data/open-Gold/sources/006517-open-2015-208-Gold.java
  data/open-Gold/sources/003200-open-2015-206-Gold.cpp data/open-Gold/sources/003371-open-2015-206-Gold.cpp
  data/open-Gold/sources/003200-open-2015-206-Gold.cpp data/open-Gold/sources/003382-open-2015-206-Gold.cpp
- data/open-Gold/sources/003200-open-2015-206-Gold.cpp data/open-Gold/sources/007466-open-2015-206-Gold.cpp
- data/open-Gold/sources/003200-open-2015-206-Gold.cpp data/open-Gold/sources/007501-open-2015-206-Gold.cpp
  data/open-Gold/sources/003277-open-2015-206-Gold.cpp data/open-Gold/sources/003371-open-2015-206-Gold.cpp
  data/open-Gold/sources/003277-open-2015-206-Gold.cpp data/open-Gold/sources/003382-open-2015-206-Gold.cpp
- data/open-Gold/sources/003277-open-2015-206-Gold.cpp data/open-Gold/sources/007466-open-2015-206-Gold.cpp
- data/open-Gold/sources/003277-open-2015-206-Gold.cpp data/open-Gold/sources/007501-open-2015-206-Gold.cpp
  data/open-Gold/sources/003371-open-2015-206-Gold.cpp data/open-Gold/sources/007466-open-2015-206-Gold.cpp
  data/open-Gold/sources/003371-open-2015-206-Gold.cpp data/open-Gold/sources/007501-open-2015-206-Gold.cpp
  data/open-Gold/sources/003382-open-2015-206-Gold.cpp data/open-Gold/sources/007466-open-2015-206-Gold.cpp
@@ -839,11 +562,7 @@ open-Gold misses:
  data/open-Gold/sources/003445-open-2015-214-Gold.cpp data/open-Gold/sources/009329-open-2015-214-Gold.cpp
  data/open-Gold/sources/003445-open-2015-214-Gold.cpp data/open-Gold/sources/009452-open-2015-214-Gold.cpp
  data/open-Gold/sources/003445-open-2015-214-Gold.cpp data/open-Gold/sources/009792-open-2015-214-Gold.cpp
- data/open-Gold/sources/003446-open-2015-157-Gold.cpp data/open-Gold/sources/003762-open-2015-157-Gold.cpp
- data/open-Gold/sources/003494-open-2015-157-Gold.cpp data/open-Gold/sources/003762-open-2015-157-Gold.cpp
- data/open-Gold/sources/003509-open-2015-157-Gold.cpp data/open-Gold/sources/003762-open-2015-157-Gold.cpp
  data/open-Gold/sources/003683-open-2015-011-Gold.cpp data/open-Gold/sources/009083-open-2015-011-Gold.cpp
- data/open-Gold/sources/003686-open-2015-157-Gold.cpp data/open-Gold/sources/003762-open-2015-157-Gold.cpp
  data/open-Gold/sources/004212-open-2015-203-Gold.cpp data/open-Gold/sources/006319-open-2015-203-Gold.cpp
  data/open-Gold/sources/004212-open-2015-203-Gold.cpp data/open-Gold/sources/006342-open-2015-203-Gold.cpp
  data/open-Gold/sources/004212-open-2015-203-Gold.cpp data/open-Gold/sources/006431-open-2015-203-Gold.cpp
@@ -851,7 +570,6 @@ open-Gold misses:
  data/open-Gold/sources/004212-open-2015-203-Gold.cpp data/open-Gold/sources/006943-open-2015-203-Gold.cpp
  data/open-Gold/sources/004212-open-2015-203-Gold.cpp data/open-Gold/sources/006971-open-2015-203-Gold.cpp
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/004436-open-2015-305-Gold.cpp
- data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/004620-open-2015-305-Gold.cpp
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/004839-open-2015-305-Gold.cpp
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/004969-open-2015-305-Gold.cpp
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/005351-open-2015-305-Gold.cpp
@@ -860,7 +578,6 @@ open-Gold misses:
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/005503-open-2015-305-Gold.cpp
  data/open-Gold/sources/004243-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
  data/open-Gold/sources/004249-open-2015-305-Gold.cpp data/open-Gold/sources/004436-open-2015-305-Gold.cpp
- data/open-Gold/sources/004249-open-2015-305-Gold.cpp data/open-Gold/sources/004620-open-2015-305-Gold.cpp
  data/open-Gold/sources/004249-open-2015-305-Gold.cpp data/open-Gold/sources/004839-open-2015-305-Gold.cpp
  data/open-Gold/sources/004249-open-2015-305-Gold.cpp data/open-Gold/sources/004969-open-2015-305-Gold.cpp
  data/open-Gold/sources/004249-open-2015-305-Gold.cpp data/open-Gold/sources/005351-open-2015-305-Gold.cpp
@@ -877,7 +594,6 @@ open-Gold misses:
  data/open-Gold/sources/004436-open-2015-305-Gold.cpp data/open-Gold/sources/005410-open-2015-305-Gold.cpp
  data/open-Gold/sources/004436-open-2015-305-Gold.cpp data/open-Gold/sources/005503-open-2015-305-Gold.cpp
  data/open-Gold/sources/004436-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
- data/open-Gold/sources/004446-open-2015-305-Gold.cpp data/open-Gold/sources/004620-open-2015-305-Gold.cpp
  data/open-Gold/sources/004446-open-2015-305-Gold.cpp data/open-Gold/sources/004839-open-2015-305-Gold.cpp
  data/open-Gold/sources/004446-open-2015-305-Gold.cpp data/open-Gold/sources/004969-open-2015-305-Gold.cpp
  data/open-Gold/sources/004446-open-2015-305-Gold.cpp data/open-Gold/sources/005351-open-2015-305-Gold.cpp
@@ -901,7 +617,6 @@ open-Gold misses:
  data/open-Gold/sources/004620-open-2015-305-Gold.cpp data/open-Gold/sources/005410-open-2015-305-Gold.cpp
  data/open-Gold/sources/004620-open-2015-305-Gold.cpp data/open-Gold/sources/005503-open-2015-305-Gold.cpp
  data/open-Gold/sources/004620-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
- data/open-Gold/sources/004755-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
  data/open-Gold/sources/004839-open-2015-305-Gold.cpp data/open-Gold/sources/005351-open-2015-305-Gold.cpp
  data/open-Gold/sources/004839-open-2015-305-Gold.cpp data/open-Gold/sources/005376-open-2015-305-Gold.cpp
  data/open-Gold/sources/004839-open-2015-305-Gold.cpp data/open-Gold/sources/005410-open-2015-305-Gold.cpp
@@ -910,15 +625,11 @@ open-Gold misses:
  data/open-Gold/sources/004902-open-2015-336-Gold.cpp data/open-Gold/sources/008764-open-2015-336-Gold.cpp
  data/open-Gold/sources/004902-open-2015-336-Gold.cpp data/open-Gold/sources/009926-open-2015-336-Gold.cpp
  data/open-Gold/sources/004902-open-2015-336-Gold.cpp data/open-Gold/sources/010092-open-2015-336-Gold.cpp
- data/open-Gold/sources/004923-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
  data/open-Gold/sources/004969-open-2015-305-Gold.cpp data/open-Gold/sources/005351-open-2015-305-Gold.cpp
  data/open-Gold/sources/004969-open-2015-305-Gold.cpp data/open-Gold/sources/005376-open-2015-305-Gold.cpp
  data/open-Gold/sources/004969-open-2015-305-Gold.cpp data/open-Gold/sources/005410-open-2015-305-Gold.cpp
  data/open-Gold/sources/004969-open-2015-305-Gold.cpp data/open-Gold/sources/005503-open-2015-305-Gold.cpp
  data/open-Gold/sources/004969-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
- data/open-Gold/sources/005101-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
- data/open-Gold/sources/005229-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
- data/open-Gold/sources/005275-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
  data/open-Gold/sources/005350-open-2015-336-Gold.cpp data/open-Gold/sources/008764-open-2015-336-Gold.cpp
  data/open-Gold/sources/005350-open-2015-336-Gold.cpp data/open-Gold/sources/009926-open-2015-336-Gold.cpp
  data/open-Gold/sources/005350-open-2015-336-Gold.cpp data/open-Gold/sources/010092-open-2015-336-Gold.cpp
@@ -928,9 +639,6 @@ open-Gold misses:
  data/open-Gold/sources/005391-open-2015-336-Gold.cpp data/open-Gold/sources/009926-open-2015-336-Gold.cpp
  data/open-Gold/sources/005391-open-2015-336-Gold.cpp data/open-Gold/sources/010092-open-2015-336-Gold.cpp
  data/open-Gold/sources/005410-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
- data/open-Gold/sources/005414-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
- data/open-Gold/sources/005431-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
- data/open-Gold/sources/005456-open-2015-152-Gold.cpp data/open-Gold/sources/006592-open-2015-152-Gold.cpp
  data/open-Gold/sources/005503-open-2015-305-Gold.cpp data/open-Gold/sources/006281-open-2015-305-Gold.cpp
  data/open-Gold/sources/005508-open-2015-336-Gold.cpp data/open-Gold/sources/008764-open-2015-336-Gold.cpp
  data/open-Gold/sources/005508-open-2015-336-Gold.cpp data/open-Gold/sources/009926-open-2015-336-Gold.cpp
@@ -973,14 +681,12 @@ open-Gold misses:
  data/open-Gold/sources/006840-open-2015-050-Gold.cpp data/open-Gold/sources/011234-open-2015-050-Gold.cpp
  data/open-Gold/sources/006939-open-2015-321-Gold.cpp data/open-Gold/sources/006960-open-2015-321-Gold.cpp
  data/open-Gold/sources/006943-open-2015-203-Gold.cpp data/open-Gold/sources/006971-open-2015-203-Gold.cpp
- data/open-Gold/sources/007011-open-2015-194-Gold.java data/open-Gold/sources/007105-open-2015-194-Gold.java
  data/open-Gold/sources/007012-open-2015-348-Gold.cpp data/open-Gold/sources/007333-open-2015-348-Gold.cpp
  data/open-Gold/sources/007012-open-2015-348-Gold.cpp data/open-Gold/sources/011088-open-2015-348-Gold.cpp
  data/open-Gold/sources/007012-open-2015-348-Gold.cpp data/open-Gold/sources/011221-open-2015-348-Gold.cpp
  data/open-Gold/sources/007029-open-2015-348-Gold.cpp data/open-Gold/sources/007333-open-2015-348-Gold.cpp
  data/open-Gold/sources/007029-open-2015-348-Gold.cpp data/open-Gold/sources/011088-open-2015-348-Gold.cpp
  data/open-Gold/sources/007029-open-2015-348-Gold.cpp data/open-Gold/sources/011221-open-2015-348-Gold.cpp
- data/open-Gold/sources/007105-open-2015-194-Gold.java data/open-Gold/sources/007137-open-2015-194-Gold.java
  data/open-Gold/sources/007148-open-2015-214-Gold.cpp data/open-Gold/sources/007767-open-2015-214-Gold.cpp
  data/open-Gold/sources/007148-open-2015-214-Gold.cpp data/open-Gold/sources/008072-open-2015-214-Gold.cpp
  data/open-Gold/sources/007148-open-2015-214-Gold.cpp data/open-Gold/sources/009029-open-2015-214-Gold.cpp
@@ -1006,6 +712,196 @@ open-Gold misses:
  data/open-Gold/sources/007523-open-2015-050-Gold.cpp data/open-Gold/sources/011234-open-2015-050-Gold.cpp
  data/open-Gold/sources/008764-open-2015-336-Gold.cpp data/open-Gold/sources/009926-open-2015-336-Gold.cpp
  data/open-Gold/sources/008764-open-2015-336-Gold.cpp data/open-Gold/sources/010092-open-2015-336-Gold.cpp
+open-Green misses:
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/000171-open-2015-326-Green.cpp
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/000177-open-2015-326-Green.cpp
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/000388-open-2015-326-Green.cpp
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000100-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/000171-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/000177-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/000388-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000126-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000133-open-2015-174-Green.cpp data/open-Green/sources/001584-open-2015-174-Green.cpp
+ data/open-Green/sources/000133-open-2015-174-Green.cpp data/open-Green/sources/006386-open-2015-174-Green.cpp
+ data/open-Green/sources/000142-open-2015-191-Green.cpp data/open-Green/sources/000640-open-2015-191-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/000171-open-2015-326-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/000177-open-2015-326-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/000388-open-2015-326-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000151-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000171-open-2015-326-Green.cpp data/open-Green/sources/000388-open-2015-326-Green.cpp
+ data/open-Green/sources/000171-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000171-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000171-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/001716-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/005505-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/005915-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/006243-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/006307-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/006555-open-2015-152-Green.cpp
+ data/open-Green/sources/000176-open-2015-152-Green.cpp data/open-Green/sources/006676-open-2015-152-Green.cpp
+ data/open-Green/sources/000177-open-2015-326-Green.cpp data/open-Green/sources/000388-open-2015-326-Green.cpp
+ data/open-Green/sources/000177-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000177-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000177-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000196-open-2015-214-Green.cpp data/open-Green/sources/000304-open-2015-214-Green.cpp
+ data/open-Green/sources/000196-open-2015-214-Green.cpp data/open-Green/sources/000400-open-2015-214-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/001716-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/005505-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/005915-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/006243-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/006307-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/006555-open-2015-152-Green.cpp
+ data/open-Green/sources/000201-open-2015-152-Green.cpp data/open-Green/sources/006676-open-2015-152-Green.cpp
+ data/open-Green/sources/000220-open-2015-171-Green.cpp data/open-Green/sources/000702-open-2015-171-Green.cpp
+ data/open-Green/sources/000220-open-2015-171-Green.cpp data/open-Green/sources/001764-open-2015-171-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/001716-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/005505-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/005915-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/006243-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/006307-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/006555-open-2015-152-Green.cpp
+ data/open-Green/sources/000222-open-2015-152-Green.cpp data/open-Green/sources/006676-open-2015-152-Green.cpp
+ data/open-Green/sources/000259-open-2015-239-Green.cpp data/open-Green/sources/006943-open-2015-239-Green.cpp
+ data/open-Green/sources/000295-open-2015-191-Green.cpp data/open-Green/sources/000640-open-2015-191-Green.cpp
+ data/open-Green/sources/000304-open-2015-214-Green.cpp data/open-Green/sources/000400-open-2015-214-Green.cpp
+ data/open-Green/sources/000307-open-2015-334-Green.cpp data/open-Green/sources/000369-open-2015-334-Green.cpp
+ data/open-Green/sources/000307-open-2015-334-Green.cpp data/open-Green/sources/000539-open-2015-334-Green.cpp
+ data/open-Green/sources/000307-open-2015-334-Green.cpp data/open-Green/sources/005891-open-2015-334-Green.cpp
+ data/open-Green/sources/000365-open-2015-239-Green.cpp data/open-Green/sources/006943-open-2015-239-Green.cpp
+ data/open-Green/sources/000369-open-2015-334-Green.cpp data/open-Green/sources/000371-open-2015-334-Green.cpp
+ data/open-Green/sources/000369-open-2015-334-Green.cpp data/open-Green/sources/000539-open-2015-334-Green.cpp
+ data/open-Green/sources/000369-open-2015-334-Green.cpp data/open-Green/sources/005891-open-2015-334-Green.cpp
+ data/open-Green/sources/000371-open-2015-334-Green.cpp data/open-Green/sources/000539-open-2015-334-Green.cpp
+ data/open-Green/sources/000371-open-2015-334-Green.cpp data/open-Green/sources/005891-open-2015-334-Green.cpp
+ data/open-Green/sources/000388-open-2015-326-Green.cpp data/open-Green/sources/004511-open-2015-326-Green.cpp
+ data/open-Green/sources/000388-open-2015-326-Green.cpp data/open-Green/sources/004821-open-2015-326-Green.cpp
+ data/open-Green/sources/000388-open-2015-326-Green.cpp data/open-Green/sources/004851-open-2015-326-Green.cpp
+ data/open-Green/sources/000437-open-2015-142-Green.cpp data/open-Green/sources/000675-open-2015-142-Green.cpp
+ data/open-Green/sources/000488-open-2015-190-Green.cpp data/open-Green/sources/002479-open-2015-190-Green.cpp
+ data/open-Green/sources/000557-open-2015-256-Green.cpp data/open-Green/sources/004863-open-2015-256-Green.cpp
+ data/open-Green/sources/000574-open-2015-256-Green.cpp data/open-Green/sources/004863-open-2015-256-Green.cpp
+ data/open-Green/sources/000576-open-2015-255-Green.cpp data/open-Green/sources/001593-open-2015-255-Green.cpp
+ data/open-Green/sources/000576-open-2015-255-Green.cpp data/open-Green/sources/002187-open-2015-255-Green.cpp
+ data/open-Green/sources/000600-open-2015-275-Green.cpp data/open-Green/sources/001574-open-2015-275-Green.cpp
+ data/open-Green/sources/000790-open-2015-177-Green.cpp data/open-Green/sources/005344-open-2015-177-Green.cpp
+ data/open-Green/sources/000790-open-2015-177-Green.cpp data/open-Green/sources/006540-open-2015-177-Green.cpp
+ data/open-Green/sources/000810-open-2015-022-Green.cpp data/open-Green/sources/004015-open-2015-022-Green.cpp
+ data/open-Green/sources/000812-open-2015-206-Green.cpp data/open-Green/sources/000842-open-2015-206-Green.cpp
+ data/open-Green/sources/000812-open-2015-206-Green.cpp data/open-Green/sources/001030-open-2015-206-Green.cpp
+ data/open-Green/sources/000812-open-2015-206-Green.cpp data/open-Green/sources/001279-open-2015-206-Green.cpp
+ data/open-Green/sources/000812-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/000841-open-2015-256-Green.cpp data/open-Green/sources/004863-open-2015-256-Green.cpp
+ data/open-Green/sources/000842-open-2015-206-Green.cpp data/open-Green/sources/001279-open-2015-206-Green.cpp
+ data/open-Green/sources/000842-open-2015-206-Green.cpp data/open-Green/sources/001444-open-2015-206-Green.cpp
+ data/open-Green/sources/000842-open-2015-206-Green.cpp data/open-Green/sources/001492-open-2015-206-Green.cpp
+ data/open-Green/sources/000842-open-2015-206-Green.cpp data/open-Green/sources/001926-open-2015-206-Green.cpp
+ data/open-Green/sources/000842-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/000850-open-2015-256-Green.cpp data/open-Green/sources/004863-open-2015-256-Green.cpp
+ data/open-Green/sources/000861-open-2015-094-Green.cpp data/open-Green/sources/004838-open-2015-094-Green.cpp
+ data/open-Green/sources/000861-open-2015-094-Green.cpp data/open-Green/sources/004849-open-2015-094-Green.cpp
+ data/open-Green/sources/000922-open-2015-019-Green.cpp data/open-Green/sources/002196-open-2015-019-Green.cpp
+ data/open-Green/sources/000937-open-2015-208-Green.java data/open-Green/sources/005410-open-2015-208-Green.java
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/005411-open-2015-207-Green.cpp
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/005653-open-2015-207-Green.cpp
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/005953-open-2015-207-Green.cpp
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/005989-open-2015-207-Green.cpp
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/006025-open-2015-207-Green.cpp
+ data/open-Green/sources/000947-open-2015-207-Green.cpp data/open-Green/sources/006510-open-2015-207-Green.cpp
+ data/open-Green/sources/000974-open-2015-174-Green.cpp data/open-Green/sources/001584-open-2015-174-Green.cpp
+ data/open-Green/sources/000974-open-2015-174-Green.cpp data/open-Green/sources/006386-open-2015-174-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/005411-open-2015-207-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/005653-open-2015-207-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/005953-open-2015-207-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/005989-open-2015-207-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/006025-open-2015-207-Green.cpp
+ data/open-Green/sources/000979-open-2015-207-Green.cpp data/open-Green/sources/006510-open-2015-207-Green.cpp
+ data/open-Green/sources/001030-open-2015-206-Green.cpp data/open-Green/sources/001279-open-2015-206-Green.cpp
+ data/open-Green/sources/001030-open-2015-206-Green.cpp data/open-Green/sources/001444-open-2015-206-Green.cpp
+ data/open-Green/sources/001030-open-2015-206-Green.cpp data/open-Green/sources/001492-open-2015-206-Green.cpp
+ data/open-Green/sources/001030-open-2015-206-Green.cpp data/open-Green/sources/001926-open-2015-206-Green.cpp
+ data/open-Green/sources/001030-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/001081-open-2015-022-Green.cpp data/open-Green/sources/004015-open-2015-022-Green.cpp
+ data/open-Green/sources/001088-open-2015-118-Green.cpp data/open-Green/sources/001268-open-2015-118-Green.cpp
+ data/open-Green/sources/001272-open-2015-328-Green.cpp data/open-Green/sources/001912-open-2015-328-Green.cpp
+ data/open-Green/sources/001279-open-2015-206-Green.cpp data/open-Green/sources/001444-open-2015-206-Green.cpp
+ data/open-Green/sources/001279-open-2015-206-Green.cpp data/open-Green/sources/001492-open-2015-206-Green.cpp
+ data/open-Green/sources/001279-open-2015-206-Green.cpp data/open-Green/sources/001926-open-2015-206-Green.cpp
+ data/open-Green/sources/001279-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/001285-open-2015-328-Green.cpp data/open-Green/sources/001912-open-2015-328-Green.cpp
+ data/open-Green/sources/001324-open-2015-094-Green.cpp data/open-Green/sources/004838-open-2015-094-Green.cpp
+ data/open-Green/sources/001324-open-2015-094-Green.cpp data/open-Green/sources/004849-open-2015-094-Green.cpp
+ data/open-Green/sources/001444-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/001492-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/001519-open-2015-342-Green.cpp data/open-Green/sources/002042-open-2015-342-Green.cpp
+ data/open-Green/sources/001545-open-2015-342-Green.cpp data/open-Green/sources/002042-open-2015-342-Green.cpp
+ data/open-Green/sources/001584-open-2015-174-Green.cpp data/open-Green/sources/006386-open-2015-174-Green.cpp
+ data/open-Green/sources/001593-open-2015-255-Green.cpp data/open-Green/sources/002187-open-2015-255-Green.cpp
+ data/open-Green/sources/001688-open-2015-264-Green.cpp data/open-Green/sources/001724-open-2015-264-Green.cpp
+ data/open-Green/sources/001688-open-2015-264-Green.cpp data/open-Green/sources/005312-open-2015-264-Green.cpp
+ data/open-Green/sources/001688-open-2015-264-Green.cpp data/open-Green/sources/005662-open-2015-264-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/005505-open-2015-152-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/005915-open-2015-152-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/006243-open-2015-152-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/006307-open-2015-152-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/006555-open-2015-152-Green.cpp
+ data/open-Green/sources/001716-open-2015-152-Green.cpp data/open-Green/sources/006676-open-2015-152-Green.cpp
+ data/open-Green/sources/001724-open-2015-264-Green.cpp data/open-Green/sources/005312-open-2015-264-Green.cpp
+ data/open-Green/sources/001724-open-2015-264-Green.cpp data/open-Green/sources/005662-open-2015-264-Green.cpp
+ data/open-Green/sources/001926-open-2015-206-Green.cpp data/open-Green/sources/002153-open-2015-206-Green.cpp
+ data/open-Green/sources/002019-open-2015-113-Green.cpp data/open-Green/sources/002084-open-2015-113-Green.cpp
+ data/open-Green/sources/002151-open-2015-336-Green.cpp data/open-Green/sources/002177-open-2015-336-Green.cpp
+ data/open-Green/sources/002151-open-2015-336-Green.cpp data/open-Green/sources/002490-open-2015-336-Green.cpp
+ data/open-Green/sources/002151-open-2015-336-Green.cpp data/open-Green/sources/002526-open-2015-336-Green.cpp
+ data/open-Green/sources/002151-open-2015-336-Green.cpp data/open-Green/sources/002772-open-2015-336-Green.cpp
+ data/open-Green/sources/002151-open-2015-336-Green.cpp data/open-Green/sources/002868-open-2015-336-Green.cpp
+ data/open-Green/sources/002177-open-2015-336-Green.cpp data/open-Green/sources/002490-open-2015-336-Green.cpp
+ data/open-Green/sources/002177-open-2015-336-Green.cpp data/open-Green/sources/002526-open-2015-336-Green.cpp
+ data/open-Green/sources/002177-open-2015-336-Green.cpp data/open-Green/sources/002772-open-2015-336-Green.cpp
+ data/open-Green/sources/002177-open-2015-336-Green.cpp data/open-Green/sources/002868-open-2015-336-Green.cpp
+ data/open-Green/sources/002350-open-2015-276-Green.cpp data/open-Green/sources/005338-open-2015-276-Green.cpp
+ data/open-Green/sources/002490-open-2015-336-Green.cpp data/open-Green/sources/002772-open-2015-336-Green.cpp
+ data/open-Green/sources/002490-open-2015-336-Green.cpp data/open-Green/sources/002868-open-2015-336-Green.cpp
+ data/open-Green/sources/002526-open-2015-336-Green.cpp data/open-Green/sources/002772-open-2015-336-Green.cpp
+ data/open-Green/sources/002526-open-2015-336-Green.cpp data/open-Green/sources/002868-open-2015-336-Green.cpp
+ data/open-Green/sources/002772-open-2015-336-Green.cpp data/open-Green/sources/002868-open-2015-336-Green.cpp
+ data/open-Green/sources/003116-open-2015-212-Green.cpp data/open-Green/sources/005820-open-2015-212-Green.cpp
+ data/open-Green/sources/003116-open-2015-212-Green.cpp data/open-Green/sources/006249-open-2015-212-Green.cpp
+ data/open-Green/sources/003167-open-2015-130-Green.cpp data/open-Green/sources/005214-open-2015-130-Green.cpp
+ data/open-Green/sources/003447-open-2015-130-Green.cpp data/open-Green/sources/005214-open-2015-130-Green.cpp
+ data/open-Green/sources/003629-open-2015-067-Green.cpp data/open-Green/sources/003701-open-2015-067-Green.cpp
+ data/open-Green/sources/003644-open-2015-072-Green.cpp data/open-Green/sources/004308-open-2015-072-Green.cpp
+ data/open-Green/sources/003644-open-2015-072-Green.cpp data/open-Green/sources/004434-open-2015-072-Green.cpp
+ data/open-Green/sources/003644-open-2015-072-Green.cpp data/open-Green/sources/004540-open-2015-072-Green.cpp
+ data/open-Green/sources/003701-open-2015-067-Green.cpp data/open-Green/sources/003822-open-2015-067-Green.cpp
+ data/open-Green/sources/003701-open-2015-067-Green.cpp data/open-Green/sources/003914-open-2015-067-Green.cpp
+ data/open-Green/sources/003701-open-2015-067-Green.cpp data/open-Green/sources/004058-open-2015-067-Green.cpp
+ data/open-Green/sources/003701-open-2015-067-Green.cpp data/open-Green/sources/004098-open-2015-067-Green.cpp
+ data/open-Green/sources/003714-open-2015-072-Green.cpp data/open-Green/sources/004308-open-2015-072-Green.cpp
+ data/open-Green/sources/003714-open-2015-072-Green.cpp data/open-Green/sources/004434-open-2015-072-Green.cpp
+ data/open-Green/sources/003714-open-2015-072-Green.cpp data/open-Green/sources/004540-open-2015-072-Green.cpp
+ data/open-Green/sources/003726-open-2015-072-Green.cpp data/open-Green/sources/004308-open-2015-072-Green.cpp
+ data/open-Green/sources/003726-open-2015-072-Green.cpp data/open-Green/sources/004434-open-2015-072-Green.cpp
+ data/open-Green/sources/003726-open-2015-072-Green.cpp data/open-Green/sources/004540-open-2015-072-Green.cpp
+ data/open-Green/sources/003787-open-2015-321-Green.cpp data/open-Green/sources/004482-open-2015-321-Green.cpp
+ data/open-Green/sources/003787-open-2015-321-Green.cpp data/open-Green/sources/005910-open-2015-321-Green.cpp
+ data/open-Green/sources/003819-open-2015-065-Green.cpp data/open-Green/sources/003858-open-2015-065-Green.cpp
+ data/open-Green/sources/004282-open-2015-053-Green.cpp data/open-Green/sources/005052-open-2015-053-Green.cpp
+ data/open-Green/sources/005052-open-2015-053-Green.cpp data/open-Green/sources/005600-open-2015-053-Green.cpp
+ data/open-Green/sources/005312-open-2015-264-Green.cpp data/open-Green/sources/005662-open-2015-264-Green.cpp
+ data/open-Green/sources/005505-open-2015-152-Green.cpp data/open-Green/sources/005915-open-2015-152-Green.cpp
+ data/open-Green/sources/005505-open-2015-152-Green.cpp data/open-Green/sources/006243-open-2015-152-Green.cpp
+ data/open-Green/sources/005505-open-2015-152-Green.cpp data/open-Green/sources/006307-open-2015-152-Green.cpp
+ data/open-Green/sources/005505-open-2015-152-Green.cpp data/open-Green/sources/006555-open-2015-152-Green.cpp
+ data/open-Green/sources/005505-open-2015-152-Green.cpp data/open-Green/sources/006676-open-2015-152-Green.cpp
+ data/open-Green/sources/005538-open-2015-079-Green.cpp data/open-Green/sources/006485-open-2015-079-Green.cpp
+ data/open-Green/sources/006058-open-2015-079-Green.cpp data/open-Green/sources/006485-open-2015-079-Green.cpp
+ data/open-Green/sources/006098-open-2015-079-Green.cpp data/open-Green/sources/006485-open-2015-079-Green.cpp
 open-Magenta misses:
  data/open-Magenta/sources/000088-open-2015-163-Magenta.cpp data/open-Magenta/sources/005822-open-2015-163-Magenta.cpp
  data/open-Magenta/sources/000090-open-2015-152-Magenta.cpp data/open-Magenta/sources/002003-open-2015-152-Magenta.cpp
@@ -1192,9 +1088,6 @@ open-Magenta misses:
  data/open-Magenta/sources/003623-open-2015-283-Magenta.cpp data/open-Magenta/sources/004248-open-2015-283-Magenta.cpp
  data/open-Magenta/sources/003623-open-2015-283-Magenta.cpp data/open-Magenta/sources/004314-open-2015-283-Magenta.cpp
  data/open-Magenta/sources/003835-open-2015-321-Magenta.cpp data/open-Magenta/sources/004204-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/003835-open-2015-321-Magenta.cpp data/open-Magenta/sources/010108-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/003835-open-2015-321-Magenta.cpp data/open-Magenta/sources/010382-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/003835-open-2015-321-Magenta.cpp data/open-Magenta/sources/010636-open-2015-321-Magenta.cpp
  data/open-Magenta/sources/003868-open-2015-351-Magenta.cpp data/open-Magenta/sources/005132-open-2015-351-Magenta.cpp
  data/open-Magenta/sources/004125-open-2015-152-Magenta.cpp data/open-Magenta/sources/006361-open-2015-152-Magenta.cpp
  data/open-Magenta/sources/004204-open-2015-321-Magenta.cpp data/open-Magenta/sources/004333-open-2015-321-Magenta.cpp
@@ -1203,19 +1096,10 @@ open-Magenta misses:
  data/open-Magenta/sources/004204-open-2015-321-Magenta.cpp data/open-Magenta/sources/010108-open-2015-321-Magenta.cpp
  data/open-Magenta/sources/004204-open-2015-321-Magenta.cpp data/open-Magenta/sources/010382-open-2015-321-Magenta.cpp
  data/open-Magenta/sources/004204-open-2015-321-Magenta.cpp data/open-Magenta/sources/010636-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004333-open-2015-321-Magenta.cpp data/open-Magenta/sources/010108-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004333-open-2015-321-Magenta.cpp data/open-Magenta/sources/010382-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004333-open-2015-321-Magenta.cpp data/open-Magenta/sources/010636-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004473-open-2015-321-Magenta.cpp data/open-Magenta/sources/010108-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004473-open-2015-321-Magenta.cpp data/open-Magenta/sources/010382-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004473-open-2015-321-Magenta.cpp data/open-Magenta/sources/010636-open-2015-321-Magenta.cpp
  data/open-Magenta/sources/004673-open-2015-351-Magenta.cpp data/open-Magenta/sources/005132-open-2015-351-Magenta.cpp
  data/open-Magenta/sources/004694-open-2015-206-Magenta.cpp data/open-Magenta/sources/005803-open-2015-206-Magenta.cpp
  data/open-Magenta/sources/004694-open-2015-206-Magenta.cpp data/open-Magenta/sources/005844-open-2015-206-Magenta.cpp
  data/open-Magenta/sources/004694-open-2015-206-Magenta.cpp data/open-Magenta/sources/005859-open-2015-206-Magenta.cpp
- data/open-Magenta/sources/004829-open-2015-321-Magenta.cpp data/open-Magenta/sources/010108-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004829-open-2015-321-Magenta.cpp data/open-Magenta/sources/010382-open-2015-321-Magenta.cpp
- data/open-Magenta/sources/004829-open-2015-321-Magenta.cpp data/open-Magenta/sources/010636-open-2015-321-Magenta.cpp
  data/open-Magenta/sources/004937-open-2015-262-Magenta.cpp data/open-Magenta/sources/005339-open-2015-262-Magenta.cpp
  data/open-Magenta/sources/004937-open-2015-262-Magenta.cpp data/open-Magenta/sources/005396-open-2015-262-Magenta.cpp
  data/open-Magenta/sources/004937-open-2015-262-Magenta.cpp data/open-Magenta/sources/009475-open-2015-262-Magenta.cpp
@@ -1279,8 +1163,6 @@ open-Olive misses:
  data/open-Olive/sources/001289-open-2015-262-Olive.cpp data/open-Olive/sources/011129-open-2015-262-Olive.cpp
  data/open-Olive/sources/002057-open-2015-216-Olive.cpp data/open-Olive/sources/007273-open-2015-216-Olive.cpp
  data/open-Olive/sources/002057-open-2015-216-Olive.cpp data/open-Olive/sources/009824-open-2015-216-Olive.cpp
- data/open-Olive/sources/002083-open-2015-065-Olive.cpp data/open-Olive/sources/003115-open-2015-065-Olive.cpp
- data/open-Olive/sources/002083-open-2015-065-Olive.cpp data/open-Olive/sources/003254-open-2015-065-Olive.cpp
  data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/002675-open-2015-334-Olive.cpp
  data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/002842-open-2015-334-Olive.cpp
  data/open-Olive/sources/002252-open-2015-334-Olive.cpp data/open-Olive/sources/003704-open-2015-334-Olive.cpp
@@ -1303,9 +1185,6 @@ open-Olive misses:
  data/open-Olive/sources/002736-open-2015-324-Olive.cpp data/open-Olive/sources/008996-open-2015-324-Olive.cpp
  data/open-Olive/sources/002842-open-2015-334-Olive.cpp data/open-Olive/sources/003704-open-2015-334-Olive.cpp
  data/open-Olive/sources/002902-open-2015-080-Olive.cpp data/open-Olive/sources/003122-open-2015-080-Olive.cpp
- data/open-Olive/sources/002902-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
- data/open-Olive/sources/002929-open-2015-065-Olive.cpp data/open-Olive/sources/003115-open-2015-065-Olive.cpp
- data/open-Olive/sources/002929-open-2015-065-Olive.cpp data/open-Olive/sources/003254-open-2015-065-Olive.cpp
  data/open-Olive/sources/002944-open-2015-324-Olive.cpp data/open-Olive/sources/008996-open-2015-324-Olive.cpp
  data/open-Olive/sources/003122-open-2015-080-Olive.cpp data/open-Olive/sources/003356-open-2015-080-Olive.cpp
  data/open-Olive/sources/003122-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
@@ -1317,7 +1196,6 @@ open-Olive misses:
  data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005233-open-2015-326-Olive.cpp
  data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005290-open-2015-326-Olive.cpp
  data/open-Olive/sources/003321-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
- data/open-Olive/sources/003356-open-2015-080-Olive.cpp data/open-Olive/sources/003418-open-2015-080-Olive.cpp
  data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/003462-open-2015-326-Olive.cpp
  data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/004238-open-2015-326-Olive.cpp
  data/open-Olive/sources/003367-open-2015-326-Olive.cpp data/open-Olive/sources/004965-open-2015-326-Olive.cpp
@@ -1343,10 +1221,7 @@ open-Olive misses:
  data/open-Olive/sources/003462-open-2015-326-Olive.cpp data/open-Olive/sources/005440-open-2015-326-Olive.cpp
  data/open-Olive/sources/003711-open-2015-171-Olive.cpp data/open-Olive/sources/006266-open-2015-171-Olive.cpp
  data/open-Olive/sources/003808-open-2015-183-Olive.cpp data/open-Olive/sources/011229-open-2015-183-Olive.cpp
- data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006150-open-2015-152-Olive.cpp
  data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006713-open-2015-152-Olive.cpp
- data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
- data/open-Olive/sources/003856-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
  data/open-Olive/sources/004774-open-2015-113-Olive.cpp data/open-Olive/sources/006089-open-2015-113-Olive.cpp
  data/open-Olive/sources/005099-open-2015-206-Olive.cpp data/open-Olive/sources/005679-open-2015-206-Olive.cpp
  data/open-Olive/sources/005099-open-2015-206-Olive.cpp data/open-Olive/sources/006007-open-2015-206-Olive.cpp
@@ -1360,10 +1235,7 @@ open-Olive misses:
  data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/006915-open-2015-118-Olive.cpp
  data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/008568-open-2015-118-Olive.cpp
  data/open-Olive/sources/005545-open-2015-118-Olive.cpp data/open-Olive/sources/008596-open-2015-118-Olive.cpp
- data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006150-open-2015-152-Olive.cpp
  data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006713-open-2015-152-Olive.cpp
- data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
- data/open-Olive/sources/005671-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
  data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/006941-open-2015-153-Olive.cpp
  data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007160-open-2015-153-Olive.cpp
  data/open-Olive/sources/005916-open-2015-153-Olive.cpp data/open-Olive/sources/007228-open-2015-153-Olive.cpp
@@ -1379,7 +1251,6 @@ open-Olive misses:
  data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009608-open-2015-322-Olive.cpp
  data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009689-open-2015-322-Olive.cpp
  data/open-Olive/sources/006165-open-2015-322-Olive.cpp data/open-Olive/sources/009887-open-2015-322-Olive.cpp
- data/open-Olive/sources/006181-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
  data/open-Olive/sources/006365-open-2015-071-Olive.cpp data/open-Olive/sources/006776-open-2015-071-Olive.cpp
  data/open-Olive/sources/006365-open-2015-071-Olive.cpp data/open-Olive/sources/008665-open-2015-071-Olive.cpp
  data/open-Olive/sources/006418-open-2015-214-Olive.cpp data/open-Olive/sources/006668-open-2015-214-Olive.cpp
@@ -1388,8 +1259,6 @@ open-Olive misses:
  data/open-Olive/sources/006542-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
  data/open-Olive/sources/006542-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
  data/open-Olive/sources/006574-open-2015-290-Olive.cpp data/open-Olive/sources/008564-open-2015-290-Olive.cpp
- data/open-Olive/sources/006598-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
- data/open-Olive/sources/006670-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
  data/open-Olive/sources/006713-open-2015-152-Olive.cpp data/open-Olive/sources/006824-open-2015-152-Olive.cpp
  data/open-Olive/sources/006713-open-2015-152-Olive.cpp data/open-Olive/sources/006920-open-2015-152-Olive.cpp
  data/open-Olive/sources/006776-open-2015-071-Olive.cpp data/open-Olive/sources/006849-open-2015-071-Olive.cpp
@@ -1399,7 +1268,6 @@ open-Olive misses:
  data/open-Olive/sources/006792-open-2015-157-Olive.cpp data/open-Olive/sources/010893-open-2015-157-Olive.cpp
  data/open-Olive/sources/006827-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
  data/open-Olive/sources/006827-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
- data/open-Olive/sources/006837-open-2015-094-Olive.cpp data/open-Olive/sources/006949-open-2015-094-Olive.cpp
  data/open-Olive/sources/006849-open-2015-071-Olive.cpp data/open-Olive/sources/008665-open-2015-071-Olive.cpp
  data/open-Olive/sources/006888-open-2015-190-Olive.cpp data/open-Olive/sources/008960-open-2015-190-Olive.cpp
  data/open-Olive/sources/006888-open-2015-190-Olive.cpp data/open-Olive/sources/011153-open-2015-190-Olive.cpp
@@ -1411,17 +1279,6 @@ open-Olive misses:
  data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009199-open-2015-153-Olive.cpp
  data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009221-open-2015-153-Olive.cpp
  data/open-Olive/sources/006941-open-2015-153-Olive.cpp data/open-Olive/sources/009538-open-2015-153-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007097-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007168-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007218-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007298-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007362-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007400-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007436-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/007482-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008202-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008301-open-2015-094-Olive.cpp
- data/open-Olive/sources/006949-open-2015-094-Olive.cpp data/open-Olive/sources/008316-open-2015-094-Olive.cpp
  data/open-Olive/sources/006996-open-2015-157-Olive.cpp data/open-Olive/sources/010328-open-2015-157-Olive.cpp
  data/open-Olive/sources/006996-open-2015-157-Olive.cpp data/open-Olive/sources/010893-open-2015-157-Olive.cpp
  data/open-Olive/sources/007160-open-2015-153-Olive.cpp data/open-Olive/sources/008455-open-2015-153-Olive.cpp
@@ -1460,7 +1317,6 @@ open-Olive misses:
  data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/008269-open-2015-169-Olive.cpp
  data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/009694-open-2015-169-Olive.cpp
  data/open-Olive/sources/008198-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
- data/open-Olive/sources/008269-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
  data/open-Olive/sources/008353-open-2015-031-Olive.cpp data/open-Olive/sources/009387-open-2015-031-Olive.cpp
  data/open-Olive/sources/008477-open-2015-019-Olive.cpp data/open-Olive/sources/010022-open-2015-019-Olive.cpp
  data/open-Olive/sources/008477-open-2015-019-Olive.cpp data/open-Olive/sources/010150-open-2015-019-Olive.cpp
@@ -1482,7 +1338,6 @@ open-Olive misses:
  data/open-Olive/sources/009272-open-2015-322-Olive.cpp data/open-Olive/sources/009689-open-2015-322-Olive.cpp
  data/open-Olive/sources/009272-open-2015-322-Olive.cpp data/open-Olive/sources/009887-open-2015-322-Olive.cpp
  data/open-Olive/sources/009541-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
- data/open-Olive/sources/009694-open-2015-169-Olive.cpp data/open-Olive/sources/010336-open-2015-169-Olive.cpp
  data/open-Olive/sources/009775-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
  data/open-Olive/sources/009982-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
  data/open-Olive/sources/010255-open-2015-077-Olive.cpp data/open-Olive/sources/010628-open-2015-077-Olive.cpp
@@ -1490,11 +1345,6 @@ open-Olive misses:
  data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011037-open-2015-262-Olive.cpp
  data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011129-open-2015-262-Olive.cpp
 open-Red misses:
- data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/004985-open-2015-118-Red.cpp
- data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/005286-open-2015-118-Red.cpp
- data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/005700-open-2015-118-Red.cpp
- data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/006193-open-2015-118-Red.cpp
- data/open-Red/sources/000552-open-2015-118-Red.cpp data/open-Red/sources/006301-open-2015-118-Red.cpp
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004400-open-2015-023-Red.pas
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004536-open-2015-023-Red.pas
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004697-open-2015-023-Red.pas
@@ -1504,14 +1354,11 @@ open-Red misses:
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005369-open-2015-023-Red.pas
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005452-open-2015-023-Red.pas
  data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005502-open-2015-023-Red.pas
- data/open-Red/sources/001110-open-2015-351-Red.cpp data/open-Red/sources/006269-open-2015-351-Red.cpp
  data/open-Red/sources/001185-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
  data/open-Red/sources/001212-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
  data/open-Red/sources/001225-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
  data/open-Red/sources/001420-open-2015-314-Red.cpp data/open-Red/sources/004378-open-2015-314-Red.cpp
  data/open-Red/sources/001420-open-2015-314-Red.cpp data/open-Red/sources/004954-open-2015-314-Red.cpp
- data/open-Red/sources/001513-open-2015-351-Red.cpp data/open-Red/sources/006269-open-2015-351-Red.cpp
- data/open-Red/sources/001540-open-2015-351-Red.cpp data/open-Red/sources/006269-open-2015-351-Red.cpp
  data/open-Red/sources/001597-open-2015-004-Red.cpp data/open-Red/sources/003512-open-2015-004-Red.cpp
  data/open-Red/sources/001597-open-2015-004-Red.cpp data/open-Red/sources/003742-open-2015-004-Red.cpp
  data/open-Red/sources/001597-open-2015-004-Red.cpp data/open-Red/sources/003899-open-2015-004-Red.cpp
@@ -1558,9 +1405,7 @@ open-Red misses:
  data/open-Red/sources/003194-open-2015-004-Red.cpp data/open-Red/sources/004320-open-2015-004-Red.cpp
  data/open-Red/sources/003252-open-2015-065-Red.cpp data/open-Red/sources/005489-open-2015-065-Red.cpp
  data/open-Red/sources/003271-open-2015-232-Red.cpp data/open-Red/sources/005180-open-2015-232-Red.cpp
- data/open-Red/sources/003311-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
  data/open-Red/sources/003465-open-2015-065-Red.cpp data/open-Red/sources/005489-open-2015-065-Red.cpp
- data/open-Red/sources/003502-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
  data/open-Red/sources/003518-open-2015-336-Red.cpp data/open-Red/sources/003554-open-2015-336-Red.cpp
  data/open-Red/sources/003518-open-2015-336-Red.cpp data/open-Red/sources/003699-open-2015-336-Red.cpp
  data/open-Red/sources/003518-open-2015-336-Red.cpp data/open-Red/sources/003751-open-2015-336-Red.cpp
@@ -1569,45 +1414,78 @@ open-Red misses:
  data/open-Red/sources/003549-open-2015-065-Red.cpp data/open-Red/sources/005489-open-2015-065-Red.cpp
  data/open-Red/sources/003554-open-2015-336-Red.cpp data/open-Red/sources/003988-open-2015-336-Red.cpp
  data/open-Red/sources/003554-open-2015-336-Red.cpp data/open-Red/sources/004024-open-2015-336-Red.cpp
- data/open-Red/sources/003579-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
  data/open-Red/sources/003690-open-2015-065-Red.cpp data/open-Red/sources/005489-open-2015-065-Red.cpp
  data/open-Red/sources/003699-open-2015-336-Red.cpp data/open-Red/sources/003988-open-2015-336-Red.cpp
  data/open-Red/sources/003699-open-2015-336-Red.cpp data/open-Red/sources/004024-open-2015-336-Red.cpp
- data/open-Red/sources/003725-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
  data/open-Red/sources/003751-open-2015-336-Red.cpp data/open-Red/sources/003988-open-2015-336-Red.cpp
  data/open-Red/sources/003751-open-2015-336-Red.cpp data/open-Red/sources/004024-open-2015-336-Red.cpp
  data/open-Red/sources/003791-open-2015-117-Red.cpp data/open-Red/sources/006771-open-2015-117-Red.cpp
- data/open-Red/sources/003806-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
  data/open-Red/sources/004006-open-2015-212-Red.cpp data/open-Red/sources/004623-open-2015-212-Red.cpp
  data/open-Red/sources/004006-open-2015-212-Red.cpp data/open-Red/sources/005184-open-2015-212-Red.cpp
  data/open-Red/sources/004060-open-2015-212-Red.cpp data/open-Red/sources/004623-open-2015-212-Red.cpp
  data/open-Red/sources/004060-open-2015-212-Red.cpp data/open-Red/sources/005184-open-2015-212-Red.cpp
  data/open-Red/sources/004102-open-2015-191-Red.cpp data/open-Red/sources/004604-open-2015-191-Red.cpp
- data/open-Red/sources/004111-open-2015-239-Red.cpp data/open-Red/sources/004289-open-2015-239-Red.cpp
- data/open-Red/sources/004370-open-2015-340-Red.cpp data/open-Red/sources/006575-open-2015-340-Red.cpp
  data/open-Red/sources/004436-open-2015-174-Red.cpp data/open-Red/sources/006872-open-2015-174-Red.cpp
- data/open-Red/sources/004498-open-2015-351-Red.cpp data/open-Red/sources/006269-open-2015-351-Red.cpp
- data/open-Red/sources/004537-open-2015-351-Red.cpp data/open-Red/sources/006269-open-2015-351-Red.cpp
  data/open-Red/sources/004623-open-2015-212-Red.cpp data/open-Red/sources/005184-open-2015-212-Red.cpp
- data/open-Red/sources/004636-open-2015-118-Red.cpp data/open-Red/sources/004985-open-2015-118-Red.cpp
- data/open-Red/sources/004636-open-2015-118-Red.cpp data/open-Red/sources/005286-open-2015-118-Red.cpp
- data/open-Red/sources/004636-open-2015-118-Red.cpp data/open-Red/sources/005700-open-2015-118-Red.cpp
- data/open-Red/sources/004636-open-2015-118-Red.cpp data/open-Red/sources/006193-open-2015-118-Red.cpp
- data/open-Red/sources/004636-open-2015-118-Red.cpp data/open-Red/sources/006301-open-2015-118-Red.cpp
  data/open-Red/sources/004644-open-2015-155-Red.cpp data/open-Red/sources/005347-open-2015-155-Red.cpp
- data/open-Red/sources/004858-open-2015-118-Red.cpp data/open-Red/sources/004985-open-2015-118-Red.cpp
- data/open-Red/sources/004858-open-2015-118-Red.cpp data/open-Red/sources/005286-open-2015-118-Red.cpp
- data/open-Red/sources/004858-open-2015-118-Red.cpp data/open-Red/sources/005700-open-2015-118-Red.cpp
- data/open-Red/sources/004858-open-2015-118-Red.cpp data/open-Red/sources/006193-open-2015-118-Red.cpp
- data/open-Red/sources/004858-open-2015-118-Red.cpp data/open-Red/sources/006301-open-2015-118-Red.cpp
- data/open-Red/sources/004985-open-2015-118-Red.cpp data/open-Red/sources/005286-open-2015-118-Red.cpp
- data/open-Red/sources/004985-open-2015-118-Red.cpp data/open-Red/sources/005700-open-2015-118-Red.cpp
- data/open-Red/sources/004985-open-2015-118-Red.cpp data/open-Red/sources/006193-open-2015-118-Red.cpp
- data/open-Red/sources/004985-open-2015-118-Red.cpp data/open-Red/sources/006301-open-2015-118-Red.cpp
  data/open-Red/sources/005180-open-2015-232-Red.cpp data/open-Red/sources/005870-open-2015-232-Red.cpp
  data/open-Red/sources/006040-open-2015-142-Red.cpp data/open-Red/sources/006904-open-2015-142-Red.cpp
- data/open-Red/sources/006146-open-2015-340-Red.cpp data/open-Red/sources/006575-open-2015-340-Red.cpp
  data/open-Red/sources/006632-open-2015-123-Red.cpp data/open-Red/sources/006675-open-2015-123-Red.cpp
+open-Yellow misses:
+ data/open-Yellow/sources/000073-open-2015-214-Yellow.cpp data/open-Yellow/sources/000111-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000073-open-2015-214-Yellow.cpp data/open-Yellow/sources/000129-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000076-open-2015-214-Yellow.cpp data/open-Yellow/sources/000111-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000076-open-2015-214-Yellow.cpp data/open-Yellow/sources/000129-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000077-open-2015-214-Yellow.cpp data/open-Yellow/sources/000111-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000077-open-2015-214-Yellow.cpp data/open-Yellow/sources/000129-open-2015-214-Yellow.cpp
+ data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp data/open-Yellow/sources/000300-open-2015-203-Yellow.cpp
+ data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp data/open-Yellow/sources/000384-open-2015-203-Yellow.cpp
+ data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp data/open-Yellow/sources/000439-open-2015-203-Yellow.cpp
+ data/open-Yellow/sources/000094-open-2015-203-Yellow.cpp data/open-Yellow/sources/000517-open-2015-113-Yellow.cpp
+ data/open-Yellow/sources/000159-open-2015-079-Yellow.cpp data/open-Yellow/sources/000283-open-2015-079-Yellow.cpp
+ data/open-Yellow/sources/000159-open-2015-079-Yellow.cpp data/open-Yellow/sources/000313-open-2015-079-Yellow.cpp
+ data/open-Yellow/sources/000170-open-2015-028-Yellow.cpp data/open-Yellow/sources/000376-open-2015-028-Yellow.cpp
+ data/open-Yellow/sources/000227-open-2015-019-Yellow.cpp data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000227-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000240-open-2015-276-Yellow.cpp data/open-Yellow/sources/000519-open-2015-276-Yellow.cpp
+ data/open-Yellow/sources/000252-open-2015-232-Yellow.cpp data/open-Yellow/sources/002370-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/000252-open-2015-232-Yellow.cpp data/open-Yellow/sources/002387-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/000258-open-2015-338-Yellow.cpp data/open-Yellow/sources/000398-open-2015-338-Yellow.cpp
+ data/open-Yellow/sources/000290-open-2015-338-Yellow.cpp data/open-Yellow/sources/000398-open-2015-338-Yellow.cpp
+ data/open-Yellow/sources/000327-open-2015-338-Yellow.cpp data/open-Yellow/sources/000398-open-2015-338-Yellow.cpp
+ data/open-Yellow/sources/000328-open-2015-019-Yellow.cpp data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000328-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000376-open-2015-028-Yellow.cpp data/open-Yellow/sources/000497-open-2015-028-Yellow.cpp
+ data/open-Yellow/sources/000545-open-2015-290-Yellow.cpp data/open-Yellow/sources/000865-open-2015-290-Yellow.cpp
+ data/open-Yellow/sources/000701-open-2015-019-Yellow.cpp data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000701-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/000744-open-2015-087-Yellow.cpp data/open-Yellow/sources/000940-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000744-open-2015-087-Yellow.cpp data/open-Yellow/sources/000969-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000744-open-2015-087-Yellow.cpp data/open-Yellow/sources/001051-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000838-open-2015-326-Yellow.cpp data/open-Yellow/sources/000946-open-2015-326-Yellow.cpp
+ data/open-Yellow/sources/000856-open-2015-326-Yellow.cpp data/open-Yellow/sources/000946-open-2015-326-Yellow.cpp
+ data/open-Yellow/sources/000940-open-2015-087-Yellow.cpp data/open-Yellow/sources/001051-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000940-open-2015-087-Yellow.cpp data/open-Yellow/sources/001067-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000969-open-2015-087-Yellow.cpp data/open-Yellow/sources/001051-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/000969-open-2015-087-Yellow.cpp data/open-Yellow/sources/001067-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/001019-open-2015-152-Yellow.cpp data/open-Yellow/sources/001025-open-2015-152-Yellow.cpp
+ data/open-Yellow/sources/001019-open-2015-152-Yellow.cpp data/open-Yellow/sources/001079-open-2015-152-Yellow.cpp
+ data/open-Yellow/sources/001051-open-2015-087-Yellow.cpp data/open-Yellow/sources/001067-open-2015-087-Yellow.cpp
+ data/open-Yellow/sources/001145-open-2015-232-Yellow.cpp data/open-Yellow/sources/002370-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/001145-open-2015-232-Yellow.cpp data/open-Yellow/sources/002387-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/001188-open-2015-232-Yellow.cpp data/open-Yellow/sources/002370-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/001188-open-2015-232-Yellow.cpp data/open-Yellow/sources/002387-open-2015-232-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/001571-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/001599-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/001604-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/001618-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001431-open-2015-019-Yellow.cpp data/open-Yellow/sources/002056-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001571-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001599-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001604-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001618-open-2015-019-Yellow.cpp data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp
+ data/open-Yellow/sources/001948-open-2015-019-Yellow.cpp data/open-Yellow/sources/002056-open-2015-019-Yellow.cpp
 russia-team-a misses:
  data/russia-team-a/sources/422-a-1.pas data/russia-team-a/sources/422-a-3.pas
  data/russia-team-a/sources/422-a-1.pas data/russia-team-a/sources/422-a-4.pas
@@ -1618,27 +1496,7 @@ russia-team-a misses:
  data/russia-team-a/sources/k25-a-1.cpp data/russia-team-a/sources/k25-a-2.cpp
  data/russia-team-a/sources/k25-a-1.cpp data/russia-team-a/sources/k25-a-3.cpp
  data/russia-team-a/sources/k25-a-2.cpp data/russia-team-a/sources/k25-a-3.cpp
- data/russia-team-a/sources/k32-a-1.cpp data/russia-team-a/sources/k32-a-4.cpp
- data/russia-team-a/sources/k32-a-1.cpp data/russia-team-a/sources/k32-a-5.cpp
- data/russia-team-a/sources/k32-a-1.cpp data/russia-team-a/sources/k32-a-6.cpp
- data/russia-team-a/sources/k32-a-1.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-1.cpp data/russia-team-a/sources/k32-a-8.cpp
- data/russia-team-a/sources/k32-a-2.cpp data/russia-team-a/sources/k32-a-4.cpp
- data/russia-team-a/sources/k32-a-2.cpp data/russia-team-a/sources/k32-a-5.cpp
- data/russia-team-a/sources/k32-a-2.cpp data/russia-team-a/sources/k32-a-6.cpp
- data/russia-team-a/sources/k32-a-2.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-2.cpp data/russia-team-a/sources/k32-a-8.cpp
- data/russia-team-a/sources/k32-a-3.cpp data/russia-team-a/sources/k32-a-4.cpp
- data/russia-team-a/sources/k32-a-3.cpp data/russia-team-a/sources/k32-a-5.cpp
- data/russia-team-a/sources/k32-a-3.cpp data/russia-team-a/sources/k32-a-6.cpp
- data/russia-team-a/sources/k32-a-3.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-3.cpp data/russia-team-a/sources/k32-a-8.cpp
- data/russia-team-a/sources/k32-a-4.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-4.cpp data/russia-team-a/sources/k32-a-8.cpp
- data/russia-team-a/sources/k32-a-5.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-5.cpp data/russia-team-a/sources/k32-a-8.cpp
- data/russia-team-a/sources/k32-a-6.cpp data/russia-team-a/sources/k32-a-7.cpp
- data/russia-team-a/sources/k32-a-6.cpp data/russia-team-a/sources/k32-a-8.cpp
+ data/russia-team-a/sources/k26-a-1.cpp data/russia-team-a/sources/k26-a-2.cpp
  data/russia-team-a/sources/k42-a-1.cpp data/russia-team-a/sources/k42-a-2.cpp
 russia-team-c misses:
  data/russia-team-c/sources/219-c-1.cpp data/russia-team-c/sources/219-c-5.cpp
@@ -1659,10 +1517,6 @@ russia-team-c misses:
  data/russia-team-c/sources/502-c-2.cpp data/russia-team-c/sources/502-c-3.cpp
  data/russia-team-c/sources/502-c-2.cpp data/russia-team-c/sources/502-c-4.cpp
  data/russia-team-c/sources/502-c-2.cpp data/russia-team-c/sources/502-c-5.cpp
- data/russia-team-c/sources/g04-c-1.cpp data/russia-team-c/sources/g04-c-3.cpp
- data/russia-team-c/sources/g04-c-1.cpp data/russia-team-c/sources/g04-c-4.cpp
- data/russia-team-c/sources/g04-c-2.cpp data/russia-team-c/sources/g04-c-3.cpp
- data/russia-team-c/sources/g04-c-2.cpp data/russia-team-c/sources/g04-c-4.cpp
  data/russia-team-c/sources/k42-c-1.cpp data/russia-team-c/sources/k42-c-2.cpp
 russia-team-e misses:
  data/russia-team-e/sources/115-e-1.cpp data/russia-team-e/sources/115-e-6.cpp
@@ -1687,160 +1541,6 @@ russia-team-e misses:
  data/russia-team-e/sources/115-e-5.cpp data/russia-team-e/sources/115-e-9.cpp
  data/russia-team-e/sources/220-e-1.py data/russia-team-e/sources/220-e-2.py
  data/russia-team-e/sources/220-e-1.py data/russia-team-e/sources/220-e-3.py
- data/russia-team-e/sources/512-e-1.cpp data/russia-team-e/sources/512-e-4.cpp
- data/russia-team-e/sources/512-e-2.cpp data/russia-team-e/sources/512-e-4.cpp
- data/russia-team-e/sources/512-e-3.cpp data/russia-team-e/sources/512-e-4.cpp
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-10.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-4.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-5.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-6.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-7.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-8.pas
- data/russia-team-e/sources/514-e-1.pas data/russia-team-e/sources/514-e-9.pas
- data/russia-team-e/sources/514-e-10.pas data/russia-team-e/sources/514-e-2.pas
- data/russia-team-e/sources/514-e-10.pas data/russia-team-e/sources/514-e-3.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-4.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-5.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-6.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-7.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-8.pas
- data/russia-team-e/sources/514-e-2.pas data/russia-team-e/sources/514-e-9.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-4.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-5.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-6.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-7.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-8.pas
- data/russia-team-e/sources/514-e-3.pas data/russia-team-e/sources/514-e-9.pas
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-11.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-12.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-13.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-14.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-15.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-16.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-17.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-18.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-19.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-20.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-21.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-22.cpp
- data/russia-team-e/sources/g08-e-1.cpp data/russia-team-e/sources/g08-e-23.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-11.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-12.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-13.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-14.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-15.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-16.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-17.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-18.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-19.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-20.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-21.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-22.cpp
- data/russia-team-e/sources/g08-e-10.cpp data/russia-team-e/sources/g08-e-23.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-11.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-12.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-13.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-14.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-15.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-16.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-17.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-18.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-2.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-19.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-2.cpp data/russia-team-e/sources/g08-e-20.cpp
- data/russia-team-e/sources/g08-e-2.cpp data/russia-team-e/sources/g08-e-21.cpp
- data/russia-team-e/sources/g08-e-2.cpp data/russia-team-e/sources/g08-e-22.cpp
- data/russia-team-e/sources/g08-e-2.cpp data/russia-team-e/sources/g08-e-23.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-20.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-21.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-22.cpp data/russia-team-e/sources/g08-e-9.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-3.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-4.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-5.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-6.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-7.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-8.cpp
- data/russia-team-e/sources/g08-e-23.cpp data/russia-team-e/sources/g08-e-9.cpp
  data/russia-team-e/sources/k07-e-1.cpp data/russia-team-e/sources/k07-e-2.cpp
  data/russia-team-e/sources/k14-e-1.cpp data/russia-team-e/sources/k14-e-2.cpp
  data/russia-team-e/sources/k14-e-1.cpp data/russia-team-e/sources/k14-e-3.cpp
@@ -1862,12 +1562,6 @@ russia-team-e misses:
  data/russia-team-e/sources/k20-e-3.cpp data/russia-team-e/sources/k20-e-5.cpp
  data/russia-team-e/sources/k20-e-3.cpp data/russia-team-e/sources/k20-e-6.cpp
  data/russia-team-e/sources/k20-e-3.cpp data/russia-team-e/sources/k20-e-7.cpp
- data/russia-team-e/sources/k36-e-1.cpp data/russia-team-e/sources/k36-e-7.cpp
- data/russia-team-e/sources/k36-e-2.cpp data/russia-team-e/sources/k36-e-7.cpp
- data/russia-team-e/sources/k36-e-3.cpp data/russia-team-e/sources/k36-e-7.cpp
- data/russia-team-e/sources/k36-e-4.cpp data/russia-team-e/sources/k36-e-7.cpp
- data/russia-team-e/sources/k36-e-5.cpp data/russia-team-e/sources/k36-e-7.cpp
- data/russia-team-e/sources/k36-e-6.cpp data/russia-team-e/sources/k36-e-7.cpp
 russia-team-f misses:
  data/russia-team-f/sources/k42-f-2.cpp data/russia-team-f/sources/k42-f-3.cpp
  data/russia-team-f/sources/k42-f-2.cpp data/russia-team-f/sources/k42-f-4.cpp
@@ -1950,36 +1644,14 @@ russia-team-j misses:
  data/russia-team-j/sources/u10-j-6.cpp data/russia-team-j/sources/u10-j-8.cpp
  data/russia-team-j/sources/u10-j-6.cpp data/russia-team-j/sources/u10-j-9.cpp
 russia-team-k misses:
+ data/russia-team-k/sources/507-k-1.cpp data/russia-team-k/sources/507-k-2.cpp
+ data/russia-team-k/sources/507-k-1.cpp data/russia-team-k/sources/507-k-3.cpp
+ data/russia-team-k/sources/507-k-1.cpp data/russia-team-k/sources/507-k-4.cpp
+ data/russia-team-k/sources/507-k-1.cpp data/russia-team-k/sources/507-k-5.cpp
+ data/russia-team-k/sources/507-k-1.cpp data/russia-team-k/sources/507-k-6.cpp
  data/russia-team-k/sources/jury-k-1.java data/russia-team-k/sources/jury-k-2.java
- data/russia-team-k/sources/k19-k-1.cpp data/russia-team-k/sources/k19-k-10.cpp
- data/russia-team-k/sources/k19-k-1.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-1.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-2.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-3.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-4.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-5.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-6.cpp
- data/russia-team-k/sources/k19-k-10.cpp data/russia-team-k/sources/k19-k-8.cpp
- data/russia-team-k/sources/k19-k-2.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-2.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-3.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-3.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-4.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-4.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-5.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-5.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-6.cpp data/russia-team-k/sources/k19-k-7.cpp
- data/russia-team-k/sources/k19-k-6.cpp data/russia-team-k/sources/k19-k-9.cpp
- data/russia-team-k/sources/k19-k-7.cpp data/russia-team-k/sources/k19-k-8.cpp
- data/russia-team-k/sources/k19-k-8.cpp data/russia-team-k/sources/k19-k-9.cpp
  data/russia-team-k/sources/k42-k-1.cpp data/russia-team-k/sources/k42-k-2.cpp
 spb-team-e misses:
- data/spb-team-e/sources/104-e-1.cpp data/spb-team-e/sources/104-e-3.cpp
- data/spb-team-e/sources/104-e-1.cpp data/spb-team-e/sources/104-e-4.cpp
- data/spb-team-e/sources/104-e-1.cpp data/spb-team-e/sources/104-e-5.cpp
- data/spb-team-e/sources/104-e-2.cpp data/spb-team-e/sources/104-e-3.cpp
- data/spb-team-e/sources/104-e-2.cpp data/spb-team-e/sources/104-e-4.cpp
- data/spb-team-e/sources/104-e-2.cpp data/spb-team-e/sources/104-e-5.cpp
  data/spb-team-e/sources/106-e-1.cpp data/spb-team-e/sources/106-e-2.cpp
  data/spb-team-e/sources/106-e-1.cpp data/spb-team-e/sources/106-e-3.cpp
  data/spb-team-e/sources/113-e-1.cpp data/spb-team-e/sources/113-e-4.cpp
@@ -2009,13 +1681,6 @@ spb-team-e misses:
  data/spb-team-e/sources/310-e-1.pas data/spb-team-e/sources/310-e-7.pas
  data/spb-team-e/sources/310-e-1.pas data/spb-team-e/sources/310-e-8.pas
  data/spb-team-e/sources/310-e-1.pas data/spb-team-e/sources/310-e-9.pas
- data/spb-team-e/sources/504-e-1.pas data/spb-team-e/sources/504-e-6.pas
- data/spb-team-e/sources/504-e-2.pas data/spb-team-e/sources/504-e-6.pas
- data/spb-team-e/sources/504-e-3.pas data/spb-team-e/sources/504-e-6.pas
- data/spb-team-e/sources/504-e-4.pas data/spb-team-e/sources/504-e-6.pas
- data/spb-team-e/sources/504-e-5.pas data/spb-team-e/sources/504-e-6.pas
- data/spb-team-e/sources/504-e-6.pas data/spb-team-e/sources/504-e-7.pas
- data/spb-team-e/sources/504-e-6.pas data/spb-team-e/sources/504-e-8.pas
  data/spb-team-e/sources/509-e-1.java data/spb-team-e/sources/509-e-2.java
  data/spb-team-e/sources/509-e-1.java data/spb-team-e/sources/509-e-3.java
  data/spb-team-e/sources/517-e-1.cpp data/spb-team-e/sources/517-e-2.cpp
@@ -2226,14 +1891,8 @@ spb-team-f misses:
  data/spb-team-f/sources/102-f-3.cs data/spb-team-f/sources/102-f-7.cs
  data/spb-team-f/sources/102-f-3.cs data/spb-team-f/sources/102-f-8.cs
  data/spb-team-f/sources/102-f-3.cs data/spb-team-f/sources/102-f-9.cs
- data/spb-team-f/sources/102-f-4.cs data/spb-team-f/sources/102-f-7.cs
- data/spb-team-f/sources/102-f-4.cs data/spb-team-f/sources/102-f-8.cs
  data/spb-team-f/sources/102-f-4.cs data/spb-team-f/sources/102-f-9.cs
- data/spb-team-f/sources/102-f-5.cs data/spb-team-f/sources/102-f-7.cs
- data/spb-team-f/sources/102-f-5.cs data/spb-team-f/sources/102-f-8.cs
  data/spb-team-f/sources/102-f-5.cs data/spb-team-f/sources/102-f-9.cs
- data/spb-team-f/sources/102-f-6.cs data/spb-team-f/sources/102-f-7.cs
- data/spb-team-f/sources/102-f-6.cs data/spb-team-f/sources/102-f-8.cs
  data/spb-team-f/sources/102-f-6.cs data/spb-team-f/sources/102-f-9.cs
  data/spb-team-f/sources/102-f-7.cs data/spb-team-f/sources/102-f-9.cs
  data/spb-team-f/sources/102-f-8.cs data/spb-team-f/sources/102-f-9.cs
@@ -2260,16 +1919,6 @@ spb-team-f misses:
  data/spb-team-f/sources/107-f-2.cpp data/spb-team-f/sources/107-f-7.cpp
  data/spb-team-f/sources/114-f-1.cpp data/spb-team-f/sources/114-f-3.cpp
  data/spb-team-f/sources/114-f-2.cpp data/spb-team-f/sources/114-f-3.cpp
- data/spb-team-f/sources/203-f-1.java data/spb-team-f/sources/203-f-6.java
- data/spb-team-f/sources/203-f-1.java data/spb-team-f/sources/203-f-7.java
- data/spb-team-f/sources/203-f-2.java data/spb-team-f/sources/203-f-6.java
- data/spb-team-f/sources/203-f-2.java data/spb-team-f/sources/203-f-7.java
- data/spb-team-f/sources/203-f-3.java data/spb-team-f/sources/203-f-6.java
- data/spb-team-f/sources/203-f-3.java data/spb-team-f/sources/203-f-7.java
- data/spb-team-f/sources/203-f-4.java data/spb-team-f/sources/203-f-6.java
- data/spb-team-f/sources/203-f-4.java data/spb-team-f/sources/203-f-7.java
- data/spb-team-f/sources/203-f-5.java data/spb-team-f/sources/203-f-6.java
- data/spb-team-f/sources/203-f-5.java data/spb-team-f/sources/203-f-7.java
  data/spb-team-f/sources/206-f-1.cpp data/spb-team-f/sources/206-f-2.cpp
  data/spb-team-f/sources/206-f-1.cpp data/spb-team-f/sources/206-f-3.cpp
  data/spb-team-f/sources/206-f-1.cpp data/spb-team-f/sources/206-f-4.cpp
@@ -2288,15 +1937,6 @@ spb-team-f misses:
  data/spb-team-f/sources/311-f-1.py data/spb-team-f/sources/311-f-7.py
  data/spb-team-f/sources/311-f-1.py data/spb-team-f/sources/311-f-8.py
  data/spb-team-f/sources/311-f-1.py data/spb-team-f/sources/311-f-9.py
- data/spb-team-f/sources/311-f-10.py data/spb-team-f/sources/311-f-2.py
- data/spb-team-f/sources/311-f-11.py data/spb-team-f/sources/311-f-2.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-3.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-4.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-5.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-6.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-7.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-8.py
- data/spb-team-f/sources/311-f-2.py data/spb-team-f/sources/311-f-9.py
  data/spb-team-f/sources/421-f-1.cpp data/spb-team-f/sources/421-f-10.cpp
  data/spb-team-f/sources/421-f-1.cpp data/spb-team-f/sources/421-f-6.cpp
  data/spb-team-f/sources/421-f-1.cpp data/spb-team-f/sources/421-f-7.cpp
@@ -2329,16 +1969,6 @@ spb-team-f misses:
  data/spb-team-f/sources/516-f-1.dpr data/spb-team-f/sources/516-f-6.dpr
  data/spb-team-f/sources/516-f-1.dpr data/spb-team-f/sources/516-f-7.dpr
  data/spb-team-f/sources/516-f-1.dpr data/spb-team-f/sources/516-f-8.dpr
- data/spb-team-f/sources/516-f-2.dpr data/spb-team-f/sources/516-f-6.dpr
- data/spb-team-f/sources/516-f-2.dpr data/spb-team-f/sources/516-f-8.dpr
- data/spb-team-f/sources/516-f-3.dpr data/spb-team-f/sources/516-f-6.dpr
- data/spb-team-f/sources/516-f-3.dpr data/spb-team-f/sources/516-f-8.dpr
- data/spb-team-f/sources/516-f-4.dpr data/spb-team-f/sources/516-f-6.dpr
- data/spb-team-f/sources/516-f-4.dpr data/spb-team-f/sources/516-f-8.dpr
- data/spb-team-f/sources/516-f-5.dpr data/spb-team-f/sources/516-f-6.dpr
- data/spb-team-f/sources/516-f-5.dpr data/spb-team-f/sources/516-f-8.dpr
- data/spb-team-f/sources/516-f-6.dpr data/spb-team-f/sources/516-f-7.dpr
- data/spb-team-f/sources/516-f-7.dpr data/spb-team-f/sources/516-f-8.dpr
  data/spb-team-f/sources/601-f-1.cpp data/spb-team-f/sources/601-f-10.cpp
  data/spb-team-f/sources/601-f-1.cpp data/spb-team-f/sources/601-f-11.cpp
  data/spb-team-f/sources/601-f-1.cpp data/spb-team-f/sources/601-f-12.cpp
@@ -2440,8 +2070,6 @@ spb-team-h misses:
  data/spb-team-h/sources/210-h-1.cpp data/spb-team-h/sources/210-h-5.cpp
  data/spb-team-h/sources/210-h-1.cpp data/spb-team-h/sources/210-h-6.cpp
  data/spb-team-h/sources/210-h-1.cpp data/spb-team-h/sources/210-h-7.cpp
- data/spb-team-h/sources/303-h-1.pas data/spb-team-h/sources/303-h-2.pas
- data/spb-team-h/sources/303-h-2.pas data/spb-team-h/sources/303-h-3.pas
  data/spb-team-h/sources/305-h-1.cpp data/spb-team-h/sources/305-h-6.cpp
  data/spb-team-h/sources/305-h-1.cpp data/spb-team-h/sources/305-h-7.cpp
  data/spb-team-h/sources/305-h-1.cpp data/spb-team-h/sources/305-h-8.cpp
@@ -2471,9 +2099,6 @@ spb-team-h misses:
  data/spb-team-h/sources/306-h-4.cpp data/spb-team-h/sources/306-h-5.cpp
  data/spb-team-h/sources/306-h-4.cpp data/spb-team-h/sources/306-h-6.cpp
 spb-team-j misses:
- data/spb-team-j/sources/109-j-1.cpp data/spb-team-j/sources/109-j-4.cpp
- data/spb-team-j/sources/109-j-2.cpp data/spb-team-j/sources/109-j-4.cpp
- data/spb-team-j/sources/109-j-3.cpp data/spb-team-j/sources/109-j-4.cpp
  data/spb-team-j/sources/210-j-1.cpp data/spb-team-j/sources/210-j-3.cpp
  data/spb-team-j/sources/210-j-1.cpp data/spb-team-j/sources/210-j-4.cpp
  data/spb-team-j/sources/210-j-2.cpp data/spb-team-j/sources/210-j-3.cpp
@@ -2487,11 +2112,6 @@ spb-team-j misses:
  data/spb-team-j/sources/507-j-1.pas data/spb-team-j/sources/507-j-4.pas
  data/spb-team-j/sources/507-j-2.pas data/spb-team-j/sources/507-j-4.pas
  data/spb-team-j/sources/507-j-3.pas data/spb-team-j/sources/507-j-4.pas
- data/spb-team-j/sources/508-j-1.pas data/spb-team-j/sources/508-j-4.pas
- data/spb-team-j/sources/508-j-2.pas data/spb-team-j/sources/508-j-4.pas
- data/spb-team-j/sources/508-j-3.pas data/spb-team-j/sources/508-j-4.pas
- data/spb-team-j/sources/508-j-4.pas data/spb-team-j/sources/508-j-5.pas
- data/spb-team-j/sources/508-j-4.pas data/spb-team-j/sources/508-j-6.pas
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-4.cpp
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-5.cpp
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-6.cpp

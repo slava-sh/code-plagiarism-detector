@@ -1,4 +1,4 @@
-382
+375
 101-e-1.cpp
 102-e-1.dpr
 103-e-1.cpp
@@ -346,13 +346,6 @@ k32-e-7.cpp
 k32-e-8.cpp
 k32-e-9.cpp
 k35-e-1.cpp
-k36-e-1.cpp
-k36-e-2.cpp
-k36-e-3.cpp
-k36-e-4.cpp
-k36-e-5.cpp
-k36-e-6.cpp
-k36-e-7.cpp
 k37-e-1.dpr
 k37-e-2.dpr
 k37-e-3.dpr
