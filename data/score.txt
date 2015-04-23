@@ -14,11 +14,11 @@ open-Gold  52
 open-Green  40
 open-Magenta  57
 open-Olive  55
-open-Red  75
+open-Red  78
 open-Yellow  68
 russia-team-a  92
-russia-team-c  94
-russia-team-e  95
+russia-team-c  92
+russia-team-e  94
 russia-team-f  99
 russia-team-h WA
 russia-team-j  82
@@ -28,9 +28,9 @@ spb-team-e  87
 spb-team-f  68
 spb-team-h  75
 spb-team-i 100
-spb-team-j  84
+spb-team-j  80
 spb-team-k 100
-2648 / 3200
+2644 / 3200
 russia-team-h WAs:
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/k07-h-1.cpp
@@ -1345,15 +1345,6 @@ open-Olive misses:
  data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011037-open-2015-262-Olive.cpp
  data/open-Olive/sources/010854-open-2015-262-Olive.cpp data/open-Olive/sources/011129-open-2015-262-Olive.cpp
 open-Red misses:
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004400-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004536-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004697-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/004912-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005196-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005255-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005369-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005452-open-2015-023-Red.pas
- data/open-Red/sources/000934-open-2015-023-Red.pas data/open-Red/sources/005502-open-2015-023-Red.pas
  data/open-Red/sources/001185-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
  data/open-Red/sources/001212-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
  data/open-Red/sources/001225-open-2015-326-Red.cpp data/open-Red/sources/005936-open-2015-326-Red.cpp
@@ -1499,6 +1490,10 @@ russia-team-a misses:
  data/russia-team-a/sources/k26-a-1.cpp data/russia-team-a/sources/k26-a-2.cpp
  data/russia-team-a/sources/k42-a-1.cpp data/russia-team-a/sources/k42-a-2.cpp
 russia-team-c misses:
+ data/russia-team-c/sources/112-c-1.pas data/russia-team-c/sources/112-c-2.pas
+ data/russia-team-c/sources/112-c-1.pas data/russia-team-c/sources/112-c-3.pas
+ data/russia-team-c/sources/112-c-1.pas data/russia-team-c/sources/112-c-4.pas
+ data/russia-team-c/sources/112-c-1.pas data/russia-team-c/sources/112-c-5.pas
  data/russia-team-c/sources/219-c-1.cpp data/russia-team-c/sources/219-c-5.cpp
  data/russia-team-c/sources/219-c-2.cpp data/russia-team-c/sources/219-c-5.cpp
  data/russia-team-c/sources/219-c-3.cpp data/russia-team-c/sources/219-c-5.cpp
@@ -1541,6 +1536,14 @@ russia-team-e misses:
  data/russia-team-e/sources/115-e-5.cpp data/russia-team-e/sources/115-e-9.cpp
  data/russia-team-e/sources/220-e-1.py data/russia-team-e/sources/220-e-2.py
  data/russia-team-e/sources/220-e-1.py data/russia-team-e/sources/220-e-3.py
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-2.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-3.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-4.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-5.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-6.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-7.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-8.pas
+ data/russia-team-e/sources/401-e-1.pas data/russia-team-e/sources/401-e-9.pas
  data/russia-team-e/sources/k07-e-1.cpp data/russia-team-e/sources/k07-e-2.cpp
  data/russia-team-e/sources/k14-e-1.cpp data/russia-team-e/sources/k14-e-2.cpp
  data/russia-team-e/sources/k14-e-1.cpp data/russia-team-e/sources/k14-e-3.cpp
@@ -1924,8 +1927,6 @@ spb-team-f misses:
  data/spb-team-f/sources/206-f-1.cpp data/spb-team-f/sources/206-f-4.cpp
  data/spb-team-f/sources/206-f-2.cpp data/spb-team-f/sources/206-f-4.cpp
  data/spb-team-f/sources/206-f-3.cpp data/spb-team-f/sources/206-f-4.cpp
- data/spb-team-f/sources/207-f-1.dpr data/spb-team-f/sources/207-f-3.dpr
- data/spb-team-f/sources/207-f-2.dpr data/spb-team-f/sources/207-f-3.dpr
  data/spb-team-f/sources/218-f-1.cpp data/spb-team-f/sources/218-f-2.cpp
  data/spb-team-f/sources/311-f-1.py data/spb-team-f/sources/311-f-10.py
  data/spb-team-f/sources/311-f-1.py data/spb-team-f/sources/311-f-11.py
@@ -2112,6 +2113,11 @@ spb-team-j misses:
  data/spb-team-j/sources/507-j-1.pas data/spb-team-j/sources/507-j-4.pas
  data/spb-team-j/sources/507-j-2.pas data/spb-team-j/sources/507-j-4.pas
  data/spb-team-j/sources/507-j-3.pas data/spb-team-j/sources/507-j-4.pas
+ data/spb-team-j/sources/508-j-1.pas data/spb-team-j/sources/508-j-4.pas
+ data/spb-team-j/sources/508-j-2.pas data/spb-team-j/sources/508-j-4.pas
+ data/spb-team-j/sources/508-j-3.pas data/spb-team-j/sources/508-j-4.pas
+ data/spb-team-j/sources/508-j-4.pas data/spb-team-j/sources/508-j-5.pas
+ data/spb-team-j/sources/508-j-4.pas data/spb-team-j/sources/508-j-6.pas
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-4.cpp
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-5.cpp
  data/spb-team-j/sources/518-j-1.cpp data/spb-team-j/sources/518-j-6.cpp

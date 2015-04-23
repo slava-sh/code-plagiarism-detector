@@ -26,8 +26,9 @@ data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 
 if sample == 'all':
-    #data = data[data[X] < 1000]
+    data = data[data[X] < 2000]
     data = data[(~data[Right] & data[Guess]) | (data[Y] < 0.5)]
+    data = data[data[Right] | data[Guess]]
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
 color = np.matrix([
