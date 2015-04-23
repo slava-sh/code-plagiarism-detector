@@ -306,12 +306,62 @@ Tokens fix_pascal_tokens(const Tokens& tokens) {
         else if (token == "end") {
             token = "}";
         }
-        else if (token == "=" && i > 0 && tokens[i - 1] == ":") {
+        else if (token == "=" && !result.empty() && result.back() == ":") {
             result.pop_back();
         }
         result.push_back(token);
     }
     return result;
+}
+
+Tokens pascal_insert_main(Tokens tokens) {
+    static const Tokens main_declaration = { "main", "(", ")" };
+    for (int i = tokens.size() - 1; i >= 0; --i) {
+        if (tokens[i] == "}") {
+            int depth = 1;
+            int j = i - 1;
+            for (; j >= 0; --j) {
+                if (tokens[j] == "}") {
+                    ++depth;
+                }
+                else if (tokens[j] == "{") {
+                    --depth;
+                    if (depth == 0) {
+                        break;
+                    }
+                }
+            }
+            if (depth == 0 && j >= 0) {
+                tokens.insert(tokens.begin() + j, main_declaration.begin(),
+                        main_declaration.end());
+            }
+            break;
+        }
+    }
+    return tokens;
+}
+
+Tokens fix_pascal_functions(const Tokens& tokens) {
+    Tokens result;
+    int n = tokens.size();
+    for (int i = 0; i < n; ++i) {
+        auto& token = tokens[i];
+        if (token == "function" || token == "procedure") {
+            ++i;
+            if (i < n) {
+                result.push_back(tokens[i]);
+                result.push_back("(");
+                result.push_back(")");
+                while (i + 1 < n && tokens[i + 1] != "{") {
+                    ++i;
+                }
+            }
+        }
+        else {
+            result.push_back(token);
+        }
+    }
+    return pascal_insert_main(result);
 }
 
 Tokens tokenize(const string& s) {
@@ -450,6 +500,7 @@ struct Solution {
         }
         else if (extension == "pas" || extension == "dpr") {
             tokens = fix_pascal_tokens(tokens);
+            tokens = fix_pascal_functions(tokens);
         }
 
         auto functions = extract_functions(tokens);
