@@ -364,10 +364,14 @@ Tokens fix_pascal_functions(const Tokens& tokens) {
     return pascal_insert_main(result);
 }
 
+const string VALUE_TOKEN = "0";
+
 Tokens tokenize(const string& s) {
     Tokens result;
     string buf;
-    for (auto& c : s) {
+    int n = s.size();
+    for (int i = 0; i < n; ++i) {
+        auto& c = s[i];
         if (is_identifier(c)) {
             buf += c;
         }
@@ -376,7 +380,24 @@ Tokens tokenize(const string& s) {
                 result.push_back(buf);
             }
             if (!isspace(c) && c != ';') {
-                buf = c;
+                if (c == '\'' || c == '"') {
+                    bool escaping = false;
+                    for (++i; i < n; ++i) {
+                        if (escaping) {
+                            escaping = false;
+                        }
+                        else if (s[i] == '\\') {
+                            escaping = true;
+                        }
+                        else if (s[i] == c) {
+                            break;
+                        }
+                    }
+                    buf = VALUE_TOKEN;
+                }
+                else {
+                    buf = c;
+                }
                 result.push_back(buf);
             }
             buf.clear();
@@ -519,7 +540,7 @@ struct Solution {
         for (int i = 0; i < n; ++i) {
             auto token = tokens[i];
             if (isdigit(token[0])) {
-                token = "0";
+                token = VALUE_TOKEN;
             }
             if (token_id.count(token) == 0) {
                 if (is_identifier(token[0])) {
@@ -546,7 +567,7 @@ struct Solution {
                         }
                     }
                     else {
-                        token = "0";
+                        token = VALUE_TOKEN;
                     }
                 }
                 else {
@@ -626,7 +647,7 @@ struct DSU {
 
 int main() {
     Tokens special_tokens = {
-        "0",
+        VALUE_TOKEN,
         "\"", "'", "!", "#", "$", "%", "&", "(", ")", "*", "+", ",", "-", ".",
         "/", ":", ";", "<", "=", ">", "?", "@", "[", "\\", "]", "^", "_", "`",
         "{", "|", "}", "~", "break", "case", "class", "continue", "def",
