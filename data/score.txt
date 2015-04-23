@@ -8,8 +8,8 @@
 08 100
 09 100
 10 100
-open-Blue  73
-open-Cyan  60
+open-Blue  71
+open-Cyan   0
 open-Gold  52
 open-Green  40
 open-Magenta  57
@@ -30,7 +30,7 @@ spb-team-h  75
 spb-team-i 100
 spb-team-j  80
 spb-team-k 100
-2644 / 3200
+2582 / 3200
 russia-team-h WAs:
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/k07-h-1.cpp
@@ -75,6 +75,7 @@ open-Blue misses:
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003338-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003589-open-2015-214-Blue.cpp
  data/open-Blue/sources/000795-open-2015-214-Blue.cpp data/open-Blue/sources/003673-open-2015-214-Blue.cpp
+ data/open-Blue/sources/001121-open-2015-336-Blue.cpp data/open-Blue/sources/005106-open-2015-336-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001318-open-2015-214-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001804-open-2015-214-Blue.cpp
  data/open-Blue/sources/001138-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
@@ -91,6 +92,7 @@ open-Blue misses:
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/004625-open-2015-006-Blue.cpp
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/006106-open-2015-006-Blue.cpp
  data/open-Blue/sources/001293-open-2015-006-Blue.cpp data/open-Blue/sources/006329-open-2015-006-Blue.cpp
+ data/open-Blue/sources/001295-open-2015-336-Blue.cpp data/open-Blue/sources/005106-open-2015-336-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/001804-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/001855-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/002776-open-2015-214-Blue.cpp
@@ -99,6 +101,7 @@ open-Blue misses:
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003338-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003589-open-2015-214-Blue.cpp
  data/open-Blue/sources/001318-open-2015-214-Blue.cpp data/open-Blue/sources/003673-open-2015-214-Blue.cpp
+ data/open-Blue/sources/001527-open-2015-336-Blue.cpp data/open-Blue/sources/005106-open-2015-336-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002708-open-2015-106-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002775-open-2015-106-Blue.cpp
  data/open-Blue/sources/001668-open-2015-106-Blue.cpp data/open-Blue/sources/002789-open-2015-106-Blue.cpp
@@ -165,11 +168,9 @@ open-Blue misses:
  data/open-Blue/sources/004200-open-2015-334-Blue.cpp data/open-Blue/sources/005189-open-2015-334-Blue.cpp
  data/open-Blue/sources/004328-open-2015-145-Blue.cpp data/open-Blue/sources/006681-open-2015-145-Blue.cpp
  data/open-Blue/sources/004328-open-2015-145-Blue.cpp data/open-Blue/sources/006905-open-2015-145-Blue.cpp
- data/open-Blue/sources/004358-open-2015-019-Blue.cpp data/open-Blue/sources/004483-open-2015-019-Blue.cpp
  data/open-Blue/sources/004358-open-2015-019-Blue.cpp data/open-Blue/sources/004761-open-2015-019-Blue.cpp
  data/open-Blue/sources/004408-open-2015-165-Blue.java data/open-Blue/sources/004659-open-2015-165-Blue.java
  data/open-Blue/sources/004416-open-2015-165-Blue.java data/open-Blue/sources/004659-open-2015-165-Blue.java
- data/open-Blue/sources/004420-open-2015-019-Blue.cpp data/open-Blue/sources/004483-open-2015-019-Blue.cpp
  data/open-Blue/sources/004420-open-2015-019-Blue.cpp data/open-Blue/sources/004761-open-2015-019-Blue.cpp
  data/open-Blue/sources/004483-open-2015-019-Blue.cpp data/open-Blue/sources/004761-open-2015-019-Blue.cpp
  data/open-Blue/sources/004485-open-2015-011-Blue.cpp data/open-Blue/sources/004807-open-2015-011-Blue.cpp
@@ -179,13 +180,28 @@ open-Blue misses:
  data/open-Blue/sources/004645-open-2015-011-Blue.cpp data/open-Blue/sources/004978-open-2015-011-Blue.cpp
  data/open-Blue/sources/004645-open-2015-011-Blue.cpp data/open-Blue/sources/006335-open-2015-011-Blue.cpp
  data/open-Blue/sources/004787-open-2015-206-Blue.cpp data/open-Blue/sources/006441-open-2015-206-Blue.cpp
+ data/open-Blue/sources/004787-open-2015-206-Blue.cpp data/open-Blue/sources/006511-open-2015-206-Blue.cpp
+ data/open-Blue/sources/004787-open-2015-206-Blue.cpp data/open-Blue/sources/006604-open-2015-206-Blue.cpp
  data/open-Blue/sources/004965-open-2015-077-Blue.cpp data/open-Blue/sources/005141-open-2015-077-Blue.cpp
  data/open-Blue/sources/004965-open-2015-077-Blue.cpp data/open-Blue/sources/005341-open-2015-077-Blue.cpp
  data/open-Blue/sources/004983-open-2015-262-Blue.cpp data/open-Blue/sources/006105-open-2015-262-Blue.cpp
+ data/open-Blue/sources/005106-open-2015-336-Blue.cpp data/open-Blue/sources/005721-open-2015-336-Blue.cpp
+ data/open-Blue/sources/005106-open-2015-336-Blue.cpp data/open-Blue/sources/005983-open-2015-336-Blue.cpp
  data/open-Blue/sources/005232-open-2015-206-Blue.cpp data/open-Blue/sources/006441-open-2015-206-Blue.cpp
+ data/open-Blue/sources/005232-open-2015-206-Blue.cpp data/open-Blue/sources/006511-open-2015-206-Blue.cpp
+ data/open-Blue/sources/005232-open-2015-206-Blue.cpp data/open-Blue/sources/006604-open-2015-206-Blue.cpp
  data/open-Blue/sources/006441-open-2015-206-Blue.cpp data/open-Blue/sources/006511-open-2015-206-Blue.cpp
  data/open-Blue/sources/006441-open-2015-206-Blue.cpp data/open-Blue/sources/006604-open-2015-206-Blue.cpp
 open-Cyan misses:
+ data/open-Cyan/sources/000938-open-2015-011-Cyan.cpp data/open-Cyan/sources/001054-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/000938-open-2015-011-Cyan.cpp data/open-Cyan/sources/001105-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/000938-open-2015-011-Cyan.cpp data/open-Cyan/sources/002082-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/000938-open-2015-011-Cyan.cpp data/open-Cyan/sources/002299-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/001054-open-2015-011-Cyan.cpp data/open-Cyan/sources/001105-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/001054-open-2015-011-Cyan.cpp data/open-Cyan/sources/002082-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/001054-open-2015-011-Cyan.cpp data/open-Cyan/sources/002299-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/001105-open-2015-011-Cyan.cpp data/open-Cyan/sources/002082-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/001105-open-2015-011-Cyan.cpp data/open-Cyan/sources/002299-open-2015-011-Cyan.cpp
  data/open-Cyan/sources/001409-open-2015-106-Cyan.cpp data/open-Cyan/sources/003504-open-2015-106-Cyan.cpp
  data/open-Cyan/sources/001409-open-2015-106-Cyan.cpp data/open-Cyan/sources/005363-open-2015-106-Cyan.cpp
  data/open-Cyan/sources/001409-open-2015-106-Cyan.cpp data/open-Cyan/sources/007363-open-2015-106-Cyan.cpp
@@ -195,34 +211,103 @@ open-Cyan misses:
  data/open-Cyan/sources/001587-open-2015-212-Cyan.cpp data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/001587-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/001587-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/001603-open-2015-165-Cyan.java data/open-Cyan/sources/002107-open-2015-165-Cyan.java
  data/open-Cyan/sources/001758-open-2015-118-Cyan.cpp data/open-Cyan/sources/007616-open-2015-118-Cyan.cpp
  data/open-Cyan/sources/001758-open-2015-118-Cyan.cpp data/open-Cyan/sources/007858-open-2015-118-Cyan.cpp
+ data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/003715-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/004410-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/004475-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/001839-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001865-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/001885-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/001908-open-2015-053-Cyan.cpp data/open-Cyan/sources/001931-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001908-open-2015-053-Cyan.cpp data/open-Cyan/sources/002387-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001908-open-2015-053-Cyan.cpp data/open-Cyan/sources/002986-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001908-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001931-open-2015-053-Cyan.cpp data/open-Cyan/sources/002387-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001931-open-2015-053-Cyan.cpp data/open-Cyan/sources/002986-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/001931-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
+ data/open-Cyan/sources/002082-open-2015-011-Cyan.cpp data/open-Cyan/sources/002299-open-2015-011-Cyan.cpp
+ data/open-Cyan/sources/002175-open-2015-206-Cyan.cpp data/open-Cyan/sources/002190-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002175-open-2015-206-Cyan.cpp data/open-Cyan/sources/002840-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002175-open-2015-206-Cyan.cpp data/open-Cyan/sources/008473-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002190-open-2015-206-Cyan.cpp data/open-Cyan/sources/002840-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002190-open-2015-206-Cyan.cpp data/open-Cyan/sources/008473-open-2015-206-Cyan.cpp
+ data/open-Cyan/sources/002387-open-2015-053-Cyan.cpp data/open-Cyan/sources/002986-open-2015-053-Cyan.cpp
  data/open-Cyan/sources/002387-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002435-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002556-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/002622-open-2015-257-Cyan.cpp data/open-Cyan/sources/003456-open-2015-257-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002635-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002688-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/002727-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002771-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/002812-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
  data/open-Cyan/sources/002840-open-2015-206-Cyan.cpp data/open-Cyan/sources/008473-open-2015-206-Cyan.cpp
  data/open-Cyan/sources/002897-open-2015-239-Cyan.cpp data/open-Cyan/sources/008047-open-2015-239-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/002907-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
  data/open-Cyan/sources/002986-open-2015-053-Cyan.cpp data/open-Cyan/sources/007849-open-2015-053-Cyan.cpp
+ data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003003-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/003806-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp
@@ -236,9 +321,16 @@ open-Cyan misses:
  data/open-Cyan/sources/003478-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003504-open-2015-106-Cyan.cpp data/open-Cyan/sources/005363-open-2015-106-Cyan.cpp
  data/open-Cyan/sources/003504-open-2015-106-Cyan.cpp data/open-Cyan/sources/007363-open-2015-106-Cyan.cpp
+ data/open-Cyan/sources/003512-open-2015-190-Cyan.cpp data/open-Cyan/sources/003662-open-2015-190-Cyan.cpp
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006001-open-2015-006-Cyan.cpp
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006226-open-2015-006-Cyan.cpp
  data/open-Cyan/sources/003620-open-2015-006-Cyan.cpp data/open-Cyan/sources/006320-open-2015-006-Cyan.cpp
+ data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003643-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/003709-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp
@@ -248,6 +340,7 @@ open-Cyan misses:
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003696-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/003709-open-2015-153-Cyan.cpp data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003709-open-2015-153-Cyan.cpp data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003709-open-2015-153-Cyan.cpp data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/003709-open-2015-153-Cyan.cpp data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp
@@ -271,6 +364,9 @@ open-Cyan misses:
  data/open-Cyan/sources/003806-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003806-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/003806-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/003849-open-2015-146-Cyan.pas data/open-Cyan/sources/005368-open-2015-146-Cyan.pas
+ data/open-Cyan/sources/003947-open-2015-031-Cyan.cpp data/open-Cyan/sources/004596-open-2015-031-Cyan.cpp
+ data/open-Cyan/sources/003947-open-2015-031-Cyan.cpp data/open-Cyan/sources/004821-open-2015-031-Cyan.cpp
  data/open-Cyan/sources/003947-open-2015-031-Cyan.cpp data/open-Cyan/sources/005420-open-2015-031-Cyan.cpp
  data/open-Cyan/sources/004015-open-2015-019-Cyan.cpp data/open-Cyan/sources/005055-open-2015-019-Cyan.cpp
  data/open-Cyan/sources/004015-open-2015-019-Cyan.cpp data/open-Cyan/sources/005357-open-2015-019-Cyan.cpp
@@ -286,22 +382,61 @@ open-Cyan misses:
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004105-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004122-open-2015-004-Cyan.cpp data/open-Cyan/sources/004394-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004122-open-2015-004-Cyan.cpp data/open-Cyan/sources/004423-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004122-open-2015-004-Cyan.cpp data/open-Cyan/sources/004498-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004122-open-2015-004-Cyan.cpp data/open-Cyan/sources/004537-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004220-open-2015-028-Cyan.cpp data/open-Cyan/sources/004350-open-2015-028-Cyan.cpp
+ data/open-Cyan/sources/004220-open-2015-028-Cyan.cpp data/open-Cyan/sources/004417-open-2015-028-Cyan.cpp
+ data/open-Cyan/sources/004350-open-2015-028-Cyan.cpp data/open-Cyan/sources/004417-open-2015-028-Cyan.cpp
+ data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004361-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004369-open-2015-064-Cyan.cpp data/open-Cyan/sources/004465-open-2015-064-Cyan.cpp
+ data/open-Cyan/sources/004394-open-2015-004-Cyan.cpp data/open-Cyan/sources/004423-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004394-open-2015-004-Cyan.cpp data/open-Cyan/sources/004498-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004394-open-2015-004-Cyan.cpp data/open-Cyan/sources/004537-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004410-open-2015-214-Cyan.cpp data/open-Cyan/sources/004475-open-2015-214-Cyan.cpp
  data/open-Cyan/sources/004410-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
+ data/open-Cyan/sources/004423-open-2015-004-Cyan.cpp data/open-Cyan/sources/004498-open-2015-004-Cyan.cpp
+ data/open-Cyan/sources/004423-open-2015-004-Cyan.cpp data/open-Cyan/sources/004537-open-2015-004-Cyan.cpp
  data/open-Cyan/sources/004430-open-2015-018-Cyan.cpp data/open-Cyan/sources/009196-open-2015-018-Cyan.cpp
  data/open-Cyan/sources/004475-open-2015-214-Cyan.cpp data/open-Cyan/sources/005225-open-2015-214-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004494-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004498-open-2015-004-Cyan.cpp data/open-Cyan/sources/004537-open-2015-004-Cyan.cpp
  data/open-Cyan/sources/004505-open-2015-163-Cyan.cpp data/open-Cyan/sources/008346-open-2015-163-Cyan.cpp
+ data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/004519-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004523-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004532-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004547-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp
@@ -309,27 +444,86 @@ open-Cyan misses:
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/004557-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/004596-open-2015-031-Cyan.cpp data/open-Cyan/sources/004821-open-2015-031-Cyan.cpp
  data/open-Cyan/sources/004596-open-2015-031-Cyan.cpp data/open-Cyan/sources/005420-open-2015-031-Cyan.cpp
+ data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/004633-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/005163-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/004644-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004684-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004711-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004739-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004745-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp
+ data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp
+ data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004757-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
+ data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004787-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/004821-open-2015-031-Cyan.cpp data/open-Cyan/sources/005420-open-2015-031-Cyan.cpp
+ data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp
+ data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004833-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp
  data/open-Cyan/sources/004840-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/004867-open-2015-022-Cyan.cpp data/open-Cyan/sources/005336-open-2015-022-Cyan.cpp
+ data/open-Cyan/sources/004896-open-2015-157-Cyan.cpp data/open-Cyan/sources/005313-open-2015-157-Cyan.cpp
+ data/open-Cyan/sources/004896-open-2015-157-Cyan.cpp data/open-Cyan/sources/005390-open-2015-157-Cyan.cpp
+ data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/004957-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/004970-open-2015-087-Cyan.cpp data/open-Cyan/sources/005058-open-2015-087-Cyan.cpp
+ data/open-Cyan/sources/004970-open-2015-087-Cyan.cpp data/open-Cyan/sources/005148-open-2015-087-Cyan.cpp
  data/open-Cyan/sources/004970-open-2015-087-Cyan.cpp data/open-Cyan/sources/006687-open-2015-087-Cyan.cpp
+ data/open-Cyan/sources/005055-open-2015-019-Cyan.cpp data/open-Cyan/sources/005357-open-2015-019-Cyan.cpp
+ data/open-Cyan/sources/005055-open-2015-019-Cyan.cpp data/open-Cyan/sources/006030-open-2015-019-Cyan.cpp
+ data/open-Cyan/sources/005058-open-2015-087-Cyan.cpp data/open-Cyan/sources/005148-open-2015-087-Cyan.cpp
  data/open-Cyan/sources/005058-open-2015-087-Cyan.cpp data/open-Cyan/sources/006687-open-2015-087-Cyan.cpp
+ data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/005069-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/005094-open-2015-094-Cyan.cpp data/open-Cyan/sources/005166-open-2015-094-Cyan.cpp
+ data/open-Cyan/sources/005094-open-2015-094-Cyan.cpp data/open-Cyan/sources/005215-open-2015-094-Cyan.cpp
+ data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp
@@ -341,6 +535,10 @@ open-Cyan misses:
  data/open-Cyan/sources/005119-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005139-open-2015-167-Cyan.cpp data/open-Cyan/sources/010459-open-2015-167-Cyan.cpp
  data/open-Cyan/sources/005148-open-2015-087-Cyan.cpp data/open-Cyan/sources/006687-open-2015-087-Cyan.cpp
+ data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005149-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
@@ -349,9 +547,27 @@ open-Cyan misses:
  data/open-Cyan/sources/005163-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/005163-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/005163-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/005166-open-2015-094-Cyan.cpp data/open-Cyan/sources/005215-open-2015-094-Cyan.cpp
+ data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005171-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005200-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/005245-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
@@ -364,8 +580,16 @@ open-Cyan misses:
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005256-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp data/open-Cyan/sources/006258-open-2015-117-Cyan.cpp
  data/open-Cyan/sources/005272-open-2015-117-Cyan.cpp data/open-Cyan/sources/010096-open-2015-117-Cyan.cpp
+ data/open-Cyan/sources/005313-open-2015-157-Cyan.cpp data/open-Cyan/sources/005390-open-2015-157-Cyan.cpp
+ data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/005353-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/005357-open-2015-019-Cyan.cpp data/open-Cyan/sources/006030-open-2015-019-Cyan.cpp
  data/open-Cyan/sources/005363-open-2015-106-Cyan.cpp data/open-Cyan/sources/007363-open-2015-106-Cyan.cpp
+ data/open-Cyan/sources/005373-open-2015-067-Cyan.cpp data/open-Cyan/sources/007622-open-2015-067-Cyan.cpp
+ data/open-Cyan/sources/005384-open-2015-322-Cyan.cpp data/open-Cyan/sources/005421-open-2015-322-Cyan.cpp
+ data/open-Cyan/sources/005537-open-2015-080-Cyan.cpp data/open-Cyan/sources/005645-open-2015-080-Cyan.cpp
  data/open-Cyan/sources/005537-open-2015-080-Cyan.cpp data/open-Cyan/sources/010626-open-2015-080-Cyan.cpp
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp
@@ -376,7 +600,20 @@ open-Cyan misses:
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005560-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005645-open-2015-080-Cyan.cpp data/open-Cyan/sources/010626-open-2015-080-Cyan.cpp
+ data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/005701-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005757-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp
@@ -385,12 +622,25 @@ open-Cyan misses:
  data/open-Cyan/sources/005779-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/005870-open-2015-334-Cyan.cpp data/open-Cyan/sources/007305-open-2015-334-Cyan.cpp
  data/open-Cyan/sources/006001-open-2015-006-Cyan.cpp data/open-Cyan/sources/006226-open-2015-006-Cyan.cpp
+ data/open-Cyan/sources/006001-open-2015-006-Cyan.cpp data/open-Cyan/sources/006320-open-2015-006-Cyan.cpp
+ data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006037-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006044-open-2015-309-Cyan.java data/open-Cyan/sources/007002-open-2015-309-Cyan.java
+ data/open-Cyan/sources/006044-open-2015-309-Cyan.java data/open-Cyan/sources/009056-open-2015-309-Cyan.java
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/006055-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/006079-open-2015-130-Cyan.cpp data/open-Cyan/sources/006447-open-2015-130-Cyan.cpp
+ data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006090-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -398,6 +648,7 @@ open-Cyan misses:
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006166-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006226-open-2015-006-Cyan.cpp data/open-Cyan/sources/006320-open-2015-006-Cyan.cpp
+ data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006229-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -410,13 +661,30 @@ open-Cyan misses:
  data/open-Cyan/sources/006312-open-2015-275-Cyan.cpp data/open-Cyan/sources/007215-open-2015-275-Cyan.cpp
  data/open-Cyan/sources/006312-open-2015-275-Cyan.cpp data/open-Cyan/sources/008184-open-2015-275-Cyan.cpp
  data/open-Cyan/sources/006312-open-2015-275-Cyan.cpp data/open-Cyan/sources/008728-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006323-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/006445-open-2015-340-Cyan.cpp data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006445-open-2015-340-Cyan.cpp data/open-Cyan/sources/010098-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006445-open-2015-340-Cyan.cpp data/open-Cyan/sources/010207-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006445-open-2015-340-Cyan.cpp data/open-Cyan/sources/010521-open-2015-340-Cyan.cpp
+ data/open-Cyan/sources/006467-open-2015-275-Cyan.cpp data/open-Cyan/sources/007125-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/006467-open-2015-275-Cyan.cpp data/open-Cyan/sources/007215-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/006467-open-2015-275-Cyan.cpp data/open-Cyan/sources/008184-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/006467-open-2015-275-Cyan.cpp data/open-Cyan/sources/008728-open-2015-275-Cyan.cpp
  data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp data/open-Cyan/sources/010098-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp data/open-Cyan/sources/010207-open-2015-340-Cyan.cpp
  data/open-Cyan/sources/006600-open-2015-340-Cyan.cpp data/open-Cyan/sources/010521-open-2015-340-Cyan.cpp
+ data/open-Cyan/sources/006623-open-2015-155-Cyan.cpp data/open-Cyan/sources/006706-open-2015-155-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006654-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/006665-open-2015-183-Cyan.cpp data/open-Cyan/sources/006843-open-2015-183-Cyan.cpp
+ data/open-Cyan/sources/006665-open-2015-183-Cyan.cpp data/open-Cyan/sources/007234-open-2015-183-Cyan.cpp
+ data/open-Cyan/sources/006665-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
@@ -424,67 +692,254 @@ open-Cyan misses:
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006785-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/006799-open-2015-314-Cyan.cpp data/open-Cyan/sources/007149-open-2015-314-Cyan.cpp
+ data/open-Cyan/sources/006799-open-2015-314-Cyan.cpp data/open-Cyan/sources/009017-open-2015-314-Cyan.cpp
+ data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/006815-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/006833-open-2015-326-Cyan.cpp data/open-Cyan/sources/007558-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/006833-open-2015-326-Cyan.cpp data/open-Cyan/sources/007643-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/006833-open-2015-326-Cyan.cpp data/open-Cyan/sources/007760-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/006833-open-2015-326-Cyan.cpp data/open-Cyan/sources/007797-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/006833-open-2015-326-Cyan.cpp data/open-Cyan/sources/008037-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/006843-open-2015-183-Cyan.cpp data/open-Cyan/sources/007234-open-2015-183-Cyan.cpp
+ data/open-Cyan/sources/006843-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
+ data/open-Cyan/sources/006882-open-2015-095-Cyan.cpp data/open-Cyan/sources/007208-open-2015-095-Cyan.cpp
+ data/open-Cyan/sources/006958-open-2015-276-Cyan.cpp data/open-Cyan/sources/007755-open-2015-276-Cyan.cpp
+ data/open-Cyan/sources/007002-open-2015-309-Cyan.java data/open-Cyan/sources/009056-open-2015-309-Cyan.java
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
  data/open-Cyan/sources/007014-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/007125-open-2015-275-Cyan.cpp data/open-Cyan/sources/007215-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/007125-open-2015-275-Cyan.cpp data/open-Cyan/sources/008184-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/007125-open-2015-275-Cyan.cpp data/open-Cyan/sources/008728-open-2015-275-Cyan.cpp
  data/open-Cyan/sources/007149-open-2015-314-Cyan.cpp data/open-Cyan/sources/009017-open-2015-314-Cyan.cpp
+ data/open-Cyan/sources/007169-open-2015-023-Cyan.pas data/open-Cyan/sources/008157-open-2015-023-Cyan.pas
  data/open-Cyan/sources/007169-open-2015-023-Cyan.pas data/open-Cyan/sources/008239-open-2015-023-Cyan.pas
+ data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/007181-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/007215-open-2015-275-Cyan.cpp data/open-Cyan/sources/008184-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/007215-open-2015-275-Cyan.cpp data/open-Cyan/sources/008728-open-2015-275-Cyan.cpp
  data/open-Cyan/sources/007216-open-2015-232-Cyan.cpp data/open-Cyan/sources/008720-open-2015-232-Cyan.cpp
+ data/open-Cyan/sources/007234-open-2015-183-Cyan.cpp data/open-Cyan/sources/008537-open-2015-183-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/007629-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008054-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008387-open-2015-065-Cyan.cpp
  data/open-Cyan/sources/007252-open-2015-065-Cyan.cpp data/open-Cyan/sources/008424-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007257-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/007379-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008227-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/007399-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/007458-open-2015-077-Cyan.cpp data/open-Cyan/sources/007721-open-2015-077-Cyan.cpp
  data/open-Cyan/sources/007458-open-2015-077-Cyan.cpp data/open-Cyan/sources/008399-open-2015-077-Cyan.cpp
  data/open-Cyan/sources/007458-open-2015-077-Cyan.cpp data/open-Cyan/sources/008482-open-2015-077-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007467-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007517-open-2015-262-Cyan.cpp data/open-Cyan/sources/007644-open-2015-262-Cyan.cpp
+ data/open-Cyan/sources/007517-open-2015-262-Cyan.cpp data/open-Cyan/sources/008516-open-2015-262-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/007545-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
+ data/open-Cyan/sources/007558-open-2015-326-Cyan.cpp data/open-Cyan/sources/007643-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007558-open-2015-326-Cyan.cpp data/open-Cyan/sources/007760-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007558-open-2015-326-Cyan.cpp data/open-Cyan/sources/007797-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007558-open-2015-326-Cyan.cpp data/open-Cyan/sources/008037-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007586-open-2015-255-Cyan.cpp data/open-Cyan/sources/007824-open-2015-255-Cyan.cpp
+ data/open-Cyan/sources/007616-open-2015-118-Cyan.cpp data/open-Cyan/sources/007858-open-2015-118-Cyan.cpp
+ data/open-Cyan/sources/007629-open-2015-065-Cyan.cpp data/open-Cyan/sources/008054-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/007629-open-2015-065-Cyan.cpp data/open-Cyan/sources/008387-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/007629-open-2015-065-Cyan.cpp data/open-Cyan/sources/008424-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/007643-open-2015-326-Cyan.cpp data/open-Cyan/sources/007760-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007643-open-2015-326-Cyan.cpp data/open-Cyan/sources/007797-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007643-open-2015-326-Cyan.cpp data/open-Cyan/sources/008037-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007644-open-2015-262-Cyan.cpp data/open-Cyan/sources/008516-open-2015-262-Cyan.cpp
  data/open-Cyan/sources/007721-open-2015-077-Cyan.cpp data/open-Cyan/sources/008399-open-2015-077-Cyan.cpp
  data/open-Cyan/sources/007721-open-2015-077-Cyan.cpp data/open-Cyan/sources/008482-open-2015-077-Cyan.cpp
+ data/open-Cyan/sources/007760-open-2015-326-Cyan.cpp data/open-Cyan/sources/007797-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007760-open-2015-326-Cyan.cpp data/open-Cyan/sources/008037-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007797-open-2015-326-Cyan.cpp data/open-Cyan/sources/008037-open-2015-326-Cyan.cpp
+ data/open-Cyan/sources/007823-open-2015-321-Cyan.cpp data/open-Cyan/sources/008056-open-2015-321-Cyan.cpp
+ data/open-Cyan/sources/007823-open-2015-321-Cyan.cpp data/open-Cyan/sources/008212-open-2015-321-Cyan.cpp
+ data/open-Cyan/sources/007831-open-2015-145-Cyan.cpp data/open-Cyan/sources/007916-open-2015-145-Cyan.cpp
  data/open-Cyan/sources/007831-open-2015-145-Cyan.cpp data/open-Cyan/sources/011140-open-2015-145-Cyan.cpp
  data/open-Cyan/sources/007831-open-2015-145-Cyan.cpp data/open-Cyan/sources/011191-open-2015-145-Cyan.cpp
+ data/open-Cyan/sources/007841-open-2015-174-Cyan.cpp data/open-Cyan/sources/009195-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/007841-open-2015-174-Cyan.cpp data/open-Cyan/sources/009400-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/007841-open-2015-174-Cyan.cpp data/open-Cyan/sources/009447-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/007841-open-2015-174-Cyan.cpp data/open-Cyan/sources/009560-open-2015-174-Cyan.cpp
  data/open-Cyan/sources/007916-open-2015-145-Cyan.cpp data/open-Cyan/sources/011140-open-2015-145-Cyan.cpp
  data/open-Cyan/sources/007916-open-2015-145-Cyan.cpp data/open-Cyan/sources/011191-open-2015-145-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/007951-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/008036-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/008054-open-2015-065-Cyan.cpp data/open-Cyan/sources/008387-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/008054-open-2015-065-Cyan.cpp data/open-Cyan/sources/008424-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/008056-open-2015-321-Cyan.cpp data/open-Cyan/sources/008212-open-2015-321-Cyan.cpp
+ data/open-Cyan/sources/008087-open-2015-220-Cyan.cpp data/open-Cyan/sources/009943-open-2015-220-Cyan.cpp
+ data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/008150-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/008157-open-2015-023-Cyan.pas data/open-Cyan/sources/008239-open-2015-023-Cyan.pas
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008165-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008184-open-2015-275-Cyan.cpp data/open-Cyan/sources/008728-open-2015-275-Cyan.cpp
+ data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008192-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008227-open-2015-212-Cyan.cpp data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/008227-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/008227-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/008286-open-2015-256-Cyan.cpp data/open-Cyan/sources/008303-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008286-open-2015-256-Cyan.cpp data/open-Cyan/sources/008334-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008286-open-2015-256-Cyan.cpp data/open-Cyan/sources/009796-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008286-open-2015-256-Cyan.cpp data/open-Cyan/sources/010649-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008303-open-2015-256-Cyan.cpp data/open-Cyan/sources/008334-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008303-open-2015-256-Cyan.cpp data/open-Cyan/sources/009796-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008303-open-2015-256-Cyan.cpp data/open-Cyan/sources/010649-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/008311-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
+ data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008315-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008334-open-2015-256-Cyan.cpp data/open-Cyan/sources/009796-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008334-open-2015-256-Cyan.cpp data/open-Cyan/sources/010649-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/008360-open-2015-264-Cyan.cpp data/open-Cyan/sources/008378-open-2015-264-Cyan.cpp
  data/open-Cyan/sources/008360-open-2015-264-Cyan.cpp data/open-Cyan/sources/009416-open-2015-264-Cyan.cpp
  data/open-Cyan/sources/008378-open-2015-264-Cyan.cpp data/open-Cyan/sources/009416-open-2015-264-Cyan.cpp
+ data/open-Cyan/sources/008387-open-2015-065-Cyan.cpp data/open-Cyan/sources/008424-open-2015-065-Cyan.cpp
+ data/open-Cyan/sources/008399-open-2015-077-Cyan.cpp data/open-Cyan/sources/008482-open-2015-077-Cyan.cpp
+ data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008443-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/008450-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008479-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
+ data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp
  data/open-Cyan/sources/008532-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008533-open-2015-212-Cyan.cpp data/open-Cyan/sources/011240-open-2015-212-Cyan.cpp
  data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008538-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
  data/open-Cyan/sources/008580-open-2015-191-Cyan.cpp data/open-Cyan/sources/008905-open-2015-191-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/008699-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/008827-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/009195-open-2015-174-Cyan.cpp data/open-Cyan/sources/009400-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009195-open-2015-174-Cyan.cpp data/open-Cyan/sources/009447-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009195-open-2015-174-Cyan.cpp data/open-Cyan/sources/009560-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009244-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009275-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009299-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009400-open-2015-174-Cyan.cpp data/open-Cyan/sources/009447-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009400-open-2015-174-Cyan.cpp data/open-Cyan/sources/009560-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp
+ data/open-Cyan/sources/009409-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
+ data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/009430-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/009447-open-2015-174-Cyan.cpp data/open-Cyan/sources/009560-open-2015-174-Cyan.cpp
+ data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009456-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009510-open-2015-342-Cyan.cpp data/open-Cyan/sources/010100-open-2015-342-Cyan.cpp
+ data/open-Cyan/sources/009525-open-2015-332-Cyan.cpp data/open-Cyan/sources/009619-open-2015-332-Cyan.cpp
  data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/009613-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
+ data/open-Cyan/sources/009796-open-2015-256-Cyan.cpp data/open-Cyan/sources/010649-open-2015-256-Cyan.cpp
+ data/open-Cyan/sources/009805-open-2015-351-Cyan.cpp data/open-Cyan/sources/010111-open-2015-351-Cyan.cpp
+ data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/009933-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010009-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/010098-open-2015-340-Cyan.cpp data/open-Cyan/sources/010207-open-2015-340-Cyan.cpp
+ data/open-Cyan/sources/010098-open-2015-340-Cyan.cpp data/open-Cyan/sources/010521-open-2015-340-Cyan.cpp
+ data/open-Cyan/sources/010207-open-2015-340-Cyan.cpp data/open-Cyan/sources/010521-open-2015-340-Cyan.cpp
+ data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010253-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
  data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/010313-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
  data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010319-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp
  data/open-Cyan/sources/010391-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/010484-open-2015-066-Cyan.cpp data/open-Cyan/sources/010526-open-2015-066-Cyan.cpp
+ data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010617-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010666-open-2015-216-Cyan.cpp data/open-Cyan/sources/010823-open-2015-216-Cyan.cpp
+ data/open-Cyan/sources/010696-open-2015-260-Cyan.cpp data/open-Cyan/sources/011106-open-2015-260-Cyan.cpp
  data/open-Cyan/sources/010721-open-2015-283-Cyan.cpp data/open-Cyan/sources/011014-open-2015-283-Cyan.cpp
+ data/open-Cyan/sources/011047-open-2015-153-Cyan.cpp data/open-Cyan/sources/011142-open-2015-153-Cyan.cpp
+ data/open-Cyan/sources/011140-open-2015-145-Cyan.cpp data/open-Cyan/sources/011191-open-2015-145-Cyan.cpp
 open-Gold misses:
  data/open-Gold/sources/000227-open-2015-206-Gold.cpp data/open-Gold/sources/003200-open-2015-206-Gold.cpp
  data/open-Gold/sources/000227-open-2015-206-Gold.cpp data/open-Gold/sources/003277-open-2015-206-Gold.cpp

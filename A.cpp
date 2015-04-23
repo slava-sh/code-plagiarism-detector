@@ -258,8 +258,7 @@ string remove_comments(string code, const string& extension) {
     code = replace_all(code, "#ifdef defined", "#ifdef");
     code = expand_ifdefs(code);
 
-    code = replace_all(code, "\n#", "\n\n#");
-    code = remove_nonnested(code, "\n#", "\n");
+    code = remove_nonnested(code, "#", "\n");
     if (extension == "d") {
         code = remove_nonnested(code, "/++", "+/");
     }
@@ -383,7 +382,7 @@ Tokens tokenize(const string& s) {
                         else if (s[i] == '\\') {
                             escaping = true;
                         }
-                        else if (s[i] == c) {
+                        else if (s[i] == c || s[i] == '\n') {
                             break;
                         }
                     }
