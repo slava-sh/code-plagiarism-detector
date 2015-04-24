@@ -1,5 +1,5 @@
-50
-000552-open-2015-118-Red.cpp 004636-open-2015-118-Red.cpp 004858-open-2015-118-Red.cpp 004985-open-2015-118-Red.cpp 005286-open-2015-118-Red.cpp 005700-open-2015-118-Red.cpp 006193-open-2015-118-Red.cpp 006301-open-2015-118-Red.cpp
+51
+000552-open-2015-118-Red.cpp 004636-open-2015-118-Red.cpp 004858-open-2015-118-Red.cpp 004985-open-2015-118-Red.cpp
 000571-open-2015-064-Red.cpp 000586-open-2015-064-Red.cpp 000779-open-2015-064-Red.cpp
 000785-open-2015-194-Red.java 000971-open-2015-194-Red.java
 000934-open-2015-023-Red.pas 004400-open-2015-023-Red.pas 004536-open-2015-023-Red.pas 004697-open-2015-023-Red.pas 004912-open-2015-023-Red.pas 005196-open-2015-023-Red.pas 005255-open-2015-023-Red.pas 005369-open-2015-023-Red.pas 005452-open-2015-023-Red.pas 005502-open-2015-023-Red.pas
@@ -37,15 +37,16 @@
 003988-open-2015-336-Red.cpp 004024-open-2015-336-Red.cpp
 004006-open-2015-212-Red.cpp 004060-open-2015-212-Red.cpp
 004187-open-2015-165-Red.java 006730-open-2015-165-Red.java
-004370-open-2015-340-Red.cpp 006146-open-2015-340-Red.cpp 006575-open-2015-340-Red.cpp
 004378-open-2015-314-Red.cpp 004954-open-2015-314-Red.cpp
 004396-open-2015-066-Red.cpp 004530-open-2015-066-Red.cpp 004547-open-2015-066-Red.cpp 005080-open-2015-066-Red.cpp
 004432-open-2015-022-Red.cpp 004492-open-2015-022-Red.cpp 004656-open-2015-022-Red.cpp
 004928-open-2015-171-Red.cpp 005002-open-2015-171-Red.cpp
 005242-open-2015-106-Red.cpp 005726-open-2015-106-Red.cpp
+005286-open-2015-118-Red.cpp 005700-open-2015-118-Red.cpp 006193-open-2015-118-Red.cpp 006301-open-2015-118-Red.cpp
 005384-open-2015-080-Red.cpp 006099-open-2015-080-Red.cpp 006223-open-2015-080-Red.cpp
 005504-open-2015-146-Red.pas 005874-open-2015-146-Red.pas
 005751-open-2015-087-Red.cpp 005768-open-2015-087-Red.cpp
 005867-open-2015-169-Red.cpp 006011-open-2015-169-Red.cpp
+006146-open-2015-340-Red.cpp 006575-open-2015-340-Red.cpp
 006308-open-2015-348-Red.cpp 006343-open-2015-348-Red.cpp
 006318-open-2015-094-Red.cpp 006601-open-2015-094-Red.cpp 006777-open-2015-094-Red.cpp 006921-open-2015-094-Red.cpp

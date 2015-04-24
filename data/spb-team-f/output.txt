@@ -1,4 +1,4 @@
-49
+46
 101-f-1.cpp 101-f-2.cpp 101-f-3.cpp 101-f-4.cpp 101-f-5.cpp 101-f-6.cpp 101-f-7.cpp
 101-f-10.cpp 101-f-11.cpp 101-f-12.cpp 101-f-13.cpp 101-f-14.cpp 101-f-15.cpp 101-f-16.cpp 101-f-17.cpp 101-f-18.cpp 101-f-22.cpp 101-f-23.cpp 101-f-24.cpp 101-f-25.cpp 101-f-26.cpp 101-f-27.cpp 101-f-28.cpp 101-f-29.cpp 101-f-30.cpp 101-f-31.cpp 101-f-32.cpp 101-f-33.cpp 101-f-34.cpp 101-f-8.cpp 101-f-9.cpp
 101-f-19.py 101-f-20.py 101-f-21.py
@@ -9,16 +9,13 @@
 104-f-4.cbp 104-f-5.cbp
 106-f-1.cpp 106-f-2.cpp
 106-f-3.cpp 106-f-4.cpp 106-f-5.cpp
-107-f-1.cpp 107-f-2.cpp
 107-f-3.cpp 107-f-4.cpp 107-f-5.cpp 107-f-6.cpp 107-f-7.cpp
 109-f-1.java 109-f-2.java 109-f-3.java 109-f-4.java 109-f-5.java 109-f-6.java jury-f-1.java jury-f-2.java jury-f-3.java jury-f-4.java
 110-f-1.cs 110-f-2.cs 110-f-3.cs 110-f-4.cs 110-f-5.cs
 110-f-6.cpp 110-f-7.cpp
-113-f-1.cpp 113-f-2.cpp 113-f-3.cpp 113-f-4.cpp
-114-f-1.cpp 114-f-2.cpp
+113-f-1.cpp 113-f-2.cpp 113-f-3.cpp
 202-f-1.cpp 202-f-2.cpp 202-f-3.cpp 202-f-4.cpp
 203-f-1.java 203-f-2.java 203-f-3.java 203-f-4.java 203-f-5.java 203-f-6.java 203-f-7.java
-206-f-2.cpp 206-f-3.cpp
 207-f-1.dpr 207-f-2.dpr 207-f-3.dpr
 208-f-1.cs 208-f-2.cs 208-f-3.cs
 215-f-1.java 215-f-2.java
