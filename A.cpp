@@ -1,3 +1,4 @@
+// Author: Slava Shklyaev <shk.slava@gmail.com>
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -596,12 +597,11 @@ int levenshtein_distance(const vector< int >& s1, const vector< int >& s2) {
         auto last_diagonal = x - column_start;
         for (auto y = column_start; y <= n1; ++y) {
             auto old_diagonal = column[y];
-            auto possibilities = {
+            column[y] = min({
                 column[y] + 1,
                 column[y - 1] + 1,
-                last_diagonal + (s1[y - 1] == s2[x - 1]? 0 : 1)
-            };
-            column[y] = min(possibilities);
+                last_diagonal + (s1[y - 1] == s2[x - 1] ? 0 : 1)
+            });
             last_diagonal = old_diagonal;
         }
     }
