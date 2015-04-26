@@ -1,6 +1,6 @@
 CXX           = clang++ -Wall -std=c++11
 CXX_FLAGS     =
-PROG          = A
+PROG          = detect-plagiarism
 CHECK         = python3 check.py
 PLOT          = python3 plot.py
 
