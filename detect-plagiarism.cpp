@@ -242,6 +242,17 @@ string expand_ifdefs(const string& s) {
 
 string remove_comments(string code, const string& extension) {
     code = remove_c_comments(code);
+    if (extension == "d") {
+        code = remove_nonnested(code, "/++", "+/");
+    }
+    else if (extension == "pas" || extension == "dpr") {
+        code = remove_nonnested(code, "{", "}");
+        code = remove_nonnested(code, "(*", "*)");
+    }
+    else if (extension == "hs") {
+        code = remove_nested(code, "{-", "-}");
+        code = remove_nonnested(code, "--", "\n");
+    }
 
     if (extension == "cs") {
         code = replace_all(code, "#if", "#ifdef");
@@ -258,19 +269,7 @@ string remove_comments(string code, const string& extension) {
     code = replace_all(code, "#if defined",    "#ifdef");
     code = replace_all(code, "#ifdef defined", "#ifdef");
     code = expand_ifdefs(code);
-
     code = remove_nonnested(code, "#", "\n");
-    if (extension == "d") {
-        code = remove_nonnested(code, "/++", "+/");
-    }
-    else if (extension == "pas" || extension == "dpr") {
-        code = remove_nonnested(code, "{", "}");
-        code = remove_nonnested(code, "(*", "*)");
-    }
-    else if (extension == "hs") {
-        code = remove_nested(code, "{-", "-}");
-        code = remove_nonnested(code, "--", "\n");
-    }
     return code;
 }
 
