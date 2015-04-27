@@ -20,7 +20,6 @@ const double NORMAL_PEAK          = 580;
 const double NORMAL_BOOST         = 0.03;
 const double SMALL_THRESHOLD      = 350;
 const double SMALL_BOOST          = 0.0228;
-const int    MIN_LONGEST_RUN      = 200;
 
 struct SigmoidClassifier {
     const double lo;
@@ -651,20 +650,6 @@ struct DSU {
     }
 };
 
-int longest_run(const vector< int >& a, const vector< int >& b) {
-    int result = 0;
-    for (int i = 0, na = a.size(); i < na; ++i) {
-        for (int j = 0, nb = b.size(); j < nb; ++j) {
-            int run = 0;
-            while (i + run < na && j + run < nb && a[i + run] == b[j + run]) {
-                ++run;
-            }
-            result = max(result, run);
-        }
-    }
-    return result;
-}
-
 int main() {
     Tokens special_tokens = {
         VALUE_TOKEN,
@@ -732,8 +717,7 @@ int main() {
             auto dist = levenshtein_distance(i->fingerprint, j->fingerprint);
             auto size = (double) (i->fingerprint.size() + j->fingerprint.size()) / 2;
             auto ratio = dist / size;
-            bool similar = classify(size, ratio) ||
-                longest_run(i->fingerprint, j->fingerprint) >= MIN_LONGEST_RUN;
+            bool similar = classify(size, ratio);
             if (similar) {
                 ans.unite(i->id, j->id);
             }
