@@ -1,13 +1,28 @@
-01 100
-02 100
-03 100
-04 100
-05 100
-06 100
-07 100
-08 100
-09 100
-10 100
+final-01 100
+final-02 100
+final-03 WA
+final-04 100
+final-05 100
+final-06 100
+final-07 100
+final-08  17
+final-09  50
+final-10 100
+final-11  67
+final-12 WA
+final-13 100
+final-14 100
+final-15 100
+final-16 100
+final-17 100
+final-18 100
+final-19  88
+final-20 100
+final-21 100
+final-22  92
+final-23 WA
+final-24 100
+final-25 WA
 open-Blue  71
 open-Cyan  58
 open-Gold  51
@@ -23,6 +38,16 @@ russia-team-f  99
 russia-team-h WA
 russia-team-j  82
 russia-team-k  92
+sample-01 100
+sample-02 100
+sample-03 100
+sample-04 100
+sample-05 100
+sample-06 100
+sample-07 100
+sample-08 100
+sample-09 100
+sample-10 100
 spb-team-c 100
 spb-team-e  87
 spb-team-f  67
@@ -30,7 +55,15 @@ spb-team-h  75
 spb-team-i 100
 spb-team-j  84
 spb-team-k 100
-2640 / 3200
+4554 / 5700
+final-03 WAs:
+ data/final-03/sources/t10144_524_F_10382780.cpp data/final-03/sources/t10399_524_F_10383706.cpp
+final-12 WAs:
+ data/final-12/sources/u106515_420_D_6446609.cpp data/final-12/sources/u50671_420_D_6445355.cpp
+final-23 WAs:
+ data/final-23/sources/1352.pas data/final-23/sources/19834.pas
+final-25 WAs:
+ data/final-25/sources/u535_526_D_10585234.java data/final-25/sources/u838_526_D_10583282.java
 russia-team-h WAs:
  data/russia-team-h/sources/416-h-1.cpp data/russia-team-h/sources/k14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp
@@ -54,6 +87,36 @@ russia-team-h WAs:
  data/russia-team-h/sources/g14-h-1.cpp data/russia-team-h/sources/k20-h-2.cpp
  data/russia-team-h/sources/k07-h-1.cpp data/russia-team-h/sources/k20-h-2.cpp
  data/russia-team-h/sources/k07-h-2.cpp data/russia-team-h/sources/k20-h-2.cpp
+final-08 misses:
+ data/final-08/sources/15284.py data/final-08/sources/32490.cpp
+ data/final-08/sources/15284.py data/final-08/sources/8828.java
+ data/final-08/sources/19855.hs data/final-08/sources/27022.hs
+ data/final-08/sources/21897.dpr data/final-08/sources/5206.java
+ data/final-08/sources/32490.cpp data/final-08/sources/8828.java
+final-09 misses:
+ data/final-09/sources/u664_97_D_547072.cpp data/final-09/sources/u664_97_D_547072_1.cpp
+final-11 misses:
+ data/final-11/sources/u106515_420_C_6446826.cpp data/final-11/sources/u79500_420_C_6446073.cpp
+final-19 misses:
+ data/final-19/sources/u100532_475_C_8095993.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u141655_475_C_8095104.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u148881_475_C_8095409.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u150895_475_C_8093274.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u151217_475_C_8091766.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u154972_475_C_8093242.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u158459_475_C_8091891.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u201839_475_C_8092801.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u202817_475_C_8093791.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u202867_475_C_8092561.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u208236_475_C_8092420.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u215114_475_C_8092163.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u225517_475_C_8092514.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u232369_475_C_8091918.cpp data/final-19/sources/u62637_475_C_8094997.cpp
+ data/final-19/sources/u34746_475_C_8096257.cpp data/final-19/sources/u53536_475_C_8093821.cpp
+ data/final-19/sources/u62637_475_C_8094997.cpp data/final-19/sources/u72429_475_C_8092460.cpp
+ data/final-19/sources/u62637_475_C_8094997.cpp data/final-19/sources/u95708_475_C_8094800.cpp
+final-22 misses:
+ data/final-22/sources/24433.pas data/final-22/sources/5730.pas
 open-Blue misses:
  data/open-Blue/sources/000531-open-2015-264-Blue.cpp data/open-Blue/sources/000676-open-2015-264-Blue.cpp
  data/open-Blue/sources/000531-open-2015-264-Blue.cpp data/open-Blue/sources/001191-open-2015-264-Blue.cpp
