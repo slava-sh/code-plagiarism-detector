@@ -27,7 +27,7 @@ data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 
 if sample == 'all':
     #data = data[data[X] < 2000]
-    #data = data[(~data[Right] & data[Guess]) | (data[Y] < 0.5)]
+    data = data[(~data[Right] & data[Guess]) | (data[X] < 1500)]
     #data = data[data[Right] | data[Guess]]
     pass
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
@@ -39,6 +39,7 @@ color = np.matrix([
 data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
 
 plot.scatter(data[X], data[Y], c=data[Color], edgecolor='none')
+
 xmin, xmax = plot.xlim()
 ymin, ymax = plot.ylim()
 if xmin < 0:
@@ -47,7 +48,10 @@ if ymin < 0:
     ymin = 0
 if ymax > 2:
     ymax = 2
+
 plot.title(sample)
+plot.xlabel('Fingerprint Size Mean')
+plot.ylabel('Distance Ratio')
 
 def sigmoid(lo, hi, peak, boost):
     return lambda x: lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
