@@ -4652,6 +4652,6 @@ Ans	Guess	Size	DistRatio	Dist	I	J
 0	0	231.5	2	463	k32-a-8.cpp	k42-a-1.cpp
 0	0	231.5	2	463	k32-a-8.cpp	k42-a-2.cpp
 0	0	442.5	0.531073	235	k32-a-8.cpp	k45-a-1.cpp
-1	0	0	nan	0	k42-a-1.cpp	k42-a-2.cpp
+1	0	0	inf	1	k42-a-1.cpp	k42-a-2.cpp
 0	0	211	2	422	k42-a-1.cpp	k45-a-1.cpp
 0	0	211	2	422	k42-a-2.cpp	k45-a-1.cpp
