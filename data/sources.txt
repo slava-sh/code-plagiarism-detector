@@ -1,4 +1,5 @@
 sample      http://assets.codeforces.com/files/vkcup-2015-wildcard-2-samples.zip
+final       http://assets.codeforces.com/files/vkcup-2015-wildcard-2-tests.2.zip
 russia-team http://neerc.ifmo.ru/school/archive/2014-2015/ru-olymp-team-russia-2014-runs.rar
 spb-team    http://neerc.ifmo.ru/school/archive/2014-2015/ru-olymp-team-spb-2014-archive.rar
 open        https://olympiads.ru/zaoch/2014-15/final_archive/winners.zip
