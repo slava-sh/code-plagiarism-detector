@@ -26,9 +26,10 @@ data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 
 if sample == 'all':
-    data = data[data[X] < 2000]
-    data = data[(~data[Right] & data[Guess]) | (data[Y] < 0.5)]
-    data = data[data[Right] | data[Guess]]
+    #data = data[data[X] < 2000]
+    #data = data[(~data[Right] & data[Guess]) | (data[Y] < 0.5)]
+    #data = data[data[Right] | data[Guess]]
+    pass
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
 color = np.matrix([
@@ -38,25 +39,37 @@ color = np.matrix([
 data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
 
 plot.scatter(data[X], data[Y], c=data[Color], edgecolor='none')
+xmin, xmax = plot.xlim()
+ymin, ymax = plot.ylim()
+if xmin < 0:
+    xmin = 0
+if ymin < 0:
+    ymin = 0
+if ymax > 2:
+    ymax = 2
+plot.title(sample)
 
 def sigmoid(lo, hi, peak, boost):
     return lambda x: lo + (hi - lo) / (1 + np.exp(-boost * (x - peak)))
 
 small_threshold = 350
 
-x     = np.arange(max(small_threshold, np.min(data[X])), np.max(data[X]))
+x     = np.arange(max(small_threshold, xmin), xmax + 1)
 hi    = 0.35
 lo    = 0.228
 peak  = 580
 boost = 0.03
 plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
 
-x     = np.arange(np.min(data[X]), min(small_threshold, np.max(data[X])))
+x     = np.arange(xmin, min(small_threshold, xmax + 1))
 hi    = lo
 lo    = -hi
 peak  = 0
 boost = 0.0228
 plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
+
+plot.xlim(xmin, xmax)
+plot.ylim(ymin, ymax)
 
 def annotateRow(row):
     label = 'data/*/sources/{} data/*/sources/{}'.format(row[I], row[J])
