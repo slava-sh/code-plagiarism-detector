@@ -9,7 +9,7 @@ final-08  33
 final-09  50
 final-10 100
 final-11  67
-final-12 WA
+final-12 100
 final-13 100
 final-14 100
 final-15 100
@@ -20,7 +20,7 @@ final-19  88
 final-20 100
 final-21 100
 final-22  92
-final-23 WA
+final-23  80
 final-24 100
 final-25 100
 open-Blue  71
@@ -55,11 +55,7 @@ spb-team-h  75
 spb-team-i 100
 spb-team-j  84
 spb-team-k 100
-4755 / 5700
-final-12 WAs:
- data/final-12/sources/u106515_420_D_6446609.cpp data/final-12/sources/u50671_420_D_6445355.cpp
-final-23 WAs:
- data/final-23/sources/1352.pas data/final-23/sources/19834.pas
+4935 / 5700
 russia-team-h WAs:
  data/russia-team-h/sources/416-h-1.cpp data/russia-team-h/sources/k14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp
@@ -115,6 +111,8 @@ final-19 misses:
  data/final-19/sources/u62637_475_C_8094997.cpp data/final-19/sources/u95708_475_C_8094800.cpp
 final-22 misses:
  data/final-22/sources/24433.pas data/final-22/sources/5730.pas
+final-23 misses:
+ data/final-23/sources/26443.pas data/final-23/sources/27990.cpp
 open-Blue misses:
  data/open-Blue/sources/000531-open-2015-264-Blue.cpp data/open-Blue/sources/000676-open-2015-264-Blue.cpp
  data/open-Blue/sources/000531-open-2015-264-Blue.cpp data/open-Blue/sources/001191-open-2015-264-Blue.cpp
