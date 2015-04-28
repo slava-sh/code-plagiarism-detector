@@ -25,15 +25,16 @@ data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
 
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
 
-if sample == 'all':
+cumulative_samples = ['all', 'final']
+if sample in cumulative_samples:
     #data = data[data[X] < 2000]
-    data = data[(~data[Right] & data[Guess]) | (data[X] < 1500)]
+    data = data[(~data[Right] & data[Guess]) | (data[X] < 3000)]
     #data = data[data[Right] | data[Guess]]
     pass
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
 color = np.matrix([
-    ['blue', 'lightgray'],
+    ['blue', 'lightskyblue'],
     ['red', 'lightpink'],
 ])
 data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
@@ -49,7 +50,11 @@ if ymin < 0:
 if ymax > 2:
     ymax = 2
 
-plot.title(sample)
+if sample in cumulative_samples:
+    title = '{} Tests'.format(sample.capitalize())
+else:
+    title = 'Test {}'.format(sample)
+plot.title(title)
 plot.xlabel('Fingerprint Size Mean')
 plot.ylabel('Distance Ratio')
 
@@ -63,14 +68,16 @@ hi    = 0.35
 lo    = 0.228
 peak  = 580
 boost = 0.03
-plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
+line  = plot.plot(x, sigmoid(lo, hi, peak, boost)(x))[0]
+line.set_color('g')
 
 x     = np.arange(xmin, min(small_threshold, xmax + 1))
 hi    = lo
 lo    = -hi
 peak  = 0
 boost = 0.0228
-plot.plot(x, sigmoid(lo, hi, peak, boost)(x))
+line  = plot.plot(x, sigmoid(lo, hi, peak, boost)(x))[0]
+line.set_color('g')
 
 plot.xlim(xmin, xmax)
 plot.ylim(ymin, ymax)
