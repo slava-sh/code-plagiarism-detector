@@ -1,2 +1,4 @@
 data/detect-plagiarism
 data/**/data.svg
+data/all/
+data/final/
