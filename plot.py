@@ -20,24 +20,18 @@ X     = 'Size'
 Y     = 'DistRatio'
 
 sample = sys.argv[1]
+cumulative_samples = ['all', 'final']
 
 data = pd.read_csv('data/{}/data.tsv'.format(sample), sep='\t')
 
 data[Right] = data.apply(lambda row: row[Guess] == row[Ans], axis=1)
-
-cumulative_samples = ['all', 'final']
-if sample in cumulative_samples:
-    #data = data[data[X] < 2000]
-    data = data[(~data[Right] & data[Guess]) | (data[X] < 3000)]
-    #data = data[data[Right] | data[Guess]]
-    pass
 data.sort([Right, Ans], ascending=[0, 0], inplace=True)
 
 color = np.matrix([
-    ['blue', 'lightskyblue'],
-    ['red', 'lightpink'],
+    ['steelblue', 'red'],
+    ['lightskyblue', 'lightpink'],
 ])
-data[Color] = data.apply(lambda row: color[row[Guess], row[Right]], axis=1)
+data[Color] = data.apply(lambda row: color[row[Right], row[Ans]], axis=1)
 
 plot.scatter(data[X], data[Y], c=data[Color], edgecolor='none')
 
@@ -45,6 +39,8 @@ xmin, xmax = plot.xlim()
 ymin, ymax = plot.ylim()
 if xmin < 0:
     xmin = 0
+if sample in cumulative_samples:
+    xmax = min(xmax, 1500)
 if ymin < 0:
     ymin = 0
 if ymax > 2:
