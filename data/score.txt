@@ -9,7 +9,7 @@ final-08  33
 final-09  50
 final-10 100
 final-11  67
-final-12 100
+final-12 WA
 final-13 100
 final-14 100
 final-15 100
@@ -55,7 +55,9 @@ spb-team-h  75
 spb-team-i 100
 spb-team-j  84
 spb-team-k 100
-4935 / 5700
+4835 / 5700
+final-12 WAs:
+ data/final-12/sources/u106515_420_D_6446609.cpp data/final-12/sources/u50671_420_D_6445355.cpp
 russia-team-h WAs:
  data/russia-team-h/sources/416-h-1.cpp data/russia-team-h/sources/k14-h-1.cpp
  data/russia-team-h/sources/416-h-2.cpp data/russia-team-h/sources/g14-h-1.cpp

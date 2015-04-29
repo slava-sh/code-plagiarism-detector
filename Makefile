@@ -24,7 +24,7 @@ plot:
 	$(PLOT) $(sample)
 	open data/$(sample)/data.svg
 
-ALL_SAMPLES = $(filter-out all, $(subst /,, $(subst data,, $(filter %/, $(wildcard data/*/)))))
+ALL_SAMPLES = $(filter-out final, $(filter-out all, $(subst /,, $(subst data,, $(filter %/, $(wildcard data/*/))))))
 
 .PHONY: score
 score:
