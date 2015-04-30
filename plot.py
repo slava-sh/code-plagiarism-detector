@@ -78,14 +78,14 @@ line.set_color('g')
 plot.xlim(xmin, xmax)
 plot.ylim(ymin, ymax)
 
-def annotateRow(row):
+def annotate_row(row):
     label = 'data/*/sources/{} data/*/sources/{}'.format(row[I], row[J])
     xy = (row[X], row[Y])
     annotation = plot.annotate(label, xy=xy)
     annotation.set_gid('point-{}'.format(row.name))
 
-annotatedData = data[~data[Right] | data[Ans]]
-annotatedData.apply(annotateRow, axis=1)
+annotated_data = data[~data[Right] | data[Ans]]
+annotated_data.apply(annotate_row, axis=1)
 
 script = '''
 <script type="text/ecmascript">
